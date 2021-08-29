@@ -1,1 +1,1 @@
-print('pity o bom')
+print('Pity o bom!')
