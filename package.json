@@ -4,7 +4,8 @@
   "description": "IBM cloud computing fullstack develop course",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/pitymaia/ibm_fullstack/issues"
   },
-  "homepage": "https://github.com/pitymaia/ibm_fullstack#readme"
+  "homepage": "https://github.com/pitymaia/ibm_fullstack#readme",
+  "devDependencies": {
+    "http-server": "^14.0.0"
+  }
 }
