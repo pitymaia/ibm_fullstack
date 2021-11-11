@@ -1,0 +1,19 @@
+{
+  "name": "pity-test-app",
+  "version": "1.0.0",
+  "description": "IBM cloud computing fullstack develop course",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pitymaia/ibm_fullstack.git"
+  },
+  "author": "Andre Maia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pitymaia/ibm_fullstack/issues"
+  },
+  "homepage": "https://github.com/pitymaia/ibm_fullstack#readme"
+}
