@@ -2,15 +2,204 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Pity test app</title>
+		<title>Quiz Example</title>
 		<meta name="author" content="">
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- <link rel="stylesheet" href="static/calculator/builder.css"> -->
-		<script src="index.js"></script>
+		<script src="static/other_files/on-load-files-es5-smaller.js"></script>
+		<link rel="stylesheet" href="static/calculator/builder.css">
 	</head>
 	<body>
-		<h1>Pity o bom</h1>
-		<p>Learn stuff, it's good for you.</p>
+		<form class="investment_quiz" style='margin-bottom: 0px;'>
+			<h1 class="title">Investment quiz</h1>
+			<div class="form_fields">
+			</div>
+			<div class="show_result" style="display: none;"></div>
+		</form>
+
+<!-- 		<form action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post">
+			E-mail: <input type="text" name="email"/><br/>
+			<input type="hidden" name="campaign_token" value="jHmvh" />
+			<input type="hidden" name="thankyou_url" value="https://pity-test-app.herokuapp.com/"/>
+			<input type="hidden" name="start_day" value="0" />
+			<input type="submit" value="Subscribe"/>
+		</form> -->
+
+		<script>
+			"use strict";
+
+			(function() {
+				var filesToLoad = [
+					{path: 'static/calculator/builder.js', async: true},
+				];
+
+				window._onLoadFiles.load(filesToLoad, loadCalculator);
+
+				var namespace = {};
+
+				function loadCalculator() {
+					namespace.MultiPageCalculator = class extends _FormBuilderBase {
+						post(path, params, method='post') {
+							// The rest of this code assumes you are not using a library.
+							// It can be made less verbose if you use one.
+							this.formElement.target= '_blank';
+							this.formElement.method = method;
+							this.formElement.action = path;
+
+							var formFields = this.formElement.getElementsByClassName('form_fields')[0];
+							for (const key in params) {
+								if (params.hasOwnProperty(key)) {
+									const hiddenField = document.createElement('input');
+									hiddenField.type = 'hidden';
+									hiddenField.name = key;
+									hiddenField.value = params[key];
+
+									formFields.appendChild(hiddenField);
+								}
+							}
+
+							this.formElement.submit();
+						}
+
+						action() {
+							var params = [
+								// {campaign_token: '4mqft'},
+								{thankyou_url: 'https://pity-test-app.herokuapp.com/'},
+								{campaign_token: 'jHmvh'},
+								{start_day: 0},
+								// {custom_nav: 'invest'},
+								// {custom_s: 'investment_quiz'},
+								// {custom_sessionid: this.getCookie('sid')},
+							];
+
+							// Disable the slider before post to avoid send it to server
+							var investmentSlider = this.formElement.querySelectorAll('input[type="range"]')[0];
+							investmentSlider.name = '';
+							investmentSlider.disabled = 'disabled';
+							this.post('https://app.getresponse.com/add_subscriber.html', params);
+							// Re-enable the slider after post
+							setTimeout(()=> {
+								investmentSlider.name = 'custom_investment-slider';
+								investmentSlider.disabled = null;
+								delete investmentSlider.disabled;
+							}, 1000);
+						}
+
+						getCookie(cname) {
+							var name = cname + '=';
+							var decodedCookie = decodeURIComponent(document.cookie);
+							var ca = decodedCookie.split(';');
+
+							for(var i = 0; i < ca.length; i++) {
+								var c = ca[i];
+								while (c.charAt(0) == ' ') {
+									c = c.substring(1);
+								}
+								if (c.indexOf(name) == 0) {
+									return c.substring(name.length, c.length);
+								}
+							}
+							return '';
+						}
+					}
+
+					var options = {
+						css: `.investment_quiz .email .input-container {
+							display: block;
+							float: none;
+							margin-top: 10px;
+							padding-bottom: 16px;
+						}
+						.investment_quiz .email .input {
+							padding: 5px;
+							text-align: left !important;
+						}`,
+						title: 'investment_quiz',
+						animation: false,
+						kind: 'quiz',
+						btResultLabel: 'Show results',
+						pages: [
+							{
+								header: 'Risk Tolerance',
+								subHeader: "What's your ideal risk level?",
+								inputs: [
+									{
+										fieldType: 'radio-anime-bt',
+										label: 'Low',
+										value: 'low',
+										name: 'custom_risk',
+										checked: true,
+									},
+									{
+										fieldType: 'radio-anime-bt',
+										label: 'Moderate',
+										value: 'moderate',
+										name: 'custom_risk',
+									},
+									{
+										fieldType: 'radio-anime-bt',
+										label: 'High',
+										value: 'high',
+										name: 'custom_risk',
+									},
+								],
+							},
+							{
+								header: 'Investment range',
+								inputs: [
+									{
+										label: 'How much you plan to invest?',
+										fieldType: 'currency', name: 'custom_investment',
+										dataType: 'float',
+										min: 0,
+										size: 14,
+										slider: {
+											name: 'custom_investment-slider',
+											defaultImg: '1f4b5',
+											width: '35px',
+											height: '35px',
+										},
+										required: true,
+									},
+								],
+							},
+							{
+								header: 'Accreditation',
+								subHeader: 'Are you an accredited investor?',
+								inputs: [
+									{
+										fieldType: 'radio-anime-bt',
+										label: 'Yes',
+										value: 'yes',
+										name: 'custom_accredited',
+									},
+									{
+										fieldType: 'radio-anime-bt',
+										label: 'No',
+										value: 'no',
+										name: 'custom_accredited',
+										checked: true,
+									},
+								],
+							},
+							{
+								header: 'Contact info',
+								inputs: [
+									{
+										fieldType: 'email',
+										label: 'What is your e-mail?',
+										name: 'email',
+										placeholder: 'Your e-mail',
+										required: true,
+									},
+								],
+							},
+						]
+					};
+
+					var calculator = new namespace.MultiPageCalculator(options);
+				}
+			}());
+		</script>
 	</body>
 </html>
