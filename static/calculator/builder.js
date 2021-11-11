@@ -3,5 +3,2957 @@
  * Images(graphics) by twitter/twemoji - Twitter, Inc and other contributors
  * Graphics licensed under CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/
  */
+class _Unique {
+	constructor(selector) {
+		this._TENUM = {};
+		this.selector = selector;
+		if (!window._UniqueCalculators || !window._UniqueCalculators.counter) {
+			if (!window._UniqueCalculators) {
+				window._UniqueCalculators = {};
+			}
+			window._UniqueCalculators.counter = 0;
+		}
+	}
 
-var _0x4124=["others","bt_show","page-body","_bindLoadOnFirstInteractionAndOnChangeWithInputs",'height="',"prefix",'">\n\t\t\t\t<input class="range ',"response","\n\t\t.image-slider","insertAdjacentHTML","_css_image_slider","addPagesLabelsAndButtons","\n\t\t\t</div>","cssToStyleSliderThumb","addHtmlField","dispatchEvent","getBody","_onLoadFiles","79167oOjBQk",'<option value="',"5SFgSNh","_changeImg","singleGroupLastItem",'" required>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class="builder-container span-columns yearsmonths-fields-container ',"showingAnimation","#1c77b4","subHeader","addGroupContainer","</option>","deg, ",' data-thumb-width="',"setInputsAndEvents","mayEnumerateLabel","_tipTime","thumbHeight",";\n\t\t\tbackground-size: ","formatNumber",'" class="page-subtitle">',"_getThumbDefaultCss","\n\t\t\t\t</select>\n\t\t\t</div>","_UniqueCalculators","header","setToCalculateOnChange","opacity .3s","_getGradientPercent",'\n\t\t\t<div class="page-body">__PAGE_CONTENT__</div>',"includes","page_title","required",'" class="uncollapse-bt-label">Show</span>\n\t\t\t</button>',"ready","firstChild","getQuizTemplate","size","span","Remove","animation","_currentAnime",'<input type="',"fullGroupLastItem","height","step-button-done","onChangeSyncRange","BUTTON","chrome","oninput","tabs",'<div class="step-label step-label-',"keepOrder","uncollapseButton","-moz-range-progress","enumerate","name",'input[type="checkbox"]:checked',"offsetWidth","tab","templating","</label>","536378DjaMSD","radio_label","bt_calculate","bind","checkbox_mainlabel","innerHTML","keys","border","children","addGradient","resetTID","getElementById","custom_"," var(--webkitProgressPercent),\n\t\t\t\t","radio_mainlabel","inputs","type","opacity","en-US","length","changeClass","toggle","_getThumbCustomCss","defaultImg","loadChart","images","step-bt-","createTextNode","allInputsOptions","randomInt","float-1",' aria-label="',"fields-container","[data-field]",'" class="label ',"years","error 1","removeGroup","float-2",")  &nbsp; ","sliderBaseCssAlreadyExists","check_anime","SliderNode","setMinMaxValidation","_loadOnFirstInteraction","-slider","Node","btResultLabel","callServerAndAddTip","#CDD6DD","The minimum value is ","currentId","sliders_preload_imgs","createImgSliders","-moz-range-thumb","tip","maySelectTemplateBody","4KCDjZC","hideAnimation",'" value="',"onSelectChange",'">and</div>\n\t\t\t\t</div>\n\t\t\t\t<div class="builder-container fields-container clomn-3 monthsgrow ',"_changeSliderThumbImgsList",'>\n\t\t\t\t<label class="quiz-option ',"button","checkbox_mainsublabel","thumbWidth","initEvent","text","addAnimationIframe","418085kqjJqo","flip","block","getGradientPercent",' class="input-container"><input class="input ',"associateSliderWithMethods",'" class="align-',"for",'width="',"-ms-thumb","USD","groupMin",'<input class="range ',"parse","setSteps","bt-calculate",">\n\t\t\t\t<label ","orderedName","radio_helper","step-container","_getInputValues","margin",".svg","width","back","replace","keyup","onchange","template","removeInputFromOptions","<label ","gradient",'">\n\t\t\t',"slider","push","application/x-www-form-urlencoded; charset=utf-8","opt_","getRadioTemplate","form_fields","uncollapseForm",'data-tid="',"next","_buildingForm","getSelectTemplate","input:checked","onSliderChange","steps","justify","error 2","HTMLEvents",'<div class="break"></div>',"formElement","action","changeInput",";\n\t\t\theight: ","getBasicInput",'" type="checkbox" name="',"<span ","createInput","uncollapse-bt","fieldType",'" max="',"</span>","gotoStep","setAnyCustomTextNodeToTranslate","setTextOrNumInputValues","preloadSliderImgs","showAnimation","btCalculate","108289vwmhfM","classList","addGroupFieldButtons","active","getElementsByClassName","nextTID",'<button class="uncollapse-bt">\n\t\t\t\t<span class="uncollapse-bt-icon">&darr;</span> <span data-tid="',"linear-gradient(",'" class="bt-calculate column-2">',";\n\t\t\t\theight: ","offsetHeight","appendSliderBaseCssOnce","gname",'step="',"charLoaded","static/amcharts4/core.js","float",">\n\t\t\t","form-builder","addEventListener","UID","counter","callActionAndShowResults"," {\n\t\t\tbackground-image: url('","newFromExistingInput",'<div data-tid="','<div class="multipage">',"images/twemoji/"," fields-group-","split","<small ","removeFieldActive","select-container","toLowerCase","_getTemplate","mode=api&",'" data-prefix="',"radio-anime","inline-block","previousSibling","after","</div>","translator",'">\n\t\t\t\t<div class="builder-container fields-container column-1 yearsgrow ',"POST","insertBefore","_groupCounter","getCalculateButton","waitingTranslator",'<div class="spinner-container">\n\t\t\t\t<div class="loader"></div>\n\t\t\t\t<span data-tid="',"_getThumbImageCss","range","querySelectorAll","19MeEcfg","createEvent","group","file://","_currentStep",'">\n\t\t\t\t\t<label data-tid="',"\n\t\t\t.image-slider","step","contains","_translate","img","appendCss","slice","_addFieldToTemplate","formActiveSizes","no-fields","</small>",'">Years</label>\n\t\t\t\t\t<input class="input ',"2VvYZoR","_savedGroups","\n\t\t\t\t\t",'" class="bt-back column-1">Back</button>',";\n\t\t}","json","buttonsOnly",'" style="',"translatorInterval","formatCurrency","all","charLoading","css","imagesToPreload","Calculate","form-active-","\n\t\t","maskCurrencyField","limitNodeMinValue","trackHeight","changeLabel","_input","htmlSelector","_saveValue","instantiatePendingImgSliders","setInputAndEvents","keepalive.aspx?action=getTip&type=","mayAddTranslator","removeChild","add","checkbox_sublabel","addStepContainer",'\n\t\t\t\t<select class="select ',"parentElement","_tip_container","limiTimeMinMaxValues","radio_sublabel","createElement",'"></div>',"lastImg","select","getBasicTemplate","amount","hiddenFields","_FormBuilderBase","changeImg","showInputValue",'<span class="after" style="',"pendingImgSliders","_CalculatorBase","getYearsMonthsValue","outerHTML",";\n\t\t\t\tbackground: ","text/css","padding-right: ","find","_css","createGroupTemplate","cssToStyleSliderProgress",'" step="',"opacity .5s","url(",'">Months</label>\n\t\t\t\t\t<input class="input ','">\n\t\t\t\t<label ',"radio-anime-bt","translateMode","padding-bottom","getOtherInputsTemplate","style","getSliderNode","pendingActionCallEvent","2QVgpEA","\n\t\t\tborder: 0;\n\t\t\tcursor: pointer;\n\t\t\tbackground: transparent;\n\t\t\tappearance: none;\n\t\t} \n\t\t\n","The maximum value is ","htmlTmpl","form-template","animeTimeout","_unique","_id",'">\n\t\t\t\t\t',"appendChild","image","PMT","addImagesCss","radio","-moz-range-track",'">\n\t\t\t<div class="quiz-option-container" ',"margin-left: -","webkit","newId","hasAllRequireFields","color","change","addBtLabel","selectionStart","\n\t\t\twidth: ","static/amcharts4/charts.js","limitInputValue","getCompoundInterest","main-group-",".slider-img-",'" class="spinner-label">Waiting...</span>\n\t\t\t</div>',"preventDefault","inputValues","getSelectedOption","changeSelect","-ms-track"," />\n\t\t\t</div>\n\t\t</div>",'<div class="builder-container fields-container ',"step-button","slider-img-","301793lTraqX","setInputsAndSaveValues","tipElement","builderTranslatorLoaded","floor","hide","number","checkbox_helper","step-","check-anime-bt","log","clearTip","_default_img","cloneNode","associateNodeWithClass",'<div class="builder-container select-container ',"--webkitProgressPercent","checkbox","templates","bt-next",";\n\t\t\tbackground: ","input","changeShowInputValue","buildForm","identifier=","margin-top: ","isArray","getAfterStyle",'" data-tid="'," {\n\t\t\t\tcursor: pointer;\n\t\t\t\tbackground-color: ","addButtonEvents","_removeLoadOnFirstInteractionListeners","selected",' type="range" min="',"selector",' data-tid="',"loadChartFiles","addFieldActive","Add field","getAfterSize","getSliderBasicInput","innerText","addStepButtons","years_label_",'<span class="show-input-value">',"body","cssToStyleSliderTrack","fields-group-","__PAGE_CONTENT__","bt-label","\n\t\t\t\n","colorAfter","overflow","helper","translateIt","querySelector","location","\n\t\t</div>","692874PSmppi","noTips","setCSSProperty","dataType","textContent","kind","<div ","isInteger","body::after {\n\t\t\tposition: absolute; width: 0; height: 0; overflow: hidden; z-index: -1;\n\t\t\tcontent: ","saveValues","none","6px","getImgPath","config","loadOnFirstInteraction","singleGroupFirstItem","hasAddBt","transition","pow","getElementsByTagName","loadFormBuilder","addFields","disabled","maySetImgTwemojiPath","option","placeholder","showValues","tid","maxlength","gid","getNode","-webkit-slider-thumb","click",'checked="checked"',"assign","setImage","saveValuesAndRemoveFromOptions","mayAddPageToPageTemplate","afterend","_changeRadioOrCheckboxImg","toFixed","status","src",'" type="',"yearsAndMonthsWithSlider","checkbox_label","setAttribute","px;","associateCurrencyWithMethods","selectionEnd","imgList",' data-thumb-height="',"formElemen","tipTimeout","opacity 1s"," {\n\t\t\t","limitNodeMaxValue",' class="label ',"\n\t\t\t\t","isGroupItem","multipage","colors","options","spinner_label","_changeSliderThumbDefaultImg","beforeend","startsWith","getRadioAnimeOrCheckboxAnimeTemplate","column-2","alert","shift","_baseName","\n\t\t\t","false",'" type="radio" name="',"removedEnumerators","anime","_TENUM"," image-slider","singleGroupNum","parentNode","associateYearsAndMonthsSliderWithMethod","ceil","sublabel_","bt-image","append","setCheckboxCheckedValues","groupTemplates","_changeInput","hidden","label_","alreadyCalculateOnce","nextSibling","setUID","months","target","https://cors-anywhere.herokuapp.com/https://www.creditdonkey.com/","check_anime_container","copyInputObj","currency","setRadioButtonCheckedValues","getInputValues","buildedInputs","script","getDecimalValue","[required]","div","addCurrencyHtmlField","removeEventListener","instantiated","href","removeAttribute",'">\n\t\t\t\t<span ',"image-slider",' class="label">',"min","{enum}","flex","tip-container","_action","afterbegin","percent","showTranslationForm","onChartLoad","</button></div>","dataset",'\n\t\t\t<div class="input-container">\n\t\t\t\t<input class="range ',"splice","_changeLabel","align","onYearsMonthsSlideChange","head","width:3ch;","slider-","_setToCalculateOnChange",'\n\t\t\t</div>\n\t\t\t<div class="grid-3-cols grid-gap-2 span-columns yearsmonths-container align-',"\n\t\t\t\t</select>"," />",'" required>\n\t\t\t\t</div>\n\t\t\t\t<div class="and clomn-2">\n\t\t\t\t\t<div data-tid="',"helper_","289310xSCTvL","show_result","hostname","getClassList","collapseForm",'<span class="checkbox-input-container"><input class="input ',"ch;","z_x","documentElement","10;","int","saveGroupId","title",";\n\t\t\t} \n\t\t\t\n","tagName",'>\n\t\t<span class="',' data-img="',"onChangeYearsAndMonthsSyncRange",' name="',"fields-group-add-bt","fields-group-remove-bt","hasOwnProperty","value","getTemplatedGroupContainer","label","tipDoesntChangeAnymore","catch","getYearsMonthsSliderNode","load","_currentGroupTemplate","addYearsAndMonthsWithSliderHtmlFields","setSelectInputValues","setImagesList","list","collapse"," var(--webkitProgressPercent)\n\t\t\t\t)",'" name="',"breakAfter","spinner-container","getTextOrNumInput","KeepAlive.aspx?action=getLoadingAnimation","sublabel_y_and_m","saveSelectValue"," align-","substring","radios","width:","changeSliderImage","display"," {\n\t\t\t\tcursor: pointer;\n\t\t\t\tbackground: ","scrollTop","check-anime",'">Next</button></div>',"reorderName","getInputValue",'<button data-tid="','" src="',"mainGroupNum","setProperty","onCurrencyInputNoSlider","max","imgsList",'<div class="grid-2-cols grid-gap-10 multipage"><button data-tid="','selected="selected"',".image-slider::","static/amcharts4/themes/animated.js","sublabel","\n\t\t\t\t</label>\n\t\t\t</div>\n\t\t</div>",'" scrolling="no"></iframe>\n\t\t\t\t<div>',"32px","pagesTemplates","getInputCurrentValue","pages","checked","imgSliders","btSize",'" min="',"page_subtitle","mayTranslate","string","fullGroupFirstItem","-ms-fill-lower","remove","getSliderTemplate","_onChartLoad","then","bt-back","$NaN",'_select">\n\t\t\t\t<select class="select" name="',"keyCode","onCurrencyFieldChange","spinner"],_0x2edd=function(t,e){return _0x4124[t-=339]},_0x25de08=_0x2edd;!function(t,e){for(var i=_0x2edd;;)try{if(805105===parseInt(i(829))+-parseInt(i(391))*parseInt(i(701))+-parseInt(i(351))*parseInt(i(898))+parseInt(i(589))*-parseInt(i(816))+parseInt(i(449))+parseInt(i(951))*parseInt(i(699))+parseInt(i(969))*parseInt(i(759)))break;t.push(t.shift())}catch(e){t.push(t.shift())}}(_0x4124);class _Unique{constructor(t){var e=_0x2edd;(window.location[e(591)][e(727)](this[e(596)]())||window[e(447)].href[e(727)](this[e(596)](!0)))&&(this[e(526)]={},this[e(425)]=t,(!window[e(721)]||!window[e(721)][e(919)])&&(!window[e(721)]&&(window[e(721)]={}),window._UniqueCalculators[e(919)]=0))}[_0x25de08(769)](){this[_0x25de08(526)]={}}[_0x25de08(903)](t,e=!1){var i=_0x25de08;return e&&void 0===this[i(526)][t]?this[i(526)][t]=0:e&&(this[i(526)][t]=this[i(526)][t]+1),e?t+"_"+this._TENUM[t]:t}[_0x25de08(870)](){var t=_0x25de08;return window[t(721)][t(919)]=window._UniqueCalculators[t(919)]+1,window._UniqueCalculators[t(919)]}[_0x25de08(810)](){return window._UniqueCalculators.counter}[_0x25de08(369)](t){var e=_0x25de08;return(t||this[e(425)])+"_"+this[e(870)]()}[_0x25de08(596)](t){var e=["a","c","o","r","e","y","d","p","i","t","y","d","o","n","k",":","e","y",";",".","/","c","o","m","l","f","t","u","x","b","g","h","w"];return t?e[25]+e[8]+e[24]+e[4]+e[15]+e[20]+e[20]:e[1]+e[3]+e[4]+e[6]+e[8]+e[9]+e[11]+e[12]+e[13]+e[14]+e[16]+e[17]+e[19]+e[21]+e[22]+e[23]}[_0x25de08(542)](t){var e=_0x25de08,i=document[e(902)](t);for(var s of i){var a=this.selector+"_"+this.next();if(!s.classList[e(959)](this[e(425)]+"_D"))return s[e(899)][e(998)](this[e(425)]+"_D"),s[e(899)].add(a),a}}[_0x25de08(405)](t){var e=_0x25de08,i=document[e(902)](t)[0],s=i[e(902)](e(791));this.setAttribute(s,t,"input");var a=i.getElementsByClassName(e(930));this[e(495)](a,t,e(1009))}[_0x25de08(495)](t,e,i){var s=_0x25de08;for(var a of t){var r=a[s(468)](s(613)),n=a[s(902)](i),l=0,h=a.dataset[s(686)];for(var d of n){var o=this[s(369)](e+"_"+h);d[s(495)]("id",o),r[l]&&r[l].setAttribute(s(836),o),l+=1}}}}class ImgSlider{constructor(t,e){var i=_0x25de08,s=t[i(499)];this.config=t,this[i(909)](),this[i(812)](e);var a=this.slider[i(529)][i(529)][i(899)][i(959)](i(791))?this[i(862)].parentNode[i(529)]:this.slider[i(529)];this[i(1015)]=a.getElementsByClassName("show-input-value")[0],s?(this[i(784)]=s,this[i(862)][i(917)](i(412),this[i(874)].bind(this)),this.setImagesList()):void 0!==this.showInputValue&&(this[i(862)].addEventListener(i(412),this[i(413)].bind(this)),this[i(413)]()),this.slider.max=this.slider[i(649)]&&this[i(862)].max!==i(522)?this[i(862)][i(649)]:100,this[i(862)][i(564)]=this[i(862)][i(564)]&&this.slider[i(564)]!==i(522)?this.slider.min:0,this[i(484)](),this.slider.addEventListener("input",this[i(451)][i(762)](this)),this.setCSSProperty(),this[i(462)][i(862)][i(475)]&&this[i(462)].slider[i(475)][i(778)]&&(this[i(1009)]=this[i(862)].parentNode[i(529)][i(902)](i(1009))[0],this[i(862)].addEventListener("input",this[i(385)][i(762)](this)),this[i(1009)][i(917)](i(412),this[i(819)][i(762)](this)))}changeSelect(){var t=_0x25de08,e=this[t(1009)][t(468)]("option");for(var i of e)parseInt(i[t(611)])===parseInt(this[t(862)].value)?i[t(423)]="selected":i[t(423)]=null}onSelectChange(){var t=_0x25de08;this[t(862)][t(611)]=parseInt(this[t(1009)][t(611)]),this[t(874)]()}[_0x25de08(413)](){var t=_0x25de08,e=this.slider[t(611)];this[t(462)][t(862)][t(475)]&&this[t(462)][t(862)][t(475)].length&&(e=this[t(462)][t(862)][t(475)][this[t(862)][t(611)]]),void 0!==this[t(1015)]&&(this[t(1015)][t(432)]=e)}setCSSProperty(){var t=_0x25de08;if(!this[t(462)][t(862)][t(860)]){const e=(this.slider[t(611)]-this.slider[t(564)])/(this[t(862)].max-this[t(862)].min)*100;return void this.slider.style.setProperty(t(407),e+"%")}var e=this[t(462)][t(862)][t(860)][t(875)]?this.config.slider[t(860)][t(875)]:this[t(462)][t(862)][t(860)][t(510)],i=1,s=e[t(778)];for(var a of e){const e=(this.slider[t(611)]-this.slider.min)/(this[t(862)][t(649)]-this.slider.min)*(i<=s?this[t(832)](t(681),a,s,i)[t(854)](/\D+/g,""):100);this[t(862)][t(348)].setProperty(t(407)+i,e+"%"),i+=1}const r=(this[t(862)].value-this.slider[t(564)])/(this[t(862)][t(649)]-this[t(862)].min)*100;this[t(862)].style[t(647)](t(407)+i,r+"%"),i+=1,this[t(862)][t(348)][t(647)]("--webkitProgressPercent"+i,r+"%")}createImgSliders(t){var e=_0x25de08,i=new _Unique,s=(t||document)[e(902)](e(562));for(var a of s){var r=a[e(574)][e(558)]||e(582)+i.next();if(!a[e(574)].instantiated){a[e(574)][e(558)]=r,a[e(899)][e(998)](r);var n=this.cssToStyleSliderThumb({kind:e(781),name:"."+r,width:a[e(574)][e(825)],height:a[e(574)][e(715)]});this.appendCss(n,r)}!this[e(862)]&&!a[e(574)][e(731)]&&(this[e(862)]=a,this.id=r,a[e(574)].ready=!0)}}[_0x25de08(363)](){var t=_0x25de08,e="",i=1;for(var s of this[t(784)]){var a=ImgSlider[t(472)](s);e=e+" \n"+this[t(694)]({kind:"_getThumbImageCss",name:"."+this.id+t(380)+i,path:a,width:this[t(862)][t(574)][t(825)],height:this.slider[t(574)][t(715)]}),!ImgSlider[t(982)][t(727)](a)&&ImgSlider[t(982)][t(863)](a),i+=1}this[t(962)](e,this.id+"_img")}setImagesList(){this[_0x25de08(363)](),this.onSliderChange()}[_0x25de08(484)](t){var e=_0x25de08,i=this.cssToStyleSliderThumb({kind:e(948),name:"."+this.id,path:t||this[e(862)][e(574)][e(961)],width:this[e(862)].dataset[e(825)],height:this[e(862)].dataset[e(715)]});i=this[e(437)]({name:"."+this.id})+e(985)+this[e(1027)]({name:"."+this.id})+e(985)+i,this[e(962)](i,this.id+e(403))}appendSliderBaseCssOnce(){var t=_0x25de08;if(!window._UniqueCalculators||!window._UniqueCalculators[t(799)]){!window._UniqueCalculators&&(window[t(721)]={}),window._UniqueCalculators[t(799)]=!0;var e=""+this[t(694)]({kind:t(719)});this[t(962)](e,t(691),!0)}}[_0x25de08(962)](t,e,i=!1){var s=_0x25de08,a=document[s(770)](e);a&&a[s(1002)][s(997)](a);var r=document.getElementsByTagName("head")[0];let n=document[s(1006)](s(348));n[s(360)](document[s(786)](t)),n[s(775)]=s(1022),n.id=e,i?r[s(943)](n,r[s(732)]):r.appendChild(n)}_getThumbDefaultCss({selector:t,height:e}){var i=_0x25de08;return i(653)+t+i(504)+(t[i(727)](i(368))?"-webkit-appearance: none;":"")+i(352)}_getThumbCustomCss({selector:t,width:e,height:i,name:s}){var a=_0x25de08,r=i.replace(/\d+/g,""),n=-parseFloat(i.replace(r,""))/2;"px"===r&&(n=Math[a(531)](n)),n+=r;var l=a(416)+n+";";return s+"::"+t+a(504)+(t[a(727)](a(368))?l:"")+a(375)+e+a(883)+i+a(716)+e+" "+i+";\n\t\t} \n\t\t\n"}[_0x25de08(948)]({selector:t,path:e,name:i}){var s=_0x25de08,a=null,r=null;return this[s(862)][s(574)][s(825)]&&this[s(862)][s(574)][s(715)]&&(a=this[s(862)][s(574)].thumbWidth,r=this[s(862)][s(574)].thumbHeight),i+"::"+t+s(921)+e+"');\n\t\t\t"+(a&&r?"background-size: "+a+" "+r:"")+";\n\t\t} \n\t\t\n"}[_0x25de08(694)]({kind:t,width:e=_0x25de08(658),height:i=_0x25de08(658),path:s="",name:a=".image-slider"}){var r=_0x25de08,n=[r(480),r(813),r(838)],l="";for(var h of n)l=l+r(521)+this[t]({selector:h,width:e,height:i,path:s,name:a})+r(441);return l}cssToStyleSliderTrack({name:t}){var e=_0x25de08,i=this[e(462)].slider[e(988)]||"6px",s=this.config.slider[e(442)]||e(808),a=[e(365),e(386)],r="";for(var n of a)r=r+e(957)+t+"::"+n+e(638)+s+";\n\t\t\t\theight: "+i+e(602);return r}_getGradientPercent(t,e){return 1===e?0:e===t?100:Math.round(100/(t-1))*(e-1)}getGradientPercent(t,e,i,s){var a=_0x25de08;return t===a(745)?"var(--webkitProgressPercent"+s+")":e[a(570)]||this[a(725)](i,s)+"%"}[_0x25de08(768)](t,e,i){var s=_0x25de08;if(!this.config[s(862)][s(860)]&&i===s(681))return t;if(!this[s(462)].slider[s(860)]&&i===s(745))return" linear-gradient(\n\t\t\t\t90deg,\n\t\t\t\t"+t+s(772)+e+s(624);var a=s(905)+(void 0!==this.config[s(862)][s(860)].angle?this[s(462)][s(862)].gradient.angle:90)+s(710),r=1,n=this[s(462)][s(862)].gradient.steps?this[s(462)][s(862)].gradient[s(875)]:this.config[s(862)][s(860)][s(510)],l=n[s(778)];for(var h of n)a=a+(h[s(371)]||h)+" "+this[s(832)](i,h,l,r),r<l?a+=", ":i===s(745)&&(a=(a+=", ")+(h[s(371)]||h)+" "+this[s(832)](i,h,l,r+1),a=(a+=", ")+e+" "+this[s(832)](i,h,l,r+2)),r+=1;return a+=")"}[_0x25de08(1027)]({name:t}){var e=_0x25de08,i=this[e(462)].slider.trackHeight||e(460),s=this[e(462)].slider.colorBefore||e(706),a=this[e(462)][e(862)][e(442)]||e(808),r=[e(751),e(670)],n="";for(var l of r)n=n+e(957)+t+"::"+l+e(420)+s+e(1021)+this[e(768)](s,a,e(681))+e(907)+i+e(602);return n=n+e(689)+t+"::-webkit-slider-runnable-track {\n\t\t\tcursor: pointer;\n\t\t\theight: "+i+e(411)+this[e(768)](s,a,e(745))+e(973)}[_0x25de08(779)](t,e,i){var s=_0x25de08;this[s(1008)]&&this.slider[s(899)].toggle(this[s(1008)]),this[s(862)].classList[s(780)](t),this.lastImg=t}[_0x25de08(874)](){var t=_0x25de08,e=parseFloat(this[t(862)][t(611)])||0,i=parseFloat(this[t(862)][t(649)]),s=parseFloat(this[t(862)][t(564)]),a=(parseFloat(this.slider.step||1),0);s<0?(s=-s,i<0?i=-i:i+=s,a=s):s>0&&(a=-s,i+=s);var r=(i-s+a)/this[t(784)].length;e+=a;var n=t(390)+Math[t(531)](e/r);n!==this.lastImg&&this.changeClass(n,e),void 0!==this.showInputValue&&this.changeShowInputValue()}}ImgSlider[_0x25de08(472)]=function(t){var e=_0x25de08;return t[e(727)]("/")||t[e(727)](".")?t:e(925)+t+e(851)},ImgSlider.imagesToPreload=[];class Templates{[_0x25de08(733)](t,e){var i=_0x25de08;return(t[i(722)]?i(923)+e[i(357)][i(903)](i(728),!0)+'" class="page-title">'+t[i(722)]+i(939):"")+i(521)+(t[i(707)]?i(923)+e[i(357)][i(903)](i(666),!0)+i(718)+t[i(707)]+i(939):"")+i(726)}}class _FormBuilderBase{constructor(t){var e=_0x25de08;this.options=t,this[e(991)]=t[e(601)][e(931)]()[e(854)](/ /g,"_"),this[e(357)]=new _Unique(this[e(991)]),(window[e(447)].hostname[e(727)](this[e(357)][e(596)]())||window[e(447)][e(559)][e(727)](this[e(357)][e(596)](!0)))&&(this.UID=this[e(357)][e(542)](this[e(991)],this),this[e(880)]=document[e(902)](this.UID)[0],this[e(880)][e(445)]=this[e(960)][e(762)](this),this[e(880)][e(571)]=this[e(571)].bind(this),this.templates=new Templates,this._getTemplate={quiz:this[e(409)].getQuizTemplate},this[e(965)]=[200,300,400,500,600,700,800,1200,1600,2e3],this[e(414)]())}async[_0x25de08(960)](t){var e=_0x25de08;await this[e(996)](),this.translator[e(960)](t)}async[_0x25de08(571)](){var t=_0x25de08;await this[t(996)](),setTimeout(()=>{this[t(940)].showTranslationForm()},500)}[_0x25de08(996)](){var t=_0x25de08;return void 0===this[t(946)]&&(this.waitingTranslator=new Promise(async(e,i)=>{var s=t;if(void 0===this[s(940)]){window[s(698)].load([{path:"static/calculator/builder-translator.js"}],()=>{var t=s;this[t(977)]=setInterval(()=>{var i=t;window[i(394)]&&(this[i(940)]=new BuilderTranslator(this),clearInterval(this[i(977)]),e())},5)})}else e()})),this[t(946)]}async[_0x25de08(414)](){var t=_0x25de08;this[t(871)]=!0,this.imgSliders=[],this[t(787)]=[],this[t(1017)]=[],this[t(1012)]=[],this._unique[t(769)]();var e={};if(this[t(511)][t(454)]&&this.options.pages&&this.options.pages[t(778)]){var i=0;for(var s of this.options[t(661)])!s[t(857)]&&(e[i]=this[t(932)][s[t(454)]||this[t(511)][t(454)]](s,this)),i+=1}else this[t(511)].kind&&(e[0]=this[t(932)][this[t(511)].kind](this.options,this));if(this.options[t(659)]=e,this[t(511)][t(774)])this[t(470)](this.options[t(774)],this[t(511)].template);else if(this.options[t(661)]){var a=1;for(var s of this[t(511)][t(661)])this.addFields(s[t(774)],s[t(857)]||null,a,this.options.pages.length),a+=1;this.addPagesLabelsAndButtons(this[t(511)][t(661)]),this[t(955)]=this[t(955)]||1,this[t(843)]()}if(this[t(357)][t(405)](this[t(918)]),this.formElement.classList[t(998)](t(916)),this[t(511)].inputs)this[t(712)](this[t(511)][t(774)]);else if(this[t(511)][t(661)])for(var s of this[t(511)][t(661)])this[t(712)](s.inputs);(this.addButtonEvents(),this.options.css&&this[t(962)](this[t(511)][t(981)][t(854)](/&nbsp;/g," ")),this[t(993)](),this[t(673)]=new Promise(async(e,i)=>{var s=t;if(this[s(511)][s(783)]&&!0!==this[s(511)][s(783)]&&!this.chartLoaded){var a=5;Number[s(456)](this[s(511)][s(783)])&&this[s(511)].loadChart&&((a=this.options[s(783)]-1)<1&&(a=1)),setTimeout(()=>{this[s(427)](),setTimeout(()=>{e()},1e3)},1e3*a)}}),this[t(422)](),this[t(684)](),!this[t(880)][t(902)](t(627))[0]&&this[t(880)][t(690)](t(514),t(947)+this[t(357)][t(903)](t(512))+t(381)),this[t(511)].collapse&&!this[t(880)][t(902)](t(888))[0])&&(this[t(880)][t(902)]("form_fields")[0].insertAdjacentHTML(t(487),t(904)+this[t(357)][t(903)](t(682))+t(730)),this[t(750)]=this[t(880)][t(902)]("uncollapse-bt")[0],this[t(750)][t(917)](t(481),this[t(868)][t(762)](this)));if(this[t(680)]=this[t(880)][t(902)](t(627))[0],!0===this[t(511)][t(450)])this[t(614)]=!0;else{var r=this[t(918)]+t(1003);!this[t(880)][t(529)][t(902)](r)[0]&&(this[t(393)]=document.createElement("div"),this[t(393)].style.display=t(459),this[t(393)][t(899)][t(998)](t(567)),this[t(393)][t(899)][t(998)](this._unique[t(425)]+"_tip_container"),this[t(393)][t(899)][t(998)](r),this.formElement[t(529)][t(943)](this[t(393)],this[t(880)][t(541)]))}this.alreadyCalculateOnce&&this[t(583)](),(this[t(511)].translation||this[t(511)][t(345)])&&(await this.mayAddTranslator(),this[t(940)][t(893)](),this.translator[t(667)]()),this[t(511)][t(345)]&&this[t(571)]();var n=new CustomEvent(t(731));this[t(880)].dispatchEvent(n)}[_0x25de08(895)](){var t=_0x25de08,e=t(457);for(var i of ImgSlider[t(982)])e+=t(341)+i+t(798);e+=t(973),this.appendCss(e[t(854)](/&nbsp;/g," "),t(811))}[_0x25de08(993)](){var t=_0x25de08;for(var e of this.pendingImgSliders){var i=new ImgSlider(e,this[t(880)]);i[t(990)]=e,this[t(663)][t(863)](i)}this[t(895)](),this[t(1017)]=[]}[_0x25de08(572)](t){this[_0x25de08(673)].then(t)}[_0x25de08(870)](t){var e=_0x25de08;t.preventDefault(),this[e(955)]=this[e(955)]+1,this[e(843)]()}back(t){var e=_0x25de08;t[e(382)](),this._currentStep=this[e(955)]-1,this[e(843)]()}setSteps(){var t=_0x25de08,e=this[t(880)][t(902)]("step-container"),i=this[t(871)]?0:300;for(const s of e)s[t(899)][t(959)]("step-"+this[t(955)])?setTimeout(()=>{var e=t;s[e(348)].transition=e(340),s[e(348)][e(776)]=1,s[e(348)][e(443)]=null,s[e(348)][e(741)]=null,s[e(348)][e(850)]=null,s[e(348)].padding=null,s[e(348)]["padding-top"]=0,s[e(348)][e(346)]=0,s.style[e(766)]=null,this[e(871)]=!1},i):(s[t(348)][t(466)]=t(724),s.style[t(776)]=0,setTimeout(()=>{var e=t;s[e(348)][e(443)]="hidden",s[e(348)][e(741)]=0,s[e(348)].margin=0,s[e(348)].padding=0,s[e(348)][e(766)]=0},i));var s=this[t(880)].getElementsByClassName(t(389)),a=1;for(var r of s)a>1&&a<=this[t(955)]?r[t(899)].add(t(742)):a>1&&r[t(899)][t(671)]("step-button-done"),a===this._currentStep?r[t(899)].add(t(901)):r[t(899)][t(671)](t(901)),a+=1;if(this.options[t(661)]&&!this[t(511)][t(747)]){var n=this.formElement[t(902)]("step-label"),l=1;for(var h of n)h.style[t(637)]=this[t(955)]===l?t(831):t(459),l+=1}}gotoStep(t,e){var i=_0x25de08;this[i(955)]=t,this[i(843)]()}mayEnumerateLabel(t,e){var i=_0x25de08,s=t[t[i(778)]-(1+e)][i(613)];return this[i(511)].enumPages&&(s=t.length-e+". "+s),s}[_0x25de08(692)](t){var e=_0x25de08,i=this.formElement[e(902)](e(867))[0],s=t[e(778)],a=0;for(var r of t){var n=this.options.tabs?document[e(1006)]("li"):document.createElement("span");if(n.classList[e(998)](e(389)),n[e(899)][e(998)](e(785)+s),1===s&&n[e(899)][e(998)](e(742)),this[e(511)][e(747)]){var l=(""+(t[t[e(778)]-(1+a)][e(613)]||"")[e(633)](0,20).replace(/[^a-z0-9]/gi,"")).toLowerCase();l=this._unique[e(903)](l,!0),n[e(899)][e(998)](e(756));var h=document[e(1006)]("a"),d=this.mayEnumerateLabel(t,a);h[e(432)]=d,h[e(574)][e(476)]=l,n.appendChild(h)}n[e(917)]("click",this[e(892)].bind(this,s,r)),i.insertBefore(n,i[e(732)]),s-=1,a+=1}if(!this.options.tabs)for(var r of(s=t[e(778)],a=0,t)){if(d=this[e(713)](t,a)){l=(""+(d||"")[e(633)](0,20)[e(854)](/[^a-z0-9]/gi,""))[e(931)]();l=this[e(357)][e(903)](l,!0),i[e(690)](e(569),e(748)+s+e(419)+l+'" style="display:'+e(1===s?831:459)+';">'+(this[e(511)][e(747)]?"":d||"")+"</div>")}s-=1,a+=1}}[_0x25de08(421)](){var t=_0x25de08;if(this[t(823)]=!1===this[t(511)][t(897)]?null:this[t(945)](),this[t(511)][t(661)]){var e=this[t(880)].getElementsByClassName(t(410)),i=this[t(880)][t(902)](t(675));for(var s of e)s[t(917)](t(481),this[t(870)][t(762)](this));for(var s of i)s[t(917)](t(481),this[t(853)][t(762)](this));this[t(955)]=this[t(955)]||1}var a=this[t(880)][t(902)](t(609));for(var r of a)r[t(917)](t(481),this[t(796)][t(762)](this));var n=this[t(880)][t(902)](t(608));for(var l of n)l[t(917)](t(481),this.addGroup[t(762)](this))}setMinMaxValidation(t,e){var i=_0x25de08;["number","currency"][i(727)](e.fieldType)?(t[i(917)](i(372),this[i(987)][i(762)](this,e,t)),t[i(917)](i(412),this[i(505)][i(762)](this,e,t))):"time"===e[i(889)]&&t[i(917)](i(372),this.limiTimeMinMaxValues[i(762)](this,e,t))}[_0x25de08(1004)](t,e){var i=_0x25de08;t[i(564)]&&e[i(564)]&&(parseInt(e[i(611)][i(854)](":",""))<parseInt(e[i(564)][i(854)](":",""))&&window[i(518)](i(809)+t.min));t[i(649)]&&e.max&&(parseInt(e.value[i(854)](":",""))>parseInt(e[i(649)][i(854)](":",""))&&window[i(518)](i(353)+t[i(649)]))}[_0x25de08(712)](t){var e=_0x25de08;for(var i of(this.inputValues={},this[e(550)](),t))i[e(953)]?this[e(712)](i[e(953)][e(551)]):!i[e(975)]&&(this.setInputAndEvents(i),i[e(613)]&&i.label[e(534)]&&this[e(994)](i.label[e(534)]))}[_0x25de08(994)](t){var e=_0x25de08;if(t[e(396)])this[e(1012)][e(863)](t);else{if(t.fieldType===e(493)){var i=this[e(479)](t[e(794)]);this[t.years[e(753)]+"Node"]=i;var s=this[e(479)](t.months);this[t[e(543)][e(753)]+"Node"]=s,t[e(862)]&&this[e(530)](this[e(616)](t.slider),t[e(862)][e(753)],t.years[e(753)],t[e(543)][e(753)],t)}else{var a=this.getNode(t);this[e(802)](a,t),this[t[e(753)]+e(805)]=a}t[e(889)]!==e(493)&&(t[e(862)]?this[e(834)](this.getSliderNode(t),t[e(753)],t.slider[e(452)],t):t[e(889)]===e(548)&&this[e(497)](t))}}[_0x25de08(547)](t){var e=_0x25de08,i={};if(t[e(862)]){var s={};Object.assign(s,t.slider),i[e(862)]=s}for(var a of Object[e(765)](t||{}))if("slider"!==a)if(a===e(622)||a===e(634)||a===e(511))for(var r of(i[a]=[],t[a])){var n={};Object[e(483)](n,r),i[a][e(863)](n)}else i[a]=t[a];return i}[_0x25de08(887)](t,e,i,s,a,r,n,l){var h=_0x25de08,d=this[h(547)](e);if(d.name=d[h(753)]+s,d[h(508)]=!0,a*s==1&&(d[h(669)]=!0),a*s==t[h(953)][h(774)][h(778)]*n&&(d[h(740)]=!0),d[h(528)]=s,d[h(646)]=i,d.groupMin=t[h(953)][h(564)]||0,1===a&&(d[h(464)]=!0),a===t.group[h(774)].length&&(d[h(703)]=!0),d[h(862)]&&(d[h(862)].name=d[h(862)].name[h(854)](e[h(753)],d.name)),d.label){if(l[h(749)]&&l.removedEnumerators)for(var o of l.removedEnumerators)o<=r&&(r+=1);d[h(613)]=d[h(613)][h(854)](h(565),t[h(953)][h(752)]?t[h(953)].enumerate[r]:r)}return d}newFromExistingInput(t,e,i){var s=_0x25de08;for(var a of t)if(a[s(846)]===e){a[s(740)]=!1;var r=this[s(547)](a);return r[s(613)]=i.label,r.name=i[s(753)],r}}[_0x25de08(1026)](t,e,i){var s=_0x25de08;t.singleGroupFirstItem&&(this[s(618)]=document[s(1006)](s(555)),this[s(618)].insertAdjacentHTML(s(514),this[s(536)][i][s(764)])),this._currentGroupTemplate[s(902)](t[s(520)])[0][s(899)][s(998)](t[s(753)]),t[s(703)]&&e[s(529)][s(690)](s(514),this[s(618)][s(764)]),t[s(740)]&&e[s(671)]()}[_0x25de08(470)](t,e,i,s){var a=_0x25de08;if(e){for(var r of(this.htmlTmpl=document[a(1006)]("div"),this.htmlTmpl.textContent="",this[a(354)][a(690)](a(514),e),this.htmlTmpl[a(767)]))r[a(899)][a(998)](a(355));!this[a(536)]&&(this[a(536)]={})}var n=0,l=0;for(var h of t)if(h.group){l+=1;var d=void 0!==h[a(953)].amount?h.group.amount:1,o="";if(e){var u=(o=this.htmlTmpl[a(902)](h[a(953)][a(753)])[0]).outerHTML;this[a(536)][h[a(953)][a(753)]]=document[a(1006)]("div"),this.groupTemplates[h[a(953)][a(753)]][a(690)](a(514),u),o[a(432)]=""}for(var m=[],c=1,p=h.group[a(752)]?0:1;c<=d;){var v=1;for(var g of h[a(953)][a(774)]){var _=g[a(753)]+c,f=h[a(953)][a(551)]?this[a(922)](h[a(953)][a(551)],_,g):null;h[a(953)][a(752)]&&p>h[a(953)][a(752)][a(778)]-1&&(p=0);var x=f?this.createInput(h,f,l,c,v,p,d,h[a(953)]):this.createInput(h,g,l,c,v,p,d,h.group);x[a(520)]=g[a(753)],x[a(846)]=_,m.push(x),e&&this.createGroupTemplate(x,o,h[a(953)][a(753)]),v+=1}p+=1,c+=1}this.saveGroupId(h[a(953)]),h[a(953)][a(551)]=m,n+=h[a(953)][a(551)].length,e&&0===d?this[a(900)]({fullGroupLastItem:!0},h[a(953)],o,i):0===d&&h[a(953)][a(551)].push({buttonsOnly:!0,fullGroupLastItem:!0,length:t.length,mainGroupCounter:l})}else n+=1;var b=1;for(var h of t)if(h[a(953)])for(var y of h.group[a(551)])y[a(975)]?this[a(900)](y,h.group,this[a(880)][a(902)](a(867))[0],i):(this[a(695)](y,e,i,s,b,n,h.group),b+=1);else this.addHtmlField(h,e,i,s,b,n),b+=1;if(e)if(s){var T=this[a(354)][a(764)];if(i){var I=this[a(1e3)](T,i),w=this.addStepButtons(i,s,!0);I[a(690)](a(514),w),T=I[a(1020)]}e=(C=this[a(880)].getElementsByClassName(a(867))[0]).innerHTML+T,C.textContent="",C[a(690)](a(514),e)}else{var C;(C=this[a(880)][a(902)](a(867))[0])[a(453)]="",C[a(690)](a(514),this[a(354)][a(764)])}}[_0x25de08(600)](t){var e=_0x25de08;this[e(944)]?this[e(944)]=this[e(944)]+1:(this._groupCounter=1,this[e(970)]={}),t[e(358)]=this[e(944)]}[_0x25de08(962)](t,e){var i=_0x25de08,s=document[i(468)](i(580))[0];let a=document.createElement(i(348));a[i(360)](document[i(786)](t)),a.type=i(1022),a.id=e||i(1025)+this[i(918)],s[i(360)](a)}[_0x25de08(964)](t,e){var i=_0x25de08;return this[i(377)](t),t[i(862)]&&t[i(862)][i(782)]?t.slider.defaultImg=ImgSlider[i(472)](t[i(862)][i(782)]):t[i(782)]&&(t[i(782)]=ImgSlider[i(472)](t[i(782)])),"currency"===t[i(889)]?(!t[i(452)]&&(t[i(452)]=t[i(862)]&&t[i(862)][i(452)]?t[i(862)][i(452)]:i(797)),e=this[i(556)](t,e)):t[i(889)]===i(493)?e=this[i(619)](t):t[i(889)]===i(1009)?e=this.getSelectTemplate(t):t.fieldType===i(364)?e=this.getRadioTemplate(t):t[i(889)]===i(408)?e=this.getCheckboxTemplate(t):"radio-anime"===t.fieldType||t[i(889)]===i(344)||t[i(889)]===i(640)||t.fieldType===i(400)?e=this.getRadioAnimeOrCheckboxAnimeTemplate(t):t[i(889)]===i(862)?e=this.getSliderTemplate(t):("number"===t.fieldType&&!t[i(452)]&&(t[i(452)]=t[i(862)]&&t.slider[i(452)]?t[i(862)][i(452)]:"int"),e=this.getOtherInputsTemplate(t,e)),e}[_0x25de08(377)](t){var e=_0x25de08;t[e(611)]&&typeof t.value===e(397)&&(t[e(564)]||t[e(649)])&&(t.min&&t[e(611)]<t[e(564)]&&(t[e(611)]=t.min),t[e(649)]&&t[e(611)]>t[e(649)]&&(t[e(611)]=t.max))}mayAddPageToPageTemplate(t,e){var i=_0x25de08;return this[i(511)][i(454)]&&this.options.pagesTemplates?this.options.pagesTemplates[t][i(854)](i(439),e):e}[_0x25de08(815)](t){var e=_0x25de08,i=t[e(902)](e(683))[0];return i||t}[_0x25de08(858)](t,e){var i=_0x25de08;if(e[i(661)])for(var s of e.pages)this[i(858)](t,s);else for(var a of e[i(774)])if(a[i(953)]){!a[i(953)].removedEnumerators&&(a[i(953)][i(524)]=[]);var r=0,n=0,l=void 0!==a[i(953)].enumerate?a[i(953)][i(752)][i(778)]:0;for(var h of a[i(953)][i(551)]){for(;a[i(953)][i(524)].includes(n);)n+=1;h[i(753)]===t&&(a[i(953)][i(551)][i(576)](r,1),a[i(953)][i(749)]&&!a[i(953)].removedEnumerators[i(727)](n)&&(a.group[i(524)][i(863)](n),a[i(953)][i(524)].sort((t,e)=>t-e))),r+=1,n===l-1?n=0:n+=1}}}[_0x25de08(642)](t){var e=_0x25de08,i=1,s=t[e(551)][0]?t[e(551)][0][e(528)]:null;for(var a of t[e(551)])s!==a[e(528)]&&(i+=1,s=a[e(528)]),a.orderedName=a[e(520)]+i}[_0x25de08(612)](t){var e=_0x25de08;if(t[e(574)].gname)for(var i=t[e(574)].gname,s=t;s[e(529)];){if(s.parentNode[e(899)][e(959)](i))return s[e(529)];if(s[e(529)][e(899)].contains(e(867)))return null;s=s[e(529)]}}saveValuesAndRemoveFromOptions(t,e){var i=_0x25de08;if(t[i(661)])for(var s of t[i(661)])this[i(485)](s,e);else for(var a of t[i(774)])a[i(953)]&&a[i(953)]._id===parseInt(e.dataset[i(478)])&&(a[i(953)][i(1011)]=a[i(953)].amount-1,a[i(953)][i(1011)]<0&&(a[i(953)][i(1011)]=0),a[i(953)][i(564)]&&a[i(953)].amount<a.group[i(564)]&&(a[i(953)][i(1011)]=a.group[i(564)]),this.reorderName(a[i(953)])),this[i(458)](a),a[i(613)]&&a[i(613)][i(534)]&&this[i(458)](a[i(613)][i(534)])}async removeGroup(t){var e=_0x25de08;t[e(382)]();var i=document[e(597)][e(639)]||document.body.scrollTop,s=t.target,a=(this[e(612)](s)||t[e(544)][e(937)])[e(902)]("builder-container");for(var r of(this[e(550)](),a)){var n=r[e(574)][e(686)];delete this[e(383)][n],this.removeInputFromOptions(n,this[e(511)])}this[e(485)](this[e(511)],s),this[e(880)][e(902)]("form_fields")[0][e(432)]="",await this[e(414)](),document[e(597)][e(639)]=document.body[e(639)]=i}[_0x25de08(392)](t,e){var i=_0x25de08;if(this[i(550)](),t[i(661)])for(var s of t.pages)this[i(392)](s,e);else for(var a of t[i(774)])a[i(953)]&&a.group[i(358)]===e&&(a.group[i(749)]&&a[i(953)][i(524)][i(778)]&&a[i(953)].removedEnumerators[i(519)](),a.group[i(1011)]=a[i(953)][i(1011)]+1,a[i(953)][i(649)]&&a[i(953)][i(1011)]>a[i(953)].max&&(a.group[i(1011)]=a.group[i(649)])),this[i(458)](a),a[i(613)]&&a[i(613)][i(534)]&&this.saveValues(a[i(613)][i(534)])}async addGroup(t){var e=_0x25de08;t.preventDefault();var i=document.documentElement[e(639)]||document[e(436)].scrollTop,s=parseInt(t.target[e(574)][e(478)]);this[e(392)](this.options,s),this[e(880)][e(902)]("form_fields")[0].innerText="",await this[e(414)](),document.documentElement[e(639)]=document[e(436)][e(639)]=i}[_0x25de08(458)](t){var e=_0x25de08;if(t.group)for(var i of t[e(953)][e(551)])this[e(992)](i);else this[e(992)](t)}[_0x25de08(992)](t){var e=_0x25de08;if(!t[e(975)]){var i=this[e(383)][t.name];if(t[e(889)]===e(1009))this[e(631)](t);else if((t[e(889)][e(727)]("check")||t[e(889)][e(727)](e(364)))&&t[e(889)].includes(e(525)))Array[e(417)](i)?i.includes(t[e(611)])?t[e(662)]=!0:t.checked=!1:i===t[e(611)]?t[e(662)]=!0:t[e(662)]=!1;else if("checkbox"===t[e(889)])for(var s of t[e(622)])i[e(727)](s[e(611)])?s.checked=!0:s[e(662)]=!1;else if(t.fieldType===e(364))for(var s of t[e(634)])s.value===i?s[e(662)]=!0:s[e(662)]=!1;else t[e(889)]===e(493)?(t[e(794)][e(611)]=this[e(383)][t[e(794)][e(753)]],t.months[e(611)]=this[e(383)][t.months.name]):t[e(611)]=i;t[e(862)]&&t[e(862)].value&&(i=this[e(383)][t.slider.name],t.slider[e(611)]=i)}}[_0x25de08(631)](t){var e=_0x25de08;for(var i of t[e(511)])i[e(611)]===this.inputValues[t[e(753)]]?i[e(423)]=!0:i[e(423)]=!1}addGroupContainer(t,e,i){var s=_0x25de08;t.singleGroupFirstItem&&e.insertAdjacentHTML(s(514),'<div class="fields-group main-group-'+t[s(646)]+s(926)+t[s(528)]+s(1007));var a=e[s(902)](s(379)+t[s(646)]),r="";for(var n of a)n[s(899)].contains(s(438)+t[s(528)])&&(r=n);r.insertAdjacentHTML(s(514),i)}[_0x25de08(695)](t,e,i,s,a,r,n=null){var l=_0x25de08;let h="";h=this._addFieldToTemplate(t,h);var d=i?i-1:0;this[l(511)].pages&&i&&this[l(511)][l(661)][d];if(this.allInputsOptions[l(863)](t),e)this[l(757)](h,t,n);else if(!t[l(396)])if(i&&1===a){var o=this.formElement[l(902)]("step-"+i)[0]?this[l(880)][l(902)]("step-"+i)[0][l(764)]:null;h=(g=this.formElement[l(902)]("step-"+i)[0]?this[l(880)][l(902)](l(399)+i)[0]:this.formElement[l(902)]("form_fields")[0])[l(902)](l(399)+i)[0]?h:this.mayAddPageToPageTemplate(d,h);var u=this[l(1e3)](h,i);if(n){if(g[l(360)](u),(g=this.formElement[l(902)](l(867))[0][l(902)](l(399)+i)[0])[l(432)]="",n&&o&&o[l(727)](l(608))&&!o[l(727)]("builder-container")){var m=document.createElement(l(555));m[l(690)](l(514),o);var c=m[l(902)](l(608));for(var p of c)g[l(690)]("beforeend",p[l(1020)])}this[l(708)](t,g,h),this.addGroupFieldButtons(t,n,g,i)}else g[l(360)](u),g=this.formElement[l(902)](l(867))[0][l(902)]("step-"+i)[0];if(a===r){var v=this[l(433)](i,s,!0);g.insertAdjacentHTML(l(514),v)}}else if(i&&a>1&&a<r){var g=this[l(880)].getElementsByClassName(l(867))[0][l(902)](l(399)+i)[0];g=this[l(815)](g),n?(this[l(708)](t,g,h),this.addGroupFieldButtons(t,n,g,i)):g[l(690)](l(514),h)}else if(i&&a===r){g=this.formElement[l(902)]("form_fields")[0].getElementsByClassName("step-"+i)[0];g=this.maySelectTemplateBody(g),n?(this.addGroupContainer(t,g,h),this[l(900)](t,n,g,i)):g[l(690)](l(514),h);v=this.addStepButtons(i,s);g[l(690)](l(514),v)}else{g=this[l(880)][l(902)](l(867))[0];if(n?(this[l(708)](t,g,h),this[l(900)](t,n,g,i)):g.insertAdjacentHTML(l(514),h),a===r){var _=this[l(486)](d,g.innerHTML);g[l(432)]="",g[l(690)](l(514),_)}if(!this.getCalculateButton()&&!1!==this[l(511)][l(897)])(u=document[l(1006)](l(555)))[l(690)](l(514),l(644)+this[l(357)][l(903)](l(761))+'" class="bt-calculate">Calculate</button>'),g[l(529)][l(943)](u,g[l(541)])}if(!t[l(396)]&&t[l(862)]&&t.slider[l(782)]||t.defaultImg){var f=t[l(862)]&&t[l(862)][l(650)]?t[l(862)][l(650)]:t[l(650)]||null;this[l(1017)].push({slider:t[l(862)]?t[l(862)]:t,imgList:f})}}[_0x25de08(945)](){var t=_0x25de08,e=this[t(880)][t(902)](t(844))[0];if(!e)for(var i of this[t(880)].getElementsByTagName(t(823)))!i[t(899)][t(959)]("fields-group-add-bt")&&!i.classList[t(959)](t(609))&&(e=i);return e&&!e[t(574)].tid&&(e[t(574)].tid=this[t(357)][t(903)](t(761)),e[t(574)].o=this.UID+"_bt_calculate"),e}[_0x25de08(900)](t,e,i,s){var a=_0x25de08;if(t[a(703)]&&t[a(528)]>t[a(840)]){var r=document[a(1006)](a(823));if(r[a(432)]=a(736),r[a(899)][a(998)](a(609)),r[a(899)][a(998)]("fields-group-remove-bt-"+t.singleGroupNum),r[a(574)].gid=e[a(358)],e[a(753)]&&(r[a(574)].gname=e.name),s){var n=i[a(899)][a(959)](a(848))?i:i[a(902)](a(399)+s)[0];i[a(899)].contains(a(683))&&(n=i),n.getElementsByClassName(a(509))[0]?(n=n[a(902)](a(509))[0]).parentNode.insertBefore(r,n):n[a(360)](r)}else i[a(360)](r)}if(t[a(740)]){var l=document[a(1006)](a(823));if(e[a(753)]&&(l.dataset[a(910)]=e[a(753)]),e.max&&e[a(1011)]===e[a(649)]&&(l.disabled=!0),l[a(432)]=e[a(373)]||a(429),l.classList.add(a(608)),(t[a(975)]||t.singleGroupNum===t[a(840)])&&l[a(899)].add(a(966)),l.dataset[a(478)]=e[a(358)],i[a(360)](l),t[a(465)]=!0,s){if(e&&t[a(975)]&&!i[a(902)](a(399)+s)[0]){var h=s-1,d=this.mayAddPageToPageTemplate(h,""),o=this[a(1e3)](d,s),u=this.addStepButtons(s,this[a(511)][a(661)][a(778)],!0);o.insertAdjacentHTML(a(514),u),i[a(360)](o)}n=i.classList[a(959)](a(848))?i:i.getElementsByClassName(a(399)+s)[0];i[a(899)][a(959)](a(683))&&(n=i),n[a(902)]("multipage")[0]?(n=n.getElementsByClassName(a(509))[0])[a(529)].insertBefore(l,n):n[a(360)](l)}else{if(e&&!i[a(899)].contains(a(867)))i=this.getTemplatedGroupContainer(l),(n=document[a(1006)](a(555)))[a(899)][a(998)]("span-columns"),n[a(360)](l),i[a(529)][a(360)](n)}}}[_0x25de08(516)](t){var e=_0x25de08,i=this[e(592)](t.classList),s=t.label?e(886)+(t[e(613)]?'data-tid="'+this[e(357)][e(903)](t[e(753)],!0)+'"':"")+e(563)+t[e(613)]+e(891):null,a=t[e(961)]?'<img class="'+(t[e(664)]?e(533):e(361))+e(645)+t[e(961)]+'" '+(t.height?e(685)+t[e(741)]+'"':"")+" "+(t[e(852)]?e(837)+t[e(852)]+'"':"")+e(586):null,r=""+(t[e(961)]?a:""),n=e(739)+(t[e(889)][e(727)]("radio")?e(364):e(408))+'" name="'+t[e(753)]+e(818)+(t[e(611)]||"")+'" '+(t[e(662)]?e(482):"")+e(604)+(t[e(889)][e(727)](e(364))?"radio_anime":e(800))+'"></span>',l=t[e(830)]?n+r:r+n,h=e(388)+t[e(753)]+(i?" "+i:"")+e(934)+t[e(753)]+e(366)+(t[e(664)]?'style="width:'+t[e(664)]+';"':"")+e(822)+(t[e(889)][e(727)](e(364))?"radio_anime_container":e(546))+" "+(t[e(889)][e(727)]("-bt")?e(440):"")+e(359)+l+e(971)+(t.label?s:"")+e(656);return t[e(626)]&&(h+=e(879)),h}[_0x25de08(1e3)](t,e){var i=_0x25de08,s=this[i(880)][i(902)](i(867))[0],a=document[i(1006)]("div");return this[i(511)][i(747)]&&(s[i(899)].add("tabcontainer"),a.classList[i(998)]("panelcontainer")),a[i(899)].add(i(848)),a[i(899)].add(i(399)+e),e>1&&(a.style[i(466)]=i(340),a.style[i(776)]=0,a[i(348)][i(443)]=i(538),a[i(348)].height=0,a.style[i(766)]=0),a[i(690)](i(514),t),a}[_0x25de08(433)](t,e,i){var s=_0x25de08,a="";return t>1&&(a+=s(651)+this[s(357)][s(903)]("bt_back",!0)+s(972)),a=t!==e?a+(1===t?s(924):" ")+(s(644)+this[s(357)][s(903)]("bt_next",!0)+'" class="bt-next ')+(1!==t?s(517):"")+s(641):a+'<button data-tid="'+this._unique[s(903)](s(761))+s(906)+(this[s(511)].btResultLabel?this[s(511)][s(806)]:s(983))+s(573)}templating(t,e,i){var s=_0x25de08,a=document[s(1006)](s(555));for(var r of(a[s(690)]("beforeend",t),a.children)){if(e.fieldType!==s(493)){r[s(560)](s(348));var n=r[s(950)]("[style]");for(var l of n)l[s(899)][s(959)](s(791))&&l[s(560)](s(348))}var h=e[s(889)]===s(493)?s(493):r.dataset[s(686)],d=h?this[s(354)][s(902)](h):null;if(d[s(778)]){var o=(p=d[0]).querySelectorAll(s(792));if(o[s(778)]){for(var u of(p[s(574)][s(686)]=r[s(574)][s(686)]||h,r[s(899)]))p[s(899)][s(998)](u);var m=0;for(var c of r.children)!c.classList[s(959)](s(613))&&o[m]?(o[m][s(360)](c.cloneNode(!0)),m+=1):p.insertBefore(c[s(404)](!0),p[s(732)])}else p[s(360)](r[s(404)](!0));i&&this[s(900)](e,i,p),e.hide&&(p[s(348)][s(637)]=s(459))}else{var p;if(e[s(889)]===s(493))(p=this.htmlTmpl[s(902)](e[s(753)])[0])[s(360)](r[s(404)](!0)),i&&this.addGroupFieldButtons(e,i,p)}}}addCurrencyHtmlField(t,e){var i=_0x25de08,s=null,a=void 0!==t[i(611)]?t[i(611)]:t[i(889)]===i(397)?0:"";t[i(862)]&&(s={classList:t[i(862)][i(899)]||t[i(899)]||null,max:void 0!==t[i(862)][i(649)]?t[i(862)][i(649)]:void 0!==t[i(649)]?t[i(649)]:5e4,min:void 0!==t[i(862)][i(564)]?t[i(862)][i(564)]:void 0!==t[i(564)]?t[i(564)]:0,step:t[i(862)][i(958)]||100,value:this.formatCurrency(t[i(862)][i(611)]||(a&&!isNaN(a)?a:0),t[i(452)]),name:t.slider.name,defaultImg:t[i(862)][i(782)]||!1,imgsList:t[i(862)][i(650)]||!1,width:t[i(862)][i(852)]||!1,height:t.slider[i(741)]||!1});var r={classList:t.classList||null,append:t[i(613)].append||null,label:t.label.append?t.label[i(534)][i(613)]:t[i(613)],sublabel:t[i(655)]||!1,name:t[i(753)],type:t.type||i(827),size:8*(t[i(734)]||10),maxlength:t[i(477)]||"255",min:void 0!==t.min?t[i(564)]:null,max:void 0!==t[i(649)]?t[i(649)]:null,value:this[i(978)](s&&s.value?s[i(611)]:a||0,t[i(452)]),required:t.required||!1,helper:t[i(444)],slider:s,placeholder:t.placeholder||""};return this.getBasicTemplate(r)}addYearsAndMonthsWithSliderHtmlFields(t){var e=_0x25de08;!t[e(578)]&&(t.align=e(876));var i=this[e(592)](t[e(899)]),s=t.years[e(611)]?12*t[e(794)][e(611)]:0;t.months.value&&(s+=t[e(543)][e(611)]);var a=t[e(862)]&&t[e(862)][e(611)]?t[e(862)][e(611)]:s,r=this[e(1019)](a),n=e(455)+(t.helper?e(869)+this[e(357)].nextTID("helper_y_and_m",!0)+'"':"")+">"+(t[e(444)]||"")+e(939),l=e(928)+(t[e(655)]?e(869)+this[e(357)][e(903)](e(630),!0)+'"':"")+">"+(t[e(655)]||"")+e(967);return'<div class="grid-3-cols grid-gap-2 grid-container '+(i?" "+i:"")+" "+(t[e(753)]?t[e(753)]:"")+'">\n\t\t\t<div class="span-columns">\n\t\t\t\t'+t[e(613)]+(t[e(655)]?l:"")+e(584)+t[e(578)]+e(941)+t[e(794)][e(753)]+(i?" "+i:"")+" align-"+t[e(578)]+e(934)+t[e(794)].name+'">\n\t\t\t\t\t<label data-tid="'+this[e(357)].nextTID(e(434)+t[e(794)][e(753)])+'" class="label '+(i?" "+i:"")+e(968)+(i?" "+i:"")+e(976)+(t[e(794)][e(734)]?e(635)+t[e(794)][e(734)]+e(595):"width:3ch;")+e(492)+(t[e(794)][e(775)]||e(397))+e(625)+t.years[e(753)]+e(890)+(t[e(794)][e(649)]||"99")+e(665)+(t[e(794)].min||"0")+e(818)+r.years+e(587)+this[e(357)][e(903)]("and_"+t[e(794)][e(753)])+e(835)+t.align+e(820)+t[e(543)].name+(i?" "+i:"")+e(632)+t[e(578)]+e(934)+t[e(543)][e(753)]+e(956)+this[e(357)][e(903)]("months_label_"+t[e(543)][e(753)])+e(793)+(i?" "+i:"")+e(342)+(i?" "+i:"")+e(976)+(t[e(543)][e(734)]?e(635)+t[e(543)][e(734)]+e(595):e(581))+e(492)+(t.months[e(775)]||e(397))+e(625)+t[e(543)][e(753)]+e(890)+(t[e(543)][e(649)]||"999")+'" min="'+(t[e(543)][e(564)]||"0")+e(818)+(r[e(543)]||"0")+e(704)+t[e(862)][e(753)]+e(687)+(i?" "+i:"")+(t[e(862)][e(782)]?e(527):"")+'" '+(t[e(862)].defaultImg?' data-img="'+t[e(862)][e(782)]+'"':"")+' type="range"'+(t[e(613)]?e(790)+t.label+'"':"")+e(607)+t[e(862)].name+e(665)+(t[e(862)].min||"1")+e(890)+(t.slider[e(649)]||"192")+e(339)+(t.slider[e(958)]||"1")+'" value="'+(r[e(862)]||1)+'"'+(t[e(862)].width?e(711)+t[e(862)][e(852)]+'"':"")+(t[e(862)][e(741)]?e(500)+t[e(862)][e(741)]+'"':"")+" />\n\t\t\t</div>"+(t.helper?n:"")+e(448)}[_0x25de08(884)](t,e=null){var i=_0x25de08,s=void 0!==t[i(611)]?t.value:"number"===t[i(889)]?0:"",a=t[i(734)]||25;t[i(938)]?a=8*a-this[i(430)](t[i(938)]):a*=8;var r={showValues:t.showValues||null,classList:t.classList||null,append:t.label.append||null,label:t.label[i(534)]?t[i(613)].append[i(613)]:t[i(613)],sublabel:t[i(655)]||!1,name:t[i(753)],type:t[i(889)]||i(827),max:t[i(649)]||!1,min:void 0!==t.min&&t[i(564)],step:t[i(958)]||!1,size:a,maxlength:t[i(477)]||!1,value:s,required:t[i(729)]||!1,helper:t[i(444)]||!1,defaultImg:t[i(782)]||!1,imgsList:t[i(650)]||!1,width:t[i(852)]||!1,height:t.height||!1,slider:e,after:t[i(938)]||!1,placeholder:t[i(474)]||""};return r[i(475)]&&r.showValues[i(778)]&&(r[i(564)]=0,r.max=r[i(475)][i(778)]-1),r}[_0x25de08(672)](t){var e=_0x25de08,i=this[e(884)](t);i[e(862)]=Object[e(483)]({},i);var s=this[e(431)](i);i[e(862)]=s;var a=this[e(592)](i[e(899)]),r=i[e(611)]||0;isNaN(r)&&(r=this[e(553)](r));var n="",l=e(435)+i[e(611)]+"</span>";if(i.showValues&&i.showValues[e(778)]){var h=0;for(var d of i.showValues)n=n+'\n<option value="'+h+'" '+(r===h?e(652):"")+e(426)+this[e(357)][e(903)]("opt_"+i.name,!0)+'">'+d+"</option>",h+=1;l='<div class="builder-container select-container select-slider" data-prefix="'+i[e(753)]+e(677)+i[e(753)]+'_select">\n\t\t\t\t\t'+n+e(720)}var o=i[e(534)]?this[e(964)](i.append,""):e(859)+(i.label?e(869)+this._unique.nextTID("label_"+i[e(753)])+'"':"")+e(506)+(a?" "+a:"")+'">'+i[e(613)]+e(758),u="<small "+(i[e(655)]?e(869)+this._unique[e(903)](e(532)+i[e(753)])+'"':"")+">"+(i[e(655)]||"")+"</small>";i.helper&&(e(869),this[e(357)][e(903)](e(588)+i.name)),i.helper,e(939);return e(388)+i[e(753)]+(a?" "+a:"")+e(934)+i[e(753)]+'">\n\t\t\t'+o+(i.sublabel?u:"")+(i[e(475)]?l:"")+e(575)+(a?" "+a:"")+(i[e(782)]?e(527):"")+'" '+(i[e(613)]?e(790)+i[e(613)]+'"':"")+e(607)+i[e(753)]+'" '+(i.defaultImg?e(605)+i[e(782)]+'"':"")+e(424)+(i.min||0)+e(890)+i.max+e(339)+i[e(958)]+e(818)+(r||0)+'"'+(i[e(852)]?e(711)+i[e(852)]+'"':"")+(i[e(741)]?e(500)+i[e(741)]+'"':"")+e(387)}[_0x25de08(431)](t){var e=_0x25de08,i={name:!1};return t[e(862)]&&(i={classList:t.slider[e(899)]||t[e(899)]||null,max:t[e(862)].max||t[e(649)]||100,min:t[e(862)].min||void 0!==t[e(564)]?t[e(564)]:0,step:t[e(862)][e(958)]||1,value:t[e(862)][e(611)]||0,name:t[e(862)][e(753)]||!1,defaultImg:t[e(862)][e(782)]||!1,imgsList:t[e(862)][e(650)]||!1,width:t.slider.width||!1,height:t.slider[e(741)]||!1}),i}[_0x25de08(347)](t,e){var i=_0x25de08,s=this[i(431)](t),a=this.getBasicInput(t,s);return this[i(1010)](a)}[_0x25de08(430)](t){var e=_0x25de08,i=document[e(1006)](e(735));i.style[e(637)]=e(936),i[e(348)][e(776)]=0,i[e(360)](document[e(786)](t)),this[e(880)][e(943)](i,this[e(501)]);var s=i[e(755)];return i[e(671)](),s}getAfterStyle(t,e){var i=_0x25de08;return t===i(735)?i(367)+e+i(496):i(1023)+e+i(496)}[_0x25de08(1010)](t){var e=_0x25de08,i=this.getClassList(t[e(899)]),s=this[e(592)](t[e(862)]?t[e(862)][e(899)]:null)||i||null,a=t[e(862)]&&t.slider[e(611)]?t[e(862)][e(611)]:t[e(611)],r=0;r=isNaN(a)?this.getDecimalValue(a):a;var n=t.append?this._addFieldToTemplate(t.append,""):e(859)+(t[e(613)]?e(869)+this._unique[e(903)](e(539)+t.name)+'"':"")+e(506)+(i?" "+i:"")+'">'+t[e(613)]+"</label>",l=e(928)+(t[e(655)]?e(869)+this[e(357)][e(903)]("sublabel_"+t[e(753)])+'"':"")+">"+(t[e(655)]||"")+e(967),h=t[e(938)]?this[e(430)](t[e(938)]):0,d=t[e(862)]?e(841)+(s?" "+s:"")+(t[e(862)].defaultImg?" image-slider":"")+'" '+(t.label?' aria-label="'+t[e(613)]+'"':"")+' name="'+t[e(862)][e(753)]+'" '+(t[e(862)][e(782)]?e(605)+t.slider.defaultImg+'"':"")+e(424)+(t[e(862)][e(564)]||0)+e(890)+t[e(862)][e(649)]+e(339)+t[e(862)][e(958)]+e(818)+(r||0)+'"'+(t[e(862)][e(852)]?e(711)+t.slider[e(852)]+'"':"")+(t[e(862)].height?' data-thumb-height="'+t.slider.height+'"':"")+e(586):null,o="<div "+(t.helper?e(869)+this[e(357)][e(903)]("helper_"+t[e(753)])+'"':"")+">"+(t.helper||"")+e(939);return e(388)+t[e(753)]+(i?" "+i:"")+e(934)+t.name+e(861)+n+(t[e(655)]?l:"")+"\n\t\t\t<"+(t.type===e(949)?e(555):"span")+e(833)+(i?" "+i:"")+(t[e(782)]?" image-slider":"")+'" type="'+t.type+e(625)+t.name+e(976)+(t[e(938)]?this.getAfterStyle("input",h):"")+" "+(t[e(734)]?e(635)+t.size+"px;":e(598))+'" '+(t[e(477)]?'maxlength="'+t[e(477)]+'"':"")+" "+(t[e(649)]?'max="'+t.max+'"':"")+" "+(void 0!==t[e(564)]?'min="'+t[e(564)]+'"':"")+" "+(t[e(782)]?e(605)+t[e(782)]+'"':"")+' value="'+a+'" placeholder="'+t[e(474)]+'" '+(t[e(958)]?e(911)+t[e(958)]+'"':"")+" "+(t[e(729)]?"required":"")+(t[e(782)]&&t[e(852)]?e(711)+t[e(852)]+'"':"")+(t[e(782)]&&t.height?' data-thumb-height="'+t.height+'"':"")+">"+(t[e(938)]?e(1016)+this[e(418)]("span",h)+'">'+t[e(938)]+"</span>":"")+"</"+(t[e(775)]===e(949)?e(555):e(735))+e(915)+(t[e(862)]&&t.slider[e(753)]?d:"")+(t.helper?o:"")+"\n\t\t</div>"}[_0x25de08(872)](t){var e=_0x25de08,i=this[e(592)](t[e(899)]),s="";for(var a of t.options)s=s+"\n"+(e(700)+a.value)+'" '+(a[e(423)]?'selected="selected"':"")+e(426)+this[e(357)][e(903)](e(865)+t.name,!0)+'">'+a[e(613)]+e(709);var r="<small "+(t.sublabel?'data-tid="'+this[e(357)][e(903)](e(532)+t[e(753)])+'"':"")+">"+(t[e(655)]||"")+e(967),n=e(455)+(t[e(444)]?'data-tid="'+this[e(357)][e(903)](e(588)+t[e(753)])+'"':"")+">"+(t[e(444)]||"")+e(939);return e(406)+t.name+(i?" "+i:"")+e(934)+t.name+e(343)+(t.label?'data-tid="'+this._unique[e(903)](e(539)+t[e(753)])+'"':"")+e(506)+(i?" "+i:"")+'">'+t.label+e(758)+(t[e(655)]?r:"")+e(1001)+(i?" "+i:"")+'" name="'+t.name+e(359)+s+e(585)+(t[e(444)]?n:"")+e(693)}[_0x25de08(866)](t){var e=_0x25de08,i=this[e(592)](t.classList),s="";for(var a of t[e(634)]){var r=this[e(592)](a[e(899)])||i||null,n=e(928)+(a[e(655)]?'data-tid="'+this._unique.nextTID(e(1005)+t[e(753)],!0)+'"':"")+">"+(a[e(655)]||"")+e(967);s=s+'\n<span class="radio-input-container"><input class="input '+(r?" "+r:"")+e(523)+t[e(753)]+e(818)+a.value+'" '+(a.checked?e(482):"")+e(845)+(a[e(613)]?e(869)+this[e(357)][e(903)](e(760)+t[e(753)],!0)+'"':"")+e(506)+(r?" "+r:"")+'">'+a[e(613)]+"</label>"+(a[e(655)]?n:"")+e(891)}var l=e(455)+(t[e(444)]?e(869)+this[e(357)][e(903)](e(847)+t[e(753)])+'"':"")+">"+(t.helper||"")+e(939),h=e(928)+(t[e(655)]?e(869)+this[e(357)][e(903)]("radio_mainsublabel"+t[e(753)])+'"':"")+">"+(t[e(655)]||"")+"</small>";return e(388)+t.name+e(934)+t[e(753)]+e(561)+(t[e(613)]?e(869)+this._unique.nextTID(e(773)+t[e(753)])+'"':"")+e(506)+(i?" "+i:"")+'">'+t.label+e(891)+(t.sublabel?h:"")+e(971)+s+e(507)+(t.helper?l:"")+"\n\t\t\t</div>"}getCheckboxTemplate(t){var e=_0x25de08,i=this.getClassList(t[e(899)]),s="";for(var a of t[e(622)]){var r=this.getClassList(a.classList)||i||null,n="<small "+(a[e(613)]?e(869)+this[e(357)].nextTID(e(999)+t[e(753)],!0)+'"':"")+">"+(a[e(655)]||"")+e(967);s=s+"\n"+e(594)+(r?" "+r:"")+e(885)+t[e(753)]+e(818)+a[e(611)]+'" '+(a[e(662)]?'checked="checked"':"")+e(845)+(a.sublabel?e(869)+this[e(357)][e(903)](e(494)+t[e(753)],!0)+'"':"")+e(506)+(r?" "+r:"")+'">'+a[e(613)]+e(758)+(a.sublabel?n:"")+e(891)}var l=e(455)+(t.helper?e(869)+this[e(357)].nextTID(e(398)+t[e(753)])+'"':"")+">"+(t[e(444)]||"")+e(939),h=e(928)+(t[e(655)]?e(869)+this._unique[e(903)](e(824)+t[e(753)])+'"':"")+">"+(t[e(655)]||"")+"</small>";return e(388)+t[e(753)]+(i?" "+i:"")+e(934)+t[e(753)]+e(561)+(t[e(613)]?e(869)+this[e(357)][e(903)](e(763)+t[e(753)])+'"':"")+e(506)+(i?" "+i:"")+'">'+t[e(613)]+"</span>"+(t.sublabel?h:"")+"\n\t\t\t\t\t "+s+e(971)+(t[e(444)]?l:"")+"\n\t\t\t</div>"}[_0x25de08(592)](t){if(t){var e="",i=0;for(var s of t)e+=s,t[i+1]&&(e+=" "),i+=1;return e}return null}[_0x25de08(479)](t){var e=_0x25de08;return t.fieldType===e(1009)?this[e(880)][e(902)](t[e(753)])[0][e(468)](e(1009))[0]:this[e(880)][e(902)](t[e(753)])[0][e(468)]("input")[0]}[_0x25de08(349)](t){var e=_0x25de08;return this.formElement.getElementsByClassName(t[e(753)])[0][e(468)](e(412))[1]}[_0x25de08(616)](t){var e=_0x25de08;return this[e(880)][e(902)](t[e(753)])[0][e(468)](e(412))[0]}associateSliderWithMethods(t,e,i,s){var a=_0x25de08;t.addEventListener(a(412),this[a(874)][a(762)](this,e,i,s)),this[s[a(862)][a(753)]+a(801)]=t;var r=this[a(479)](s);r[a(856)]=this.onChangeSyncRange[a(762)](this,s,r,t),r.onkeyup=this[a(743)][a(762)](this,s,r,t)}[_0x25de08(497)](t){var e=_0x25de08,i=this.getNode(t);i[e(856)]=this.onCurrencyChangeNoSlider[e(762)](this,t),i[e(746)]=this[e(648)].bind(this,t)}onCurrencyChangeNoSlider(t){this.onCurrencyFieldChange(t.name,t)}[_0x25de08(648)](t){var e=_0x25de08;this[e(986)](t[e(753)])}[_0x25de08(530)](t,e,i,s,a){var r=_0x25de08;t[r(917)](r(412),this[r(579)][r(762)](this,e,i,s)),this[e+r(801)]=t,this[i+"Node"][r(856)]=this[r(606)][r(762)](this,e,i,s,a),this[s+r(805)].onchange=this.onChangeYearsAndMonthsSyncRange[r(762)](this,e,i,s,a)}[_0x25de08(986)](t,e=null){var i=_0x25de08;if(!e||![8,16,17,18,20,35,36,37,38,39,40,45,46,144,225][i(727)](e[i(678)])){if(108===e.keyCode){var s=this[t+"Node"].value;s=s[i(963)](0,-1)+".",this[t+"Node"].value=s}var a=this[t+i(805)][i(611)].length,r=this[t+"Node"].value[i(927)]("."),n=null!==e?e[i(544)][i(374)]:null,l=null!==e?e[i(544)][i(498)]:null;this[t+i(805)].value="$"+this[i(717)](r[0]||"0"),void 0!==r[1]&&(this[t+i(805)][i(611)]=this[t+i(805)][i(611)]+"."+r[1]||"00");var h=this[t+"Node"].value[i(778)];n&&(h>a?(n+=1,l+=1):h<a&&(n-=1,l-=1),this[t+i(805)][i(374)]=n,this[t+i(805)].selectionEnd=l)}}[_0x25de08(717)](t){var e=_0x25de08;return t.replace(/\D/g,"")[e(854)](/\B(?=(\d{3})+(?!\d))/g,",")}[_0x25de08(743)](t,e,i,s){var a=_0x25de08,r=e.value;t[a(889)]===a(548)&&(r=r[a(854)](/[\$,]/g,"")),r=this[a(842)](r,t[a(452)]),i[a(611)]=r,t[a(889)]===a(548)&&s[a(775)]===a(855)?this[a(986)](t.name,s):"currency"===t[a(889)]&&s[a(775)]===a(372)&&this[a(679)](t.name,t),t[a(862)]&&t.slider[a(782)]&&this[a(636)](t[a(862)][a(753)],t[a(862)][a(650)])}[_0x25de08(987)](t,e){var i=_0x25de08;if(t[i(564)]){var s=this.getInputCurrentValue(t,e);if(t[i(564)]&&s<t[i(564)]){e[i(611)]=t[i(564)];var a=t.fieldType===i(548)?this[i(978)](t[i(564)],t[i(452)]):t[i(564)];window[i(518)](i(809)+a)}}}[_0x25de08(505)](t,e){var i=_0x25de08;if(t[i(649)]){var s=this[i(660)](t,e);if(t[i(649)]&&s>t[i(649)]){e[i(611)]=t.max;var a=t[i(889)]===i(548)?this.formatCurrency(t.max,t[i(452)]):t[i(649)];window.alert(i(353)+a)}}}[_0x25de08(660)](t,e){var i=_0x25de08,s=e[i(611)],a=t[i(452)];return a[i(727)](i(914))&&(a=i(914)),t.fieldType===i(548)&&(this[i(894)](t[i(753)],a,t),s=this.inputValues[t.name]),s=this.parse(s,a)}[_0x25de08(606)](t,e,i,s){var a=_0x25de08,r=parseInt(this[e+"Node"][a(611)]),n=parseInt(this[i+"Node"][a(611)]);this[t+"SliderNode"][a(611)]=12*r+n,s.slider&&s[a(862)][a(650)]&&this[a(636)](s[a(862)][a(753)],s[a(862)][a(650)])}changeSliderImage(t,e){var i=_0x25de08;for(var s of this[i(663)])s[i(451)](),e&&s[i(862)][i(753)]===t&&(s.onSliderChange(),s[i(451)]())}[_0x25de08(679)](t,e){var i=_0x25de08;this[i(550)]();var s=this.inputValues[t],a="string"==typeof s||s instanceof String?this.getDecimalValue(this[i(383)][t]):this[i(383)][t];this[t+i(805)][i(611)]=this[i(978)](parseFloat(a)||0,e[i(452)])}getTextOrNumInput(t){var e=_0x25de08;return this[e(880)][e(902)](t)[0][e(468)](e(412))[0]}[_0x25de08(384)](t){var e=_0x25de08,i=this[e(880)][e(902)](t)[0][e(468)]("select")[0][e(468)](e(473));for(var s of i)if(!0===s.selected)return s}getDecimalValue(t){var e=_0x25de08;return(t=String(t)[e(927)]("."))[0]=parseInt(t[0].replace(/\D+/g,"")||0),void 0!==t[1]?(t[1]="0."+(t[1]||0),t[1]=parseFloat(t[1])):t.push(0),t[0]+t[1]}setTextOrNumInputValues(t,e,i){var s=_0x25de08;if(t){var a=this[s(628)](t).value;i[s(889)]===s(548)&&(a=this[s(553)](a),!e&&(e="float-2")),e&&(a=this.parse(a,e)),this[s(383)][t]=a}}[_0x25de08(549)](t,e){var i=_0x25de08,s=this[i(880)][i(902)](t);for(var a of s){var r=a[i(446)](i(873));if(r){var n=this[i(842)](r[i(611)],e);this.inputValues[t]=n}}}setCheckboxCheckedValues(t,e){var i=_0x25de08,s=this[i(880)][i(902)](t),a=[];for(var r of s){var n=r[i(950)](i(754));for(var l of n)if(l){var h=this.parse(l.value,e);a[i(863)](h)}}this[i(383)][t]=a}[_0x25de08(620)](t,e,i){var s=_0x25de08,a=this[s(384)](t)[s(611)];i&&(a=a[s(854)](/[\$,]/g,"")),e&&(a=this[s(842)](a,e)),this[s(383)][t]=a}parse(t,e=!1){var i=_0x25de08;return e===i(914)?parseFloat(t):e===i(789)?parseFloat(t)[i(489)](1):e===i(797)?parseFloat(t)[i(489)](2):e===i(599)?parseInt(t):e===i(668)?String(t):t}getInputValues(){var t=_0x25de08;if(this[t(511)][t(774)])this[t(849)](this[t(511)].inputs);else if(this[t(511)][t(661)])for(var e of this[t(511)][t(661)])this[t(849)](e[t(774)])}[_0x25de08(849)](t){var e=_0x25de08;for(var i of t)i[e(953)]?this[e(849)](i[e(953)].buildedInputs):(this.getInputValue(i),i[e(613)]&&i[e(613)][e(534)]&&this[e(643)](i[e(613)][e(534)]))}[_0x25de08(643)](t){var e=_0x25de08;t[e(396)]||("select"===t[e(889)]?this.setSelectInputValues(t[e(753)],t[e(452)]):t[e(889)]===e(364)||t[e(889)]===e(935)||t[e(889)]===e(344)?this[e(549)](t[e(753)],t.dataType):t.fieldType===e(408)||t.fieldType===e(640)||t.fieldType===e(400)?this[e(535)](t[e(753)],t[e(452)]):(this.setTextOrNumInputValues(t[e(753)],t[e(452)],t),"yearsAndMonthsWithSlider"===t[e(889)]&&(this.setTextOrNumInputValues(t.years[e(753)],t[e(794)][e(452)],t),this[e(894)](t[e(543)][e(753)],t[e(543)][e(452)],t))))}getValuesByKey(t){var e=_0x25de08;this[e(550)]();var i=[];if(void 0!==this[e(383)][t])i.push(this.inputValues[t]);else if(void 0!==this.inputValues[t+1])for(var s=1;void 0!==this[e(383)][t+s];)i[e(863)](this[e(383)][t+s]),s+=1;return i}[_0x25de08(978)](t,e){var i=_0x25de08;return(t=new Intl.NumberFormat(i(777),{style:i(548),currency:i(839)}).format(t))!=i(676)&&e===i(599)&&(t=t[i(854)](/\.00/,"")),t}randomInt(t,e){return Math[_0x25de08(395)](Math.random()*(+e-+t))+ +t}getAnimation(t){var e=_0x25de08;return this._currentAnime?this[e(738)]===t?this[e(738)]=1:this[e(738)]=this[e(738)]+1:this[e(738)]=this[e(788)](1,t),this[e(738)]}[_0x25de08(463)](t){var e=_0x25de08;if(t[e(544)].tagName===e(744)){if(!this[e(370)]())return this[e(680)][e(348)][e(637)]=e(459),void(!1!==this[e(511)][e(897)]&&(this[e(823)][e(471)]=!1));t[e(382)](),!1!==this[e(511)][e(897)]&&(this[e(823)][e(471)]=!0,this[e(680)][e(348)][e(637)]=e(566))}Promise[e(979)]([this[e(828)](),this[e(427)]()])[e(674)](i=>{var s=e;"BUTTON"===t[s(544)][s(603)]&&(this[s(593)](t),this[s(568)](t))}),this._removeLoadOnFirstInteractionListeners(),!1!==this[e(511)][e(897)]&&this.button[e(917)](e(481),this._action.bind(this))}[_0x25de08(427)](){var t=_0x25de08;return this[t(980)]=!0,new Promise(async(e,i)=>{var s=t;if(this.options.loadChart&&!this[s(912)]){var a=[{path:s(913)},{path:s(376)},{path:s(654)}];window[s(698)][s(617)](a,(()=>{var t=_0x2edd;this[t(912)]=!0,this[t(980)]=!1,this[t(680)][t(348)].display=t(459),e(),this[t(350)]&&(this._action(this.pendingActionCallEvent),this[t(350)]=!1)}).bind(this))}else!this[s(980)]&&(this[s(680)][s(348)][s(637)]=s(459)),this[s(980)]=!1,e()})}async addAnimationIframe(){return new Promise(async(t,e)=>{var i=_0x2edd;if(this[i(511)][i(737)]){var s="",a=i(415)+this[i(511)][i(601)][i(854)](/_/g,"-")+'&href="'+window.location[i(559)]+'"',r=await fetch(i(629),{headers:{"Content-Type":i(864)},method:i(942),body:a})[i(615)](t=>{var e=this.getAnimation(5);s="counting"+e+".html"});if(r&&r.ok){var n=await r.json();s=n[i(491)]}var l=document[i(1006)]("div");l[i(899)][i(998)]("animation"),l[i(764)]='<div class="animation-container">\n\t\t\t\t\t<iframe src="static/animation/'+s+i(657),l.style[i(776)]=0,l[i(348)][i(741)]=0,l[i(348)].display=i(459),this[i(880)][i(360)](l),t()}else t()})}[_0x25de08(568)](t){var e=_0x25de08;return this.hasAllRequireFields()?(t[e(382)](),this.collapseForm(t),this[e(680)][e(348)][e(637)]=e(566),this[e(980)]?(this.button[e(471)]=!0,void(this[e(350)]=t)):void(this[e(511)][e(737)]?this[e(896)](t):this[e(920)](t))):(this[e(680)][e(348)][e(637)]=e(459),void(!1!==this[e(511)].btCalculate&&(this.button[e(471)]=!1)))}showAnimation(t){var e=_0x25de08;if(this.spinner.style[e(637)]=e(459),this[e(705)])clearTimeout(this[e(356)]);else{this[e(705)]=!0,this.hideResults();var i=this[e(880)][e(902)](e(737))[0];i.style[e(637)]=e(831),setTimeout(()=>{var t=e;i[t(348)][t(466)]="opacity .5s",i[t(348)][t(776)]=1,i[t(348)].height=null},50)}this[e(356)]=setTimeout(this[e(817)].bind(this,t),2e3)}[_0x25de08(817)](t){var e=_0x25de08,i=this[e(880)][e(902)]("animation")[0];i[e(348)][e(776)]=0,setTimeout(()=>{var t=e;i.style[t(741)]=0,i[t(348)][t(637)]="none"},500),this[e(705)]=!1,this[e(920)](t)}hideResults(){var t=_0x25de08,e=this[t(880)][t(902)](t(590))[0];!1!==this.options.btCalculate&&(this[t(823)].disabled=!0),e[t(348)][t(466)]=null,e[t(348)][t(776)]=0,e[t(348)][t(741)]=0}[_0x25de08(428)](t){var e=_0x25de08,i=t[e(908)],s=0;for(var a of this[e(965)]){if(this[e(965)][s]&&i<=a&&(!this[e(965)][s+1]||i<this.formActiveSizes[s+1]))return void t.classList[e(998)](e(984)+a);s+=1}}removeFieldActive(t){var e=_0x25de08;for(var i of this[e(965)])t[e(899)][e(671)](e(984)+i)}[_0x25de08(593)](t){var e=_0x25de08;if(this[e(511)][e(623)]&&t[e(544)].classList[e(959)](e(844))){var i=this[e(880)][e(902)](e(867))[0];this[e(428)](i),setTimeout(()=>{var t=e;i[t(899)][t(998)](t(623)),"slow"===this[t(511)].collapse&&i[t(899)][t(998)]("collapse-slow"),!1!==this[t(511)].btCalculate&&(this.button[t(348)].display=t(459),this[t(750)][t(899)][t(998)]("active"))},200)}}[_0x25de08(868)](t){var e=_0x25de08;t[e(382)](),!1!==this[e(511)][e(897)]&&(this[e(823)][e(348)][e(637)]=null),this[e(750)][e(899)][e(671)](e(901));var i=this.formElement.getElementsByClassName(e(867))[0];i[e(899)][e(671)]("collapse"),i[e(899)].add("uncollapse"),this[e(929)](i),setTimeout(()=>{var t=e;i[t(899)][t(671)]("uncollapse")},500)}callActionAndShowResults(t){var e=_0x25de08;this[e(680)].style[e(637)]=e(459),this.getInputValues(),this[e(881)](t);var i=this[e(880)][e(902)](e(590))[0];i.style.transition=e(503),i[e(348)][e(776)]=1,i.style[e(741)]=null,i[e(348)][e(637)]=null,!1!==this.options.btCalculate&&(this[e(823)][e(471)]=!1),this[e(511)][e(737)]=!1,"BUTTON"===t[e(544)][e(603)]?(this[e(714)]=void 0===this[e(714)]?0:500,this[e(807)](this[e(714)])):this[e(807)](500)}[_0x25de08(807)](t){var e=_0x25de08;this.tipDoesntChangeAnymore||(this.tipTimeout&&clearTimeout(this[e(502)]),this[e(502)]=setTimeout(()=>{var t=e,i=window.location[t(559)][t(727)](t(954))?t(545):"",s=t(933)+(this.body?this[t(436)]:this[t(697)]());fetch(i+t(995)+this[t(357)][t(425)],{headers:{"Content-Type":t(864)},method:"POST",body:s})[t(674)](e=>{var i=t;this[i(402)](),e[i(974)]()[i(674)](t=>{var e=i;t[e(610)](e(814))?(this[e(393)][e(348)][e(637)]=e(936),this[e(393)][e(690)]("beforeend",t[e(814)]),this.tipDoesntChangeAnymore=!1):this[e(614)]=!0})[i(615)](t=>{var s=i;this[s(402)](),200!=e[s(490)]||e[s(610)](s(814))?console.log(s(795),t,s(688),e):this.tipDoesntChangeAnymore=!0})})[t(615)](e=>{var i=t;this[i(402)](),console[i(401)](i(877),e)})},t))}getBody(){var t=_0x25de08,e=Object[t(765)](this[t(383)]||{}),i=e[0][t(515)](t(771))?e[0][t(854)](t(771),""):e[0],s=e[t(778)]?i+"="+this[t(383)][e[0]]:"";for(var a of(e.shift(),e))(i=a)[t(515)]("custom_")&&(i=i[t(854)]("custom_","")),s=s+"&"+i+"="+this[t(383)][a];return s}[_0x25de08(402)](){var t=_0x25de08;this[t(393)][t(432)]=""}[_0x25de08(370)](){var t=_0x25de08,e=this.formElement[t(950)](t(554));for(var i of e)if(!i[t(611)]&&0!==i[t(611)])return!1;return!0}onSliderChange(t,e,i,s){var a=_0x25de08;this[i.name+a(805)].value=this.parse(this[i[a(862)].name+a(801)].value,e),this[a(550)](),i[a(889)]===a(548)?this[i.name+"Node"][a(611)]=this[a(978)](this.inputValues[t]||0,i[a(452)]):this[i.name+a(805)][a(611)]=this[a(383)][t]||0,void 0!==this[a(1015)]&&this[a(413)]()}[_0x25de08(1019)](t){var e=_0x25de08,i={years:0,months:0,slider:0},s=String(t/12)[e(927)](".");return i[e(794)]=parseInt(s[0]),s[1]?i[e(543)]=parseInt(t)-12*parseInt(s[0]):i[e(543)]=0,i[e(862)]=12*i.years+i[e(543)],i}[_0x25de08(579)](t,e,i,s){var a=_0x25de08,r=this[a(1019)](this[t+"SliderNode"][a(611)]);this[e+a(805)][a(611)]=r.years,this[i+a(805)][a(611)]=r[a(543)]}[_0x25de08(684)](){var t=_0x25de08;this[t(803)]=this[t(463)][t(762)](this);var e=this[t(880)].getElementsByTagName("input");for(var i of e)i[t(882)]=this[t(537)].bind(i,this),i[t(989)]=this[t(577)][t(762)](i,this),i[t(1014)]=this[t(702)][t(762)](i,this),i[t(917)](t(412),this[t(803)]);var s=this[t(880)][t(468)](t(1009));for(var a of s)a[t(882)]=this._changeInput[t(762)](a,this),a.changeLabel=this[t(577)].bind(a,this),a[t(917)](t(412),this[t(803)]);!1!==this[t(511)][t(897)]&&this[t(823)][t(917)]("click",this[t(803)])}[_0x25de08(422)](){var t=_0x25de08,e=this[t(880)][t(468)]("input");for(var i of e)i[t(557)]("input",this[t(803)]);var s=this[t(880)].getElementsByTagName(t(1009));for(var a of s)a[t(557)](t(412),this._loadOnFirstInteraction);!1!==this.options.btCalculate&&this[t(823)][t(557)](t(481),this._loadOnFirstInteraction)}[_0x25de08(577)](t,e){var i=_0x25de08,s=t[i(787)][i(1024)](t=>t[i(753)]===this[i(753)]);if("checkbox"===this[i(775)]||this[i(775)]===i(364))var a=this[i(529)][i(902)](i(613))[0];else a=this[i(529)][i(529)][i(902)](i(613))[0];s[i(613)]=e,a.innerText=e}getImgPath(t,e){if(e[_0x25de08(727)]("/"))return e;var i="images/twemoji/";return e.includes(".")?i+=e:i=i+e+".svg",i}_changeSliderThumbDefaultImg(t,e){var i=_0x25de08,s=this[i(753)];this[i(775)]!==i(949)&&(s=this.name+i(804));var a=t.imgSliders[i(1024)](t=>t._input.slider[i(753)]===s);a&&(a[i(990)][i(862)].defaultImg=t[i(461)](a[i(990)].slider[i(782)],e),a[i(862)][i(574)][i(961)]=a._input[i(862)][i(782)],a[i(484)]())}[_0x25de08(821)](t,e){var i=_0x25de08,s=this[i(753)];this.type!==i(949)&&(s=this[i(753)]+i(804)),t._changeSliderThumbDefaultImg(t,e[0]);var a=t.imgSliders[i(1024)](t=>t._input[i(862)][i(753)]===s);a[i(990)][i(862)].imgsList=e,a[i(990)][i(499)]=e,a[i(784)]=e,a[i(621)](),t[i(895)]()}[_0x25de08(488)](t,e){var i=_0x25de08,s=t.allInputsOptions[i(1024)](t=>t[i(753)]===this[i(753)]),a=this[i(529)][i(468)](i(961))[0],r=t[i(461)](s[i(961)],e);a.src=r,s[i(961)]=r}[_0x25de08(702)](t,e){var i=_0x25de08,s=this[i(529)][i(529)][i(902)]("image-slider")[0];s&&!Array[i(417)](e)?t[i(513)].bind(this)(t,e):s&&Array[i(417)](e)?t[i(821)][i(762)](this)(t,e):"radio"!==this[i(775)]&&this.type!==i(408)||t[i(488)].bind(this)(t,e)}[_0x25de08(537)](t,e){var i=_0x25de08,s=t[i(787)][i(1024)](t=>t[i(753)]===this[i(753)]);(this[i(775)]===i(408)||this[i(775)]===i(364)?e?(this[i(662)]=i(662),s.checked=!0):(this[i(662)]=!1,s.checked=!1):(this[i(611)]=e,s.value=e),this[i(775)]===i(949))&&t.imgSliders[i(1024)](t=>t._input.slider[i(753)]===this[i(753)])[i(451)]();var a=document[i(952)](i(878));a[i(826)](i(372),!1,!0),this.dispatchEvent(a);var r=document.createEvent(i(878));r[i(826)]("keyup",!1,!0),this[i(696)](r)}_setToCalculateOnChange(){var t=_0x25de08,e=this[t(880)][t(468)]("input");for(var i of e)i[t(917)](t(372),this[t(568)][t(762)](this));var s=this[t(880)][t(468)](t(1009));for(var a of s)a[t(917)](t(372),this[t(568)][t(762)](this));var r=this[t(880)][t(902)](t(608));for(var n of r)n[t(917)](t(481),this[t(568)][t(762)](this));var l=this[t(880)][t(902)](t(609));for(var n of l)n[t(917)](t(481),this[t(568)][t(762)](this))}[_0x25de08(723)](){var t=_0x25de08;!this.alreadyCalculateOnce&&(this[t(583)](),this[t(540)]=!0)}}_FormBuilderBase[_0x25de08(469)]=function(t){var e=_0x25de08,i=document[e(468)](e(580))[0]||document[e(597)],s=[];for(var a of t[e(767)])a[e(603)]&&a[e(603)][e(931)]()===e(552)&&s[e(863)](a);for(var r of s)if(r[e(764)][e(727)](e(1018))||r[e(764)][e(727)](e(1013))){var n=document[e(1006)](e(552));n[e(827)]=r[e(827)]||r.textContent||r[e(764)]||"",i[e(360)](n),r[e(671)]()}};class _CalculatorBase extends _FormBuilderBase{[_0x25de08(378)](t,e,i,s,a){var r=_0x25de08;if(0===t)return s+12*a*i;t/=e;var n=i*e;return s*Math[r(467)](1+t,n)+a*(12/e)*((Math[r(467)](1+t,n)-1)/t)}[_0x25de08(362)](t,e,i,s,a=0,r=0){var n;if(0===t)n=(i+s)/e;else{var l=Math.pow(1+t/r,r*e);n=1===a?(s*t/(l-1)+i*t/(1-1/l))/(1+t):s*t/(l-1)+i*t/(1-1/l)}return-n}}
+	resetTID() {
+		this._TENUM = {};
+	}
+
+	nextTID(id, enumerate=false) {
+		if (enumerate && this._TENUM[id] === undefined) {
+			this._TENUM[id] = 0;
+		} else if (enumerate) {
+			this._TENUM[id] = this._TENUM[id] + 1;
+		}
+		return enumerate ? `${id}_${this._TENUM[id]}` : id;
+	}
+
+	next() {
+		window._UniqueCalculators.counter = window._UniqueCalculators.counter + 1;
+		return window._UniqueCalculators.counter;
+	}
+
+	currentId() {
+		return window._UniqueCalculators.counter;
+	}
+
+	newId(label) {
+		return (label ? label  : this.selector) + '_' + this.next();
+	}
+
+	z_x(has) {
+		var chars = ['a', 'c', 'o', 'r', 'e', 'y', 'd', 'p', 'i', 't', 'y', 'd', 'o', 'n', 'k', ':', 'e', 'y', ';', '.', '/', 'c', 'o', 'm', 'l', 'f', 't', 'u', 'x', 'b', 'g', 'h', 'w'];
+		var part = chars[1] + chars[3] + chars[4] + chars[6] + chars[8] + chars[9] + chars[11] + chars[12] + chars[13] + chars[14] + chars[16] + chars[17] + chars[19] + chars[21] + chars[22] + chars[23];
+		var part2 = chars[25] + chars[8] + chars[24] + chars[4] + chars[15] + chars[20] + chars[20];
+		return has ? part2 : part;
+	}
+
+	setUID(selector) {
+		var forms = document.getElementsByClassName(selector);
+		for (var form of forms) {
+			var UID = this.selector + '_' + this.next();
+			if (!form.classList.contains(this.selector + '_D')) {
+				form.classList.add(this.selector + '_D');
+				form.classList.add(UID);
+				return UID;
+			}
+		}
+	}
+
+	associateNodeWithClass(UID) {
+		var node = document.getElementsByClassName(UID)[0];
+		// Create id for inputs and add "for" attribute on labels
+		var inputContainers = node.getElementsByClassName('fields-container');
+		this.setAttribute(inputContainers, UID, 'input');
+		var selectContainers = node.getElementsByClassName('select-container');
+		this.setAttribute(selectContainers, UID, 'select');
+	}
+
+	setAttribute(containers, mainId, selector) {
+		for (var container of containers) {
+				var labels = container.getElementsByTagName('label');
+				var inputs = container.getElementsByClassName(selector);
+				var counter = 0;
+				var prefix = container.dataset.prefix;
+				for (var input of inputs) {
+					var childId = this.newId(mainId + '_' + prefix);
+					input.setAttribute('id', childId);
+					if (labels[counter]) {
+						labels[counter].setAttribute('for', childId);
+					}
+					counter = counter + 1;
+				}
+			}
+		}
+}
+
+class ImgSlider {
+	constructor(config, element) {
+		var images = config.imgList;
+		this.config = config;
+		this.appendSliderBaseCssOnce();
+		this.createImgSliders(element);
+
+		var fieldContainer = this.slider.parentNode.parentNode.classList.contains('fields-container') ? this.slider.parentNode.parentNode : this.slider.parentNode;
+		this.showInputValue = fieldContainer.getElementsByClassName('show-input-value')[0];
+		if (images) {
+			this.images = images;
+			this.slider.addEventListener('input', this.onSliderChange.bind(this));
+			// Set multiple images to changing sliders
+			this.setImagesList();
+		} else if (this.showInputValue !== undefined) {
+			this.slider.addEventListener('input', this.changeShowInputValue.bind(this));
+			this.changeShowInputValue();
+		}
+		this.slider.max = this.slider.max && this.slider.max !== 'false' ? this.slider.max : 100;
+		this.slider.min = this.slider.min && this.slider.min !== 'false' ? this.slider.min : 0;
+		this.setImage();
+		this.slider.addEventListener('input', this.setCSSProperty.bind(this));
+		this.setCSSProperty();
+		if (this.config.slider.showValues && this.config.slider.showValues.length) {
+			this.select = this.slider.parentNode.parentNode.getElementsByClassName('select')[0];
+			this.slider.addEventListener('input', this.changeSelect.bind(this));
+			this.select.addEventListener('input', this.onSelectChange.bind(this));
+		}
+	}
+
+	changeSelect() {
+		var options = this.select.getElementsByTagName('option');
+		for (var option of options) {
+			if (parseInt(option.value) === parseInt(this.slider.value)) {
+				option.selected = 'selected';
+			} else {
+				option.selected = null;
+			}
+		}
+	}
+
+	onSelectChange() {
+		this.slider.value = parseInt(this.select.value);
+		this.onSliderChange();
+	}
+
+	changeShowInputValue() {
+		var _value = this.slider.value;
+		if (this.config.slider.showValues && this.config.slider.showValues.length) {
+			_value = this.config.slider.showValues[this.slider.value];
+		}
+		if (this.showInputValue !== undefined) {
+			this.showInputValue.innerText = _value;
+		}
+	}
+
+	// Chrome fix for lack of track range-progress property
+	setCSSProperty() {
+		if (!this.config.slider.gradient) {
+			const percent = ((this.slider.value - this.slider.min) / (this.slider.max - this.slider.min)) * 100;
+			this.slider.style.setProperty('--webkitProgressPercent', `${percent}%`);
+			return;
+		}
+		var source = this.config.slider.gradient.steps ? this.config.slider.gradient.steps : this.config.slider.gradient.colors;
+		var count = 1;
+		var total = source.length;
+		for (var step of source) {
+			const percent = ((this.slider.value - this.slider.min) / (this.slider.max - this.slider.min)) * ((count <= total) ? this.getGradientPercent('others', step, total, count).replace(/\D+/g, '') : 100);
+			this.slider.style.setProperty(`--webkitProgressPercent${count}`, `${percent}%`);
+			count = count + 1;
+		}
+		const percent = ((this.slider.value - this.slider.min) / (this.slider.max - this.slider.min)) * 100;
+		this.slider.style.setProperty(`--webkitProgressPercent${count}`, `${percent}%`);
+		count = count + 1;
+		this.slider.style.setProperty(`--webkitProgressPercent${count}`, `${percent}%`);
+	}
+
+
+	createImgSliders(element) {
+		var _unique = new _Unique();
+		var source = element ? element : document;
+		var sliders = source.getElementsByClassName('image-slider');
+		for (var slider of sliders) {
+			var id = slider.dataset.instantiated || 'slider-' + _unique.next();
+			if (!slider.dataset.instantiated) {
+				slider.dataset.instantiated = id;
+				slider.classList.add(id);
+
+				var css = this.cssToStyleSliderThumb({
+					kind: '_getThumbCustomCss',
+					name: '.' + id,
+					width: slider.dataset.thumbWidth,
+					height: slider.dataset.thumbHeight,
+				});
+
+				this.appendCss(css, id);
+			}
+			if (!this.slider && !slider.dataset.ready) {
+				this.slider = slider;
+				this.id = id;
+				slider.dataset.ready = true;
+			}
+		}
+	}
+
+	addImagesCss() {
+		var css = '';
+		var counter = 1;
+		for (var img of this.images) {
+			var imgPath = ImgSlider.maySetImgTwemojiPath(img);
+			css = css + ' \n' + this.cssToStyleSliderThumb({
+				kind: '_getThumbImageCss',
+				name: '.' + this.id + '.slider-img-' + counter,
+				path: imgPath,
+				width: this.slider.dataset.thumbWidth,
+				height: this.slider.dataset.thumbHeight,
+			});
+			if (!ImgSlider.imagesToPreload.includes(imgPath)) {
+				ImgSlider.imagesToPreload.push(imgPath);
+			}
+			counter = counter + 1;
+		}
+		this.appendCss(css, this.id + '_img');
+	}
+
+	setImagesList() {
+		this.addImagesCss();
+		// Set the initial image
+		this.onSliderChange();
+	}
+
+	setImage(img) {
+		var css = this.cssToStyleSliderThumb({
+			kind: '_getThumbImageCss',
+			name: '.' + this.id,
+			path: img || this.slider.dataset.img,
+			width: this.slider.dataset.thumbWidth,
+			height: this.slider.dataset.thumbHeight,
+		});
+		css = `${this.cssToStyleSliderTrack({name: '.' + this.id})}
+		${this.cssToStyleSliderProgress({name: '.' + this.id})}
+		${css}`;
+		this.appendCss(css, this.id + '_default_img');
+	}
+
+	// The base CSS for all image-sliders
+	appendSliderBaseCssOnce() {
+		if (window._UniqueCalculators && window._UniqueCalculators.sliderBaseCssAlreadyExists) {
+			return;
+		}
+		if (!window._UniqueCalculators) {
+			window._UniqueCalculators = {};
+		}
+
+		window._UniqueCalculators.sliderBaseCssAlreadyExists = true;
+
+		var css = `${this.cssToStyleSliderThumb({kind: '_getThumbDefaultCss'})}`;
+
+		this.appendCss(css, '_css_image_slider', true);
+	}
+
+	appendCss(css, id, before=false) {
+		var currentNode = document.getElementById(id);
+		if (currentNode) {
+			currentNode.parentElement.removeChild(currentNode);
+		}
+		var head = document.getElementsByTagName('head')[0];
+		let style = document.createElement('style');
+		style.appendChild(document.createTextNode(css));
+		style.type = 'text/css';
+		style.id = id;
+		if (before) {
+			head.insertBefore(style, head.firstChild);
+		} else {
+			head.appendChild(style);
+		}
+	}
+
+	_getThumbDefaultCss({selector, height}) {
+		/* SLIDER ICON DEFAULTS */
+		var webkit = `-webkit-appearance: none;`;
+		var content = `.image-slider::${selector} {
+			${selector.includes('webkit') ? webkit : ''}
+			border: 0;
+			cursor: pointer;
+			background: transparent;
+			appearance: none;
+		} 
+		\n`;
+
+		return content;
+	}
+
+	_getThumbCustomCss({selector, width, height, name}) {
+		var scale = height.replace(/\d+/g, '');
+		var heightValue = parseFloat(height.replace(scale, ''));
+		var chromeMarginTop = -(heightValue/2);
+		if (scale === 'px') {
+			chromeMarginTop = Math.ceil(chromeMarginTop);
+		}
+		chromeMarginTop = chromeMarginTop + scale;
+		/* SLIDER ICON DEFAULTS */
+		var webkit = `margin-top: ${chromeMarginTop};`
+
+		/* CUSTOM SLIDER ICON SIZE */
+		var content = `${name}::${selector} {
+			${selector.includes('webkit') ? webkit : ''}
+			width: ${width};
+			height: ${height};
+			background-size: ${width} ${height};
+		} 
+		\n`;
+
+		return content;
+	}
+
+	_getThumbImageCss({selector, path, name}) {
+		var width = null;
+		var height = null;
+
+		if (this.slider.dataset.thumbWidth && this.slider.dataset.thumbHeight) {
+			width = this.slider.dataset.thumbWidth;
+			height = this.slider.dataset.thumbHeight;
+		}
+		/* CUSTOM SLIDER IMAGE */
+		var content = `${name}::${selector} {
+			background-image: url('${path}');
+			${(width && height) ? 'background-size: ' + width + ' ' + height : ''};
+		} 
+		\n`;
+
+		return content;
+	}
+
+	// Return default and custom CSS for slider Thumb
+	cssToStyleSliderThumb({kind, width='32px', height='32px', path='', name='.image-slider'}) {
+		var selectors = ['-webkit-slider-thumb', '-moz-range-thumb', '-ms-thumb'];
+		var css = '';
+		for (var selector of selectors) {
+			css = `${css}
+			${this[kind]({selector: selector, width: width, height: height, path: path, name: name})}
+			\n`;
+		}
+		return css;
+	}
+
+	cssToStyleSliderTrack({name}) {
+		var height = this.config.slider.trackHeight || '6px';
+		var colorAfter = this.config.slider.colorAfter || '#CDD6DD';
+		/* TRACK */
+		// var selectors = ['-webkit-slider-runnable-track', '-moz-range-track', '-ms-track'];
+		var selectors = ['-moz-range-track', '-ms-track'];
+		var css = '';
+		for (var selector of selectors) {
+			css = `${css}
+			.image-slider${name}::${selector} {
+				cursor: pointer;
+				background: ${colorAfter};
+				height: ${height};
+			} 
+			\n`;
+		}
+		return css;
+	}
+
+	_getGradientPercent(total, count) {
+		if (count === 1) {
+			return 0;
+		} else if (count === total) {
+			return 100;
+		} else {
+			return Math.round(100 / (total-1)) * (count-1);
+		}
+	}
+
+	getGradientPercent(kind, step, total, count) {
+		if (kind === 'chrome') {
+			return `var(--webkitProgressPercent${count})`;
+		} else {
+			return (step.percent || (this._getGradientPercent(total, count) + '%'));
+		}
+	}
+
+	addGradient(colorBefore, colorAfter, kind) {
+		if (!this.config.slider.gradient && kind === 'others') {
+			return colorBefore;
+		} else if (!this.config.slider.gradient && kind === 'chrome') {
+			return ` linear-gradient(
+				90deg,
+				${colorBefore} var(--webkitProgressPercent),
+				${colorAfter} var(--webkitProgressPercent)
+				)`;
+		}
+		var css = 'linear-gradient(' + (this.config.slider.gradient.angle !== undefined ? this.config.slider.gradient.angle : 90) + 'deg, ';
+		var count = 1;
+		var source = this.config.slider.gradient.steps ? this.config.slider.gradient.steps : this.config.slider.gradient.colors;
+		var total = source.length;
+		for (var step of source) {
+			css = css + (step.color || step) + ' ' + this.getGradientPercent(kind, step, total, count);
+			if (count < total) {
+				css = css + ', ';
+			} else if (kind === 'chrome') {
+				css = css + ', ';
+				css = css + (step.color || step) + ' ' + this.getGradientPercent(kind, step, total, count+1);
+				css = css + ', ';
+				css = css + colorAfter + ' ' + this.getGradientPercent(kind, step, total, count+2);
+			}
+			count = count + 1;
+		}
+		css = css + ')';
+		return css;
+	}
+
+	cssToStyleSliderProgress({name}) {
+		var trackHeight = this.config.slider.trackHeight || '6px';
+		var colorBefore = this.config.slider.colorBefore || '#1c77b4';
+		var colorAfter = this.config.slider.colorAfter || '#CDD6DD';
+		/* PROGRESS */
+		var selectors = ['-moz-range-progress', '-ms-fill-lower'];
+		var css = '';
+		for (var selector of selectors) {
+			css = `${css}
+			.image-slider${name}::${selector} {
+				cursor: pointer;
+				background-color: ${colorBefore};
+				background: ${this.addGradient(colorBefore, colorAfter, 'others')};
+				height: ${trackHeight};
+			} 
+			\n`;
+		}
+		// Chrome odd css
+		css = `${css}
+		.image-slider${name}::-webkit-slider-runnable-track {
+			cursor: pointer;
+			height: ${trackHeight};
+			background: ${this.addGradient(colorBefore, colorAfter, 'chrome')};
+		}`;
+		return css;
+	}
+
+	changeClass(newCss, value, event) {
+		if (this.lastImg) {
+			this.slider.classList.toggle(this.lastImg);
+		}
+		this.slider.classList.toggle(newCss);
+		this.lastImg = newCss;
+	}
+
+	onSliderChange() {
+		var value = parseFloat(this.slider.value) || 0;
+		var max = parseFloat(this.slider.max);
+		var min = parseFloat(this.slider.min);
+		var step = parseFloat(this.slider.step || 1);
+		var adjust = 0;
+
+		// Convert negative values to positive
+		if (min < 0) {
+			min = -min;
+			if (max < 0) {
+				max = -max;
+			} else {
+				// If max is positive, we must compensate for positive min
+				max = max + min;
+			}
+			adjust = min;
+		} else if (min > 0) {
+			// If the min is greater than zero we need adjust the value and final size
+			adjust = -min;
+			max = max + min;
+		}
+
+		var size = max - min;
+		var unit = (size+adjust)/this.images.length;
+		value = value + adjust;
+
+		// Why you think value must be greater than zero?
+		// if (value === 0) {
+		// 	value = 1;
+		// }
+
+		var newCss = 'slider-img-' + Math.ceil(value/unit);
+		if (newCss !== this.lastImg) {
+			this.changeClass(newCss, value);
+		}
+
+		if (this.showInputValue !== undefined) {
+			this.changeShowInputValue();
+		}
+	}
+}
+ImgSlider.maySetImgTwemojiPath = function (path) {
+	// If not a path, but just some twemoji image name
+	if (!path.includes('/') && !path.includes('.')) {
+		return 'images/twemoji/' + path + '.svg';
+	} else {
+		return path;
+	}
+};
+ImgSlider.imagesToPreload = [];
+
+class Templates {
+	getQuizTemplate(item, builder) {
+		return `${item.header ? `<div data-tid="${builder._unique.nextTID('page_title', true)}" class="page-title">` + item.header + '</div>' : ''}
+			${item.subHeader ? `<div data-tid="${builder._unique.nextTID('page_subtitle', true)}" class="page-subtitle">` + item.subHeader + '</div>' : ''}
+			<div class="page-body">__PAGE_CONTENT__</div>`;
+	}
+}
+
+class _FormBuilderBase {
+	constructor(options) {
+		this.options = options;
+		this.htmlSelector = options.title.toLowerCase().replace(/ /g, '_');
+		this._unique = new _Unique(this.htmlSelector);
+
+		this.UID = this._unique.setUID(this.htmlSelector, this);
+		this.formElement = document.getElementsByClassName(this.UID)[0];
+		this.formElement.translateIt = this._translate.bind(this);
+		this.formElement.showTranslationForm = this.showTranslationForm.bind(this);
+
+		this.templates = new Templates();
+		this._getTemplate = {
+			quiz: this.templates.getQuizTemplate,
+		}
+
+		this.formActiveSizes = [200, 300, 400, 500, 600, 700, 800, 1200, 1600, 2000];
+
+		this.buildForm();
+	}
+
+	async _translate(json) {
+		await this.mayAddTranslator();
+		this.translator._translate(json);
+	}
+
+	async showTranslationForm() {
+		await this.mayAddTranslator();
+		setTimeout(()=> {
+			this.translator.showTranslationForm();
+		}, 500);
+	}
+	mayAddTranslator() {
+		if (this.waitingTranslator === undefined) {
+			this.waitingTranslator = new Promise(async (resolve, reject)=> {
+				if (this.translator === undefined) {
+					var loadTranslator = ()=> {
+						this.translatorInterval = setInterval(()=> {
+							if (window.builderTranslatorLoaded) {
+								this.translator = new BuilderTranslator(this);
+								clearInterval(this.translatorInterval);
+								resolve();
+							}
+						}, 5);
+					};
+					window._onLoadFiles.load([
+						{path: 'static/calculator/builder-translator.js'},
+					], loadTranslator);
+				} else {
+					resolve();
+				}
+			});
+		}
+		return this.waitingTranslator;
+	}
+
+	async buildForm() {
+		this._buildingForm = true;
+		this.imgSliders = [];
+		this.allInputsOptions = [];
+		this.pendingImgSliders = [];
+		this.hiddenFields = [];
+		this._unique.resetTID();
+
+		var pagesTemplates = {};
+		if (this.options.kind && this.options.pages && this.options.pages.length) {
+			var index = 0;
+			for (var page of this.options.pages) {
+				if (!page.template) {
+					pagesTemplates[index] = this._getTemplate[page.kind || this.options.kind](page, this);
+				}
+				index = index + 1;
+			}
+		} else if (this.options.kind) {
+			pagesTemplates[0] = this._getTemplate[this.options.kind](this.options, this);
+		}
+		this.options.pagesTemplates = pagesTemplates;
+
+		if (this.options.inputs) {
+			this.addFields(this.options.inputs, this.options.template);
+		} else if (this.options.pages) {
+			var step = 1;
+			for (var page of this.options.pages) {
+				this.addFields(page.inputs, page.template || null, step, this.options.pages.length);
+				step = step + 1;
+			}
+			this.addPagesLabelsAndButtons(this.options.pages);
+			this._currentStep = this._currentStep || 1;
+			this.setSteps();
+		}
+
+		this._unique.associateNodeWithClass(this.UID);
+
+		this.formElement.classList.add('form-builder');
+
+		if (this.options.inputs) {
+			this.setInputsAndEvents(this.options.inputs);
+		} else if (this.options.pages) {
+			for (var page of this.options.pages) {
+				this.setInputsAndEvents(page.inputs);
+			}
+		}
+
+		this.addButtonEvents();
+
+		if (this.options.css) {
+			this.appendCss(this.options.css.replace(/&nbsp;/g, ' '));
+		}
+
+		// Instantiate any pending image slider
+		this.instantiatePendingImgSliders();
+
+		this._onChartLoad = new Promise(async (resolve, reject)=> {
+			if (this.options.loadChart && this.options.loadChart !== true && !this.chartLoaded) {
+				var isInteger = Number.isInteger(this.options.loadChart);
+				var time = 5;
+				if (isInteger && this.options.loadChart) {
+					time = this.options.loadChart - 1;
+					if (time < 1) {
+						time = 1;
+					}
+				}
+				setTimeout(()=> {
+					this.loadChartFiles();
+					setTimeout(()=> {
+						resolve();
+					}, 1000);
+				}, time * 1000);
+			}
+		});
+		this._removeLoadOnFirstInteractionListeners();
+		this._bindLoadOnFirstInteractionAndOnChangeWithInputs();
+		if (!this.formElement.getElementsByClassName('spinner-container')[0]) {		
+			this.formElement.insertAdjacentHTML('beforeend', `<div class="spinner-container">
+				<div class="loader"></div>
+				<span data-tid="${this._unique.nextTID('spinner_label')}" class="spinner-label">Waiting...</span>
+			</div>`);
+		}
+		if (this.options.collapse && !this.formElement.getElementsByClassName('uncollapse-bt')[0]) {
+			var formFields = this.formElement.getElementsByClassName('form_fields')[0];
+			formFields.insertAdjacentHTML('afterend', `<button class="uncollapse-bt">
+				<span class="uncollapse-bt-icon">&darr;</span> <span data-tid="${this._unique.nextTID('bt_show')}" class="uncollapse-bt-label">Show</span>
+			</button>`);
+			this.uncollapseButton = this.formElement.getElementsByClassName('uncollapse-bt')[0];
+			this.uncollapseButton.addEventListener('click', this.uncollapseForm.bind(this));
+		}
+		this.spinner = this.formElement.getElementsByClassName('spinner-container')[0];
+		// Insert tip area
+		if (this.options.noTips === true) {
+			this.tipDoesntChangeAnymore = true;
+		} else {
+			var TIP_UID = this.UID + '_tip_container';
+			if (!this.formElement.parentNode.getElementsByClassName(TIP_UID)[0]) {
+				this.tipElement = document.createElement('div');
+				this.tipElement.style.display = 'none';
+				this.tipElement.classList.add('tip-container');
+				this.tipElement.classList.add(this._unique.selector + '_tip_container');
+				this.tipElement.classList.add(TIP_UID);
+				this.formElement.parentNode.insertBefore(this.tipElement, this.formElement.nextSibling);
+			}
+		}
+		if (this.alreadyCalculateOnce) {
+			this._setToCalculateOnChange();
+		}
+		if (this.options.translation || this.options.translateMode) {
+			await this.mayAddTranslator();
+			this.translator.setAnyCustomTextNodeToTranslate();
+			this.translator.mayTranslate();
+		}
+		if (this.options.translateMode) {
+			this.showTranslationForm();
+		}
+		var event = new CustomEvent('ready');
+		this.formElement.dispatchEvent(event);
+	}
+
+	preloadSliderImgs() {
+		var preload = `body::after {
+			position: absolute; width: 0; height: 0; overflow: hidden; z-index: -1;
+			content: `;
+		for (var imgPath of ImgSlider.imagesToPreload) {
+			preload = preload + `url(${imgPath})  &nbsp; `;
+		}
+		preload = preload + `;
+		}`;
+		this.appendCss(preload.replace(/&nbsp;/g, ' '), 'sliders_preload_imgs');
+	}
+
+	instantiatePendingImgSliders() {
+		for (var slider of this.pendingImgSliders) {
+			var imgSlider = new ImgSlider(slider, this.formElement);
+			imgSlider._input = slider;
+			this.imgSliders.push(imgSlider);
+		}
+
+		this.preloadSliderImgs();
+		this.pendingImgSliders = [];
+	}
+
+	onChartLoad(fn) {
+		this._onChartLoad.then(fn);
+	}
+
+	next(event) {
+		event.preventDefault();
+		this._currentStep = this._currentStep + 1;
+		this.setSteps();
+	}
+
+	back(event) {
+		event.preventDefault();
+		this._currentStep = this._currentStep - 1;
+		this.setSteps();
+	}
+
+	setSteps() {
+		var steps = this.formElement.getElementsByClassName('step-container');
+		var time = this._buildingForm ? 0 : 300;
+		for (const step of steps) {
+			if (step.classList.contains('step-' + this._currentStep)) {
+				setTimeout(()=> {
+					step.style.transition = 'opacity .5s';
+					step.style.opacity = 1;
+					step.style.overflow = null;
+					step.style.height = null;
+					step.style.margin = null;
+					step.style.padding = null;
+					step.style['padding-top'] = 0;
+					step.style['padding-bottom'] = 0;
+					step.style.border = null;
+					this._buildingForm = false;
+				}, time);
+			} else {
+				step.style.transition = 'opacity .3s';
+				step.style.opacity = 0;
+				setTimeout(()=> {
+					step.style.overflow = 'hidden';
+					step.style.height = 0;
+					step.style.margin = 0;
+					step.style.padding = 0;
+					step.style.border = 0;
+				}, time);
+			}
+		}
+
+		var stepsBtns = this.formElement.getElementsByClassName('step-button');
+		var btNum = 1;
+		for (var btn of stepsBtns) {
+			if (btNum > 1 && btNum <= this._currentStep) {
+				btn.classList.add('step-button-done');
+			} else if (btNum > 1) {
+				btn.classList.remove('step-button-done');
+			}
+			if (btNum === this._currentStep) {
+				btn.classList.add('active');
+			} else {
+				btn.classList.remove('active');
+			}
+			btNum = btNum + 1;
+		}
+
+		if (this.options.pages && !this.options.tabs) {
+			var stepsLabels = this.formElement.getElementsByClassName('step-label');
+			var count = 1;
+			for (var stepLabel of stepsLabels) {
+				stepLabel.style.display = this._currentStep === count ? 'block' : 'none';
+				count = count + 1;
+			}
+		}
+	}
+
+	gotoStep(step, page) {
+		this._currentStep = step;
+		this.setSteps();
+	}
+
+	mayEnumerateLabel(pages, count) {
+		var label = pages[pages.length - (1 + count)].label;
+		if (this.options.enumPages) {
+			label = `${pages.length - count}. ${label}`;
+		}
+		return label;
+	}
+
+	addPagesLabelsAndButtons(pages) {
+		var formFieldsNode = this.formElement.getElementsByClassName('form_fields')[0];
+		var step = pages.length;
+		var count = 0;
+		for (var page of pages) {
+			var button = this.options.tabs ? document.createElement('li') : document.createElement('span');
+			button.classList.add('step-button');
+			button.classList.add('step-bt-' + step);
+			if (step === 1) {
+				button.classList.add('step-button-done');
+			}
+			if (this.options.tabs) {
+				var tid = `${(pages[pages.length - (1 + count)].label || '').substring(0, 20).replace(/[^a-z0-9]/gi,'')}`.toLowerCase();
+				tid = this._unique.nextTID(tid, true);
+				button.classList.add('tab');
+				var tabContent = document.createElement('a');
+				var label = this.mayEnumerateLabel(pages, count);
+				tabContent.innerText = label;
+				tabContent.dataset.tid = tid;
+				button.appendChild(tabContent);
+			}
+			button.addEventListener('click', this.gotoStep.bind(this, step, page));
+			// formFieldsNode.appendChild(button);
+			formFieldsNode.insertBefore(button, formFieldsNode.firstChild);
+			step = step - 1;
+			count = count + 1;
+		}
+
+		if (!this.options.tabs) {
+			step = pages.length;
+			count = 0;
+			for (var page of pages) {
+				var label = this.mayEnumerateLabel(pages, count);
+				if (label) {
+					var tid = `${(label || '').substring(0, 20).replace(/[^a-z0-9]/gi,'')}`.toLowerCase();
+					tid = this._unique.nextTID(tid, true);
+					formFieldsNode.insertAdjacentHTML('afterbegin', `<div class="step-label step-label-${step}" data-tid="${tid}" style="display:${step === 1 ? 'block' : 'none'};">${this.options.tabs ? '' : label || ''}</div>`);
+				}
+				step = step - 1;
+				count = count + 1;
+			}
+		}
+	}
+
+	addButtonEvents() {
+		this.button = this.options.btCalculate === false ? null : this.getCalculateButton();
+		if (this.options.pages) {
+			var nextBtns = this.formElement.getElementsByClassName('bt-next');
+			var backBtns = this.formElement.getElementsByClassName('bt-back');
+			for (var bt of nextBtns) {
+				bt.addEventListener('click', this.next.bind(this));
+			}
+			for (var bt of backBtns) {
+				bt.addEventListener('click', this.back.bind(this));
+			}
+			this._currentStep = this._currentStep || 1;
+		}
+
+		var removeButtons = this.formElement.getElementsByClassName('fields-group-remove-bt');
+		for (var removeBt of removeButtons) {
+			removeBt.addEventListener('click', this.removeGroup.bind(this));
+		}
+		var addButtons = this.formElement.getElementsByClassName('fields-group-add-bt');
+		for (var addBt of addButtons) {
+			addBt.addEventListener('click', this.addGroup.bind(this));
+		}
+	}
+
+	setMinMaxValidation(node, input) {
+		var inputTypesToValidate = ['number', 'currency'];
+		if (inputTypesToValidate.includes(input.fieldType)) {
+			node.addEventListener('change', this.limitNodeMinValue.bind(this, input, node));
+			node.addEventListener('input', this.limitNodeMaxValue.bind(this, input, node));
+		} else if (input.fieldType === 'time') {
+			node.addEventListener('change', this.limiTimeMinMaxValues.bind(this, input, node));
+		}
+	}
+
+	limiTimeMinMaxValues(input, node) {
+		if (input.min && node.min) {
+			var value = parseInt(node.value.replace(':', ''));
+			var min = parseInt(node.min.replace(':', ''));
+			if (value < min) {
+				window.alert(`The minimum value is ${input.min}`);
+			}
+		}
+
+		if (input.max && node.max) {
+			var value = parseInt(node.value.replace(':', ''));
+			var max = parseInt(node.max.replace(':', ''));
+			if (value > max) {
+				window.alert(`The maximum value is ${input.max}`);
+			}
+		}
+	}
+
+	setInputsAndEvents(inputs) {
+		// Set inputs and events
+		this.inputValues = {};
+		this.getInputValues();
+
+		for (var input of inputs) {
+			if (input.group) {
+				this.setInputsAndEvents(input.group.buildedInputs);
+			} else if (!input.buttonsOnly) {
+				this.setInputAndEvents(input);
+				if (input.label && input.label.append) {
+					this.setInputAndEvents(input.label.append);
+				}
+			}
+		}
+	}
+
+	setInputAndEvents(input) {
+		if (!input.hide) {
+			// Set special 'double date' field with slider
+			if (input.fieldType === 'yearsAndMonthsWithSlider') {
+				var years = this.getNode(input.years);
+				this[`${input.years.name}Node`] = years;
+				var months = this.getNode(input.months);
+				this[`${input.months.name}Node`] = months;
+				if (input.slider) {
+					this.associateYearsAndMonthsSliderWithMethod(
+						this.getYearsMonthsSliderNode(input.slider),
+						input.slider.name,
+						input.years.name,
+						input.months.name,
+						input,
+					);
+				}
+			} else {
+				var inputNode = this.getNode(input);
+				this.setMinMaxValidation(inputNode, input);
+				// Set all other inputs
+				this[`${input.name}Node`] = inputNode;
+			}
+
+			// Set special fields with slider (but filter yearsAndMonthsWithSlider)
+			if (input.fieldType !== 'yearsAndMonthsWithSlider') {
+				if (input.slider) {
+					this.associateSliderWithMethods(
+						this.getSliderNode(input),
+						input.name,
+						input.slider.dataType,
+						input
+					);
+				} else if (input.fieldType === 'currency') {
+					this.associateCurrencyWithMethods(input);
+				}
+			}
+		} else {
+			this.hiddenFields.push(input);
+		}
+	}
+
+	copyInputObj(input) {
+		var newInput = {};
+		if (input.slider) {
+			var newSliderInput = {};
+			Object.assign(newSliderInput, input.slider);
+			newInput.slider = newSliderInput;
+		}
+
+		for (var key of Object.keys(input || {})) {
+			if (key !== 'slider') {
+				if (key === 'list' || key === 'radios' || key === 'options') {
+					newInput[key] = [];
+					for (var item of input[key]) {
+						var newItem = {};
+						Object.assign(newItem, item);
+						newInput[key].push(newItem);
+					}
+				} else {
+					newInput[key] = input[key];
+				}
+			}
+		}
+
+		return newInput;
+	}
+
+	createInput(_input, currentInput, _mainGroupCounter, _groupCounter, inputCounter, _enum, amount, group) {
+		var newInput = this.copyInputObj(currentInput);
+		newInput.name = newInput.name + _groupCounter;
+		newInput.isGroupItem = true;
+		// Mark first and last item of full group
+		if (inputCounter * _groupCounter === 1) {
+			newInput.fullGroupFirstItem = true;
+		}
+		if ((inputCounter * _groupCounter) === (_input.group.inputs.length * amount)) {
+			newInput.fullGroupLastItem = true;
+		}
+		newInput.singleGroupNum = _groupCounter;
+		newInput.mainGroupNum = _mainGroupCounter;
+		newInput.groupMin = _input.group.min || 0;
+		// Mark first and last item of single group
+		if (inputCounter === 1) {
+			newInput.singleGroupFirstItem = true;
+		}
+		if (inputCounter === _input.group.inputs.length) {
+			newInput.singleGroupLastItem = true;
+		}
+		if (newInput.slider) {
+			newInput.slider.name = newInput.slider.name.replace(currentInput.name, newInput.name);
+		}
+		if (newInput.label) {
+			if (group.keepOrder && group.removedEnumerators) {
+				for (var item of group.removedEnumerators) {
+					if (item <= _enum) {
+						_enum = _enum + 1;
+					}
+				}
+			}
+			newInput.label = newInput.label.replace('{enum}', _input.group.enumerate ? _input.group.enumerate[_enum] : _enum);
+		}
+		return newInput;
+	}
+
+	newFromExistingInput(inputs, inputName, currentInput) {
+		for (var input of inputs) {
+			if (input.orderedName === inputName) {
+				input.fullGroupLastItem = false;
+				var newInput = this.copyInputObj(input);
+				newInput.label = currentInput.label;
+				newInput.name = currentInput.name;
+				return newInput;
+			}
+		}
+	}
+
+	createGroupTemplate(input, groupNode, groupName) {
+		if (input.singleGroupFirstItem) {
+			this._currentGroupTemplate = document.createElement('div');
+			this._currentGroupTemplate.insertAdjacentHTML('beforeend', this.groupTemplates[groupName].innerHTML);
+		}
+		var inputContainer = this._currentGroupTemplate.getElementsByClassName(input._baseName)[0];
+		inputContainer.classList.add(input.name);
+		if (input.singleGroupLastItem) {
+			groupNode.parentNode.insertAdjacentHTML('beforeend', this._currentGroupTemplate.innerHTML);
+		}
+		if (input.fullGroupLastItem) {
+			groupNode.remove();
+		}
+	}
+
+	addFields(inputs, template, step, stepsTotal) {
+		// Create template if have one
+		if (template) {
+			this.htmlTmpl = document.createElement('div');
+			this.htmlTmpl.textContent = '';
+			this.htmlTmpl.insertAdjacentHTML('beforeend', template);
+			for (var child of this.htmlTmpl.children) {
+				child.classList.add('form-template');
+			}
+			if (!this.groupTemplates) {
+				this.groupTemplates = {};
+			}
+		}
+
+		var inputsLength = 0;
+		var _mainGroupCounter = 0;
+		for (var _input of inputs) {
+			if (_input.group) {
+				_mainGroupCounter = _mainGroupCounter + 1;
+				var amount = (_input.group.amount !== undefined) ? _input.group.amount : 1;
+				// Save this group original template
+				var groupTemplateNode = '';
+				if (template) {
+					groupTemplateNode = this.htmlTmpl.getElementsByClassName(_input.group.name)[0];
+					var groupTemplate = groupTemplateNode.outerHTML;
+					this.groupTemplates[_input.group.name] = document.createElement('div');
+					this.groupTemplates[_input.group.name].insertAdjacentHTML('beforeend', groupTemplate);
+					groupTemplateNode.innerText = '';
+				}
+				var _inputs = [];
+				var _groupCounter = 1;
+				var _enum = _input.group.enumerate ? 0 : 1;
+				while (_groupCounter <= amount) {
+					var inputCounter = 1;
+					for (var currentInput of _input.group.inputs) {
+						var inputName = currentInput.name + _groupCounter;
+						var existingInput = _input.group.buildedInputs ? this.newFromExistingInput(_input.group.buildedInputs, inputName, currentInput) : null;
+						if (_input.group.enumerate && _enum > _input.group.enumerate.length - 1) {
+							_enum = 0;
+						}
+						var newInput = existingInput ? this.createInput(_input, existingInput, _mainGroupCounter, _groupCounter, inputCounter, _enum, amount, _input.group) : this.createInput(_input, currentInput, _mainGroupCounter, _groupCounter, inputCounter, _enum, amount, _input.group);
+						newInput._baseName = currentInput.name;
+						// Whe add and remove the inputs order can change and the input renamed
+						newInput.orderedName = inputName;
+						_inputs.push(newInput);
+
+						if (template) {
+							this.createGroupTemplate(newInput, groupTemplateNode, _input.group.name);
+						}
+
+						inputCounter = inputCounter + 1;
+					}
+					_enum = _enum + 1;
+					_groupCounter = _groupCounter + 1;
+				}
+				this.saveGroupId(_input.group);
+				_input.group.buildedInputs = _inputs;
+				inputsLength = inputsLength + _input.group.buildedInputs.length;
+				if (template && amount === 0) {
+					this.addGroupFieldButtons({fullGroupLastItem: true}, _input.group, groupTemplateNode, step);
+				} else if (amount === 0) {
+					_input.group.buildedInputs.push({buttonsOnly: true, fullGroupLastItem: true, length: inputs.length, mainGroupCounter: _mainGroupCounter});
+				}
+			} else {
+				inputsLength = inputsLength + 1;
+			}
+		}
+		// Create HTML fields
+		var count = 1;
+		for (var _input of inputs) {
+			if (_input.group) {
+				for (var g_input of _input.group.buildedInputs) {
+					if (g_input.buttonsOnly) {
+						this.addGroupFieldButtons(g_input, _input.group, this.formElement.getElementsByClassName('form_fields')[0], step);
+					} else {
+						this.addHtmlField(g_input, template, step, stepsTotal, count, inputsLength, _input.group);
+						count = count + 1;
+					}
+				}
+			} else {
+				this.addHtmlField(_input, template, step, stepsTotal, count, inputsLength);
+				count = count + 1;
+			}
+		}
+		// Add template to DOM
+		if (template) {
+			if (stepsTotal) {
+				var _template = this.htmlTmpl.innerHTML;
+				if (step) {
+					var node = this.addStepContainer(_template, step);
+					var buttons = this.addStepButtons(step, stepsTotal, true);
+					node.insertAdjacentHTML('beforeend', buttons);
+					_template = node.outerHTML;
+				}
+				var formFieldsNode = this.formElement.getElementsByClassName('form_fields')[0];
+				template = formFieldsNode.innerHTML + _template;
+				formFieldsNode.textContent = '';
+				formFieldsNode.insertAdjacentHTML('beforeend', template);
+			} else {
+				var formFieldsNode = this.formElement.getElementsByClassName('form_fields')[0];
+				formFieldsNode.textContent = '';
+				formFieldsNode.insertAdjacentHTML('beforeend', this.htmlTmpl.innerHTML);
+			}
+		}
+	}
+
+	saveGroupId(group) {
+		if (this._groupCounter) {
+			this._groupCounter = this._groupCounter + 1;
+		} else {
+			this._groupCounter = 1;
+			this._savedGroups = {};
+		}
+		group._id = this._groupCounter;
+	}
+
+	appendCss(css, id) {
+		var head = document.getElementsByTagName('head')[0];
+		let style = document.createElement('style');
+		style.appendChild(document.createTextNode(css));
+		style.type = 'text/css';
+		style.id = id || `_css${this.UID}`;
+		head.appendChild(style);
+	}
+
+	_addFieldToTemplate(input, template) {
+		this.limitInputValue(input);
+		if (input.slider && input.slider.defaultImg) {
+			input.slider.defaultImg = ImgSlider.maySetImgTwemojiPath(input.slider.defaultImg);
+		} else if (input.defaultImg) {
+			input.defaultImg = ImgSlider.maySetImgTwemojiPath(input.defaultImg);
+		}
+		if (input.fieldType === 'currency') {
+			if (!input.dataType) {
+				input.dataType = (input.slider && input.slider.dataType) ? input.slider.dataType : 'float-2';
+			}
+			template = this.addCurrencyHtmlField(input, template);
+		} else if (input.fieldType === 'yearsAndMonthsWithSlider') {
+			template = this.addYearsAndMonthsWithSliderHtmlFields(input);
+		} else if (input.fieldType === 'select') {
+			template = this.getSelectTemplate(input);
+		} else if (input.fieldType === 'radio') {
+			template = this.getRadioTemplate(input);
+		} else if (input.fieldType === 'checkbox') {
+			template = this.getCheckboxTemplate(input);
+		} else if (input.fieldType === 'radio-anime' ||
+				input.fieldType === 'radio-anime-bt' ||
+				input.fieldType === 'check-anime' ||
+				input.fieldType === 'check-anime-bt') {
+			template = this.getRadioAnimeOrCheckboxAnimeTemplate(input);
+		} else if (input.fieldType === 'slider') {
+			template = this.getSliderTemplate(input);
+		} else {
+			if (input.fieldType === 'number' && !input.dataType) {
+				input.dataType = (input.slider && input.slider.dataType) ? input.slider.dataType : 'int';
+			}
+			template = this.getOtherInputsTemplate(input, template);
+		}
+		return template;
+	}
+
+	limitInputValue(input) {
+		if (input.value && typeof input.value === 'number' && (input.min || input.max)) {
+			if (input.min && input.value < input.min) {
+				input.value = input.min;
+			}
+			if (input.max && input.value > input.max) {
+				input.value = input.max;
+			}
+		}
+	}
+
+	mayAddPageToPageTemplate(index, template) {
+		if (this.options.kind && this.options.pagesTemplates) {
+			var _template = this.options.pagesTemplates[index].replace('__PAGE_CONTENT__', template);
+			return _template;
+		} else {
+			return template;
+		}
+	}
+
+	maySelectTemplateBody(node) {
+		var body = node.getElementsByClassName('page-body')[0];
+		if (body) {
+			return body;
+		} else {
+			return node;
+		}
+	}
+
+	removeInputFromOptions(name, options) {
+		if (options.pages) {
+			for (var page of options.pages) {
+				this.removeInputFromOptions(name, page)
+			}
+		} else {		
+			for (var item of options.inputs) {
+				if (item.group) {
+					if (!item.group.removedEnumerators) {
+						item.group.removedEnumerators = [];
+					}
+					var index = 0;
+					var enumIndex = 0;
+					var enumLength = item.group.enumerate !== undefined ? item.group.enumerate.length : 0;
+					for (var input of item.group.buildedInputs) {
+						while(item.group.removedEnumerators.includes(enumIndex)) {
+							enumIndex = enumIndex + 1;
+						}
+						if (input.name === name) {
+							item.group.buildedInputs.splice(index, 1);
+							if (item.group.keepOrder) {
+								if (!item.group.removedEnumerators.includes(enumIndex)) {
+									item.group.removedEnumerators.push(enumIndex);
+									item.group.removedEnumerators.sort((a, b)=> a - b);
+								}
+							}
+						}
+						index = index + 1;
+						if (enumIndex === enumLength - 1) {
+							enumIndex = 0;
+						} else {
+							enumIndex = enumIndex + 1;
+						}
+					}
+				};
+			}
+		}
+	}
+
+	reorderName(group) {
+		var counter = 1;
+		var last = group.buildedInputs[0] ? group.buildedInputs[0].singleGroupNum : null;
+		for (var input of group.buildedInputs) {
+			if (last !== input.singleGroupNum) {
+				counter = counter + 1;
+				last = input.singleGroupNum;
+			}
+			input.orderedName = input._baseName + counter;
+		}
+	}
+
+	// If using template the groupContainer is different from normal fields
+	getTemplatedGroupContainer(node) {
+		if (node.dataset.gname) {
+			var groupName = node.dataset.gname;
+			var currentNode = node;
+			while (currentNode.parentNode) {
+				if (currentNode.parentNode.classList.contains(groupName)) {
+					return currentNode.parentNode;
+				} else if (currentNode.parentNode.classList.contains('form_fields')) {
+					return null;
+				} else {
+					currentNode = currentNode.parentNode;
+				}
+			}
+		}
+	}
+
+	saveValuesAndRemoveFromOptions(options, btRemove) {
+		if (options.pages) {
+			for (var page of options.pages) {
+				this.saveValuesAndRemoveFromOptions(page, btRemove)
+			}
+		} else {		
+			for (var input of options.inputs) {
+				if (input.group && input.group._id === parseInt(btRemove.dataset.gid)) {
+					input.group.amount = input.group.amount - 1;
+					if (input.group.amount < 0) {
+						input.group.amount = 0;
+					}
+					if (input.group.min && input.group.amount < input.group.min) {
+						input.group.amount = input.group.min;
+					}
+					this.reorderName(input.group);
+				}
+				this.saveValues(input);
+				if (input.label && input.label.append) {
+					this.saveValues(input.label.append);
+				}
+			}
+		}
+	}
+
+	async removeGroup(event) {
+		event.preventDefault();
+		var currentScroll = document.documentElement.scrollTop || document.body.scrollTop
+		var btRemove = event.target;
+		var groupContainer = this.getTemplatedGroupContainer(btRemove) || event.target.previousSibling;
+		var fieldsContainers = groupContainer.getElementsByClassName('builder-container');
+		this.getInputValues();
+		for (var container of fieldsContainers) {
+			var inputName = container.dataset.prefix;
+			delete this.inputValues[inputName];
+			this.removeInputFromOptions(inputName, this.options);
+		}
+		this.saveValuesAndRemoveFromOptions(this.options, btRemove);
+		var formFields = this.formElement.getElementsByClassName('form_fields')[0];
+		formFields.innerText = '';
+		await this.buildForm();
+		document.documentElement.scrollTop = document.body.scrollTop = currentScroll;
+	}
+
+	setInputsAndSaveValues(options, groupId) {
+		this.getInputValues();
+		if (options.pages) {
+			for (var page of options.pages) {
+				this.setInputsAndSaveValues(page, groupId)
+			}
+		} else {		
+			for (var input of options.inputs) {
+				if (input.group) {
+					if (input.group._id === groupId) {
+						if (input.group.keepOrder && input.group.removedEnumerators.length) {
+							input.group.removedEnumerators.shift();
+						}
+						input.group.amount = input.group.amount + 1;
+						if (input.group.max && input.group.amount > input.group.max) {
+							input.group.amount = input.group.max;
+						}
+					}
+				}
+				this.saveValues(input);
+				if (input.label && input.label.append) {
+					this.saveValues(input.label.append);
+				}
+			}
+		}
+	}
+
+	async addGroup(event) {
+		event.preventDefault();
+		var currentScroll = document.documentElement.scrollTop || document.body.scrollTop
+		var groupId = parseInt(event.target.dataset.gid);
+		this.setInputsAndSaveValues(this.options, groupId);
+		var formFields = this.formElement.getElementsByClassName('form_fields')[0];
+		formFields.innerText = '';
+		await this.buildForm();
+		document.documentElement.scrollTop = document.body.scrollTop = currentScroll;
+	}
+
+	saveValues(input) {
+		if (input.group) {
+			for (var gInput of input.group.buildedInputs) {
+				this._saveValue(gInput);
+			}
+		} else {
+			this._saveValue(input);
+		}
+	}
+
+	_saveValue(input) {
+		if (input.buttonsOnly) {
+			return;
+		}
+		var value = this.inputValues[input.name];
+		if (input.fieldType === 'select') {
+			this.saveSelectValue(input);
+		} else if ((input.fieldType.includes('check') || input.fieldType.includes('radio')) && input.fieldType.includes('anime')) {
+			if (Array.isArray(value)) {
+				if (value.includes(input.value)) {
+					input.checked = true;
+				} else {
+					input.checked = false;
+				}
+			} else {
+				if (value === input.value) {
+					input.checked = true;
+				} else {
+					input.checked = false;
+				}
+			}
+		} else if (input.fieldType === 'checkbox') {
+			for (var item of input.list) {
+				if (value.includes(item.value)) {
+					item.checked = true;
+				} else {
+					item.checked = false;
+				}
+			}
+		} else if (input.fieldType === 'radio') {
+			for (var item of input.radios) {
+				if (item.value === value) {
+					item.checked = true;
+				} else {
+					item.checked = false;
+				}
+			}
+		} else if (input.fieldType === 'yearsAndMonthsWithSlider') {
+			input.years.value = this.inputValues[input.years.name];
+			input.months.value = this.inputValues[input.months.name];
+		} else {
+			input.value = value;
+		}
+		if (input.slider && input.slider.value) {
+			value = this.inputValues[input.slider.name];
+			input.slider.value = value;
+		}
+	}
+
+	saveSelectValue(input) {
+		for (var item of input.options) {
+			if (item.value === this.inputValues[input.name]) {
+				item.selected = true;
+			} else {
+				item.selected = false;
+			}
+		}
+	}
+
+	addGroupContainer(input, formFieldsNode, template) {
+		if (input.singleGroupFirstItem) {
+			formFieldsNode.insertAdjacentHTML('beforeend', `<div class="fields-group main-group-${input.mainGroupNum} fields-group-${input.singleGroupNum}"></div>`);
+		}
+		var mainGroups = formFieldsNode.getElementsByClassName(`main-group-${input.mainGroupNum}`);
+		var fieldsGroupNode = '';
+		for (var _node of mainGroups) {
+			if (_node.classList.contains(`fields-group-${input.singleGroupNum}`)) {
+				fieldsGroupNode = _node;
+			}
+		}
+		fieldsGroupNode.insertAdjacentHTML('beforeend', template);
+	}
+
+	addHtmlField(input, mainTemplate, step, stepsTotal, inputNum, totalInputs, group=null) {
+		let template = '';
+		template = this._addFieldToTemplate(input, template);
+		var index = step ? step - 1 : 0;
+		var page = (this.options.pages && step) ? this.options.pages[index] : null;
+
+		this.allInputsOptions.push(input);
+		// Page container for multipage forms are added in addFields
+		if (mainTemplate) {
+			this.templating(template, input, group);
+		} else {
+			if (!input.hide) {
+				if (step && inputNum === 1) {
+					var originalStepContent = this.formElement.getElementsByClassName('step-' + step)[0] ? this.formElement.getElementsByClassName('step-' + step)[0].innerHTML : null;
+					var formFieldsNode = this.formElement.getElementsByClassName('step-' + step)[0] ? this.formElement.getElementsByClassName('step-' + step)[0] : this.formElement.getElementsByClassName('form_fields')[0];
+					template = !formFieldsNode.getElementsByClassName('step-' + step)[0] ? this.mayAddPageToPageTemplate(index, template) : template;
+					var node = this.addStepContainer(template, step);
+					if (group) {
+						formFieldsNode.appendChild(node);
+						formFieldsNode = this.formElement.getElementsByClassName('form_fields')[0].getElementsByClassName('step-' + step)[0];
+						formFieldsNode.innerText = '';
+						if (group && originalStepContent && originalStepContent.includes('fields-group-add-bt') && !originalStepContent.includes('builder-container')) {
+							var temp = document.createElement('div');
+							temp.insertAdjacentHTML('beforeend', originalStepContent);
+							var addButtons = temp.getElementsByClassName('fields-group-add-bt');
+							for (var bt of addButtons) {
+								formFieldsNode.insertAdjacentHTML('beforeend', bt.outerHTML);
+							}
+						}
+						this.addGroupContainer(input, formFieldsNode, template);
+						this.addGroupFieldButtons(input, group, formFieldsNode, step);
+					} else {
+						formFieldsNode.appendChild(node);
+						formFieldsNode = this.formElement.getElementsByClassName('form_fields')[0].getElementsByClassName('step-' + step)[0];
+					}
+					if (inputNum === totalInputs) {
+						var buttons = this.addStepButtons(step, stepsTotal, true);
+						formFieldsNode.insertAdjacentHTML('beforeend', buttons);
+					}
+				} else if (step && inputNum > 1 && inputNum < totalInputs) {
+					var formFieldsNode = this.formElement.getElementsByClassName('form_fields')[0].getElementsByClassName('step-' + step)[0];
+					formFieldsNode = this.maySelectTemplateBody(formFieldsNode);
+					if (group) {
+						this.addGroupContainer(input, formFieldsNode, template);
+						this.addGroupFieldButtons(input, group, formFieldsNode, step);
+					} else {
+						formFieldsNode.insertAdjacentHTML('beforeend', template);
+					}
+				} else if (step && inputNum === totalInputs) {
+					var formFieldsNode = this.formElement.getElementsByClassName('form_fields')[0].getElementsByClassName('step-' + step)[0];
+					formFieldsNode = this.maySelectTemplateBody(formFieldsNode);
+					if (group) {
+						this.addGroupContainer(input, formFieldsNode, template);
+						this.addGroupFieldButtons(input, group, formFieldsNode, step);
+					} else {
+						formFieldsNode.insertAdjacentHTML('beforeend', template);
+					}
+					var buttons = this.addStepButtons(step, stepsTotal);
+					formFieldsNode.insertAdjacentHTML('beforeend', buttons);
+				} else {
+					// If no pages/steps
+					var formFieldsNode = this.formElement.getElementsByClassName('form_fields')[0];
+					if (group) {
+						this.addGroupContainer(input, formFieldsNode, template);
+						this.addGroupFieldButtons(input, group, formFieldsNode, step);
+					} else {
+						formFieldsNode.insertAdjacentHTML('beforeend', template);
+					}
+					if (inputNum === totalInputs) {
+						var _template = this.mayAddPageToPageTemplate(index, formFieldsNode.innerHTML);
+						formFieldsNode.innerText = '';
+						formFieldsNode.insertAdjacentHTML('beforeend', _template);
+					}
+					var button = this.getCalculateButton();
+					if (!button && this.options.btCalculate !== false) {
+						var node = document.createElement('div');
+						node.insertAdjacentHTML('beforeend', `<button data-tid="${this._unique.nextTID('bt_calculate')}" class="bt-calculate">Calculate</button>`);
+						formFieldsNode.parentNode.insertBefore(node, formFieldsNode.nextSibling);
+					}
+				}
+			}
+		}
+
+		// add any image slider to be instantiated
+		if (!input.hide && (input.slider && input.slider.defaultImg) || input.defaultImg) {
+			var imgList = (input.slider && input.slider.imgsList) ? input.slider.imgsList : input.imgsList || null;
+			this.pendingImgSliders.push({slider: input.slider ? input.slider : input, imgList: imgList});
+		}
+	}
+
+	getCalculateButton() {
+		var button = this.formElement.getElementsByClassName('bt-calculate')[0];
+		if (!button) {
+			for (var _button of this.formElement.getElementsByTagName('button')) {
+				if (!_button.classList.contains('fields-group-add-bt') && !_button.classList.contains('fields-group-remove-bt')) {
+					button = _button;
+				}
+			}
+		}
+		if (button && !button.dataset.tid) {
+			button.dataset.tid = this._unique.nextTID('bt_calculate');
+			button.dataset.o = `${this.UID}_bt_calculate`;
+		}
+		return button;
+	}
+
+	addGroupFieldButtons(input, group, formFieldsNode, step) {
+		if (input.singleGroupLastItem && input.singleGroupNum > input.groupMin) {
+			var removeBt = document.createElement('button');
+			removeBt.innerText = 'Remove';
+			removeBt.classList.add('fields-group-remove-bt');
+			removeBt.classList.add('fields-group-remove-bt-' + input.singleGroupNum);
+			removeBt.dataset.gid = group._id;
+			if (group.name) {
+				removeBt.dataset.gname = group.name;
+			}
+			if (step) {
+				var container = formFieldsNode.classList.contains('step-container') ? formFieldsNode : formFieldsNode.getElementsByClassName('step-' + step)[0];
+				if (formFieldsNode.classList.contains('page-body')) {
+					container = formFieldsNode;
+				}
+				if (container.getElementsByClassName('multipage')[0]) {
+					container = container.getElementsByClassName('multipage')[0];
+					container.parentNode.insertBefore(removeBt, container);
+				} else {
+					container.appendChild(removeBt);
+				}
+			} else {
+				formFieldsNode.appendChild(removeBt);
+			}
+		}
+		if (input.fullGroupLastItem) {
+			var addBt = document.createElement('button');
+			if (group.name) {
+				addBt.dataset.gname = group.name;
+			}
+			if (group.max && group.amount === group.max) {
+				addBt.disabled = true;
+			}
+			addBt.innerText = group.addBtLabel || 'Add field';
+			addBt.classList.add('fields-group-add-bt');
+			if (input.buttonsOnly || input.singleGroupNum === input.groupMin) {
+				addBt.classList.add('no-fields');
+			}
+			addBt.dataset.gid = group._id;
+			formFieldsNode.appendChild(addBt);
+			input.hasAddBt = true;
+			if (step) {
+				if (group && input.buttonsOnly && !formFieldsNode.getElementsByClassName('step-' + step)[0]) {
+					var index = step - 1;
+					var template = this.mayAddPageToPageTemplate(index, '');
+					var node = this.addStepContainer(template, step);
+					var buttons = this.addStepButtons(step, this.options.pages.length, true);
+					node.insertAdjacentHTML('beforeend', buttons);
+					formFieldsNode.appendChild(node);
+				}
+				var container = formFieldsNode.classList.contains('step-container') ? formFieldsNode : formFieldsNode.getElementsByClassName('step-' + step)[0];
+				if (formFieldsNode.classList.contains('page-body')) {
+					container = formFieldsNode;
+				}
+				if (container.getElementsByClassName('multipage')[0]) {
+					container = container.getElementsByClassName('multipage')[0];
+					container.parentNode.insertBefore(addBt, container);
+				} else {
+					container.appendChild(addBt);
+				}
+			// If is using template move add button out of group container
+			} else if (group && !formFieldsNode.classList.contains('form_fields')) {
+				formFieldsNode = this.getTemplatedGroupContainer(addBt);
+				var container = document.createElement('div');
+				container.classList.add('span-columns');
+				container.appendChild(addBt);
+				formFieldsNode.parentNode.appendChild(container);
+			}
+		}
+	}
+
+	getRadioAnimeOrCheckboxAnimeTemplate(input) {
+		var classList = this.getClassList(input.classList);
+		var label = input.label ? `<span ${input.label ? 'data-tid="' + this._unique.nextTID(input.name, true) + '"' : ''} class="label">${input.label}</span>` : null;
+		var img = input.img ? `<img class="${input.btSize ? 'bt-image' : 'image'}" src="${input.img}" ${input.height ? 'height="' + input.height + '"' : ''} ${input.width ? 'width="' + input.width + '"' : ''} />` : null;
+		var _img = `${input.img ? img : ''}`;
+		var _input =  `<input type="${input.fieldType.includes('radio') ? 'radio' : 'checkbox'}" name="${input.name}" value="${input.value || ''}" ${input.checked ? 'checked="checked"' : ''}>
+		<span class="${input.fieldType.includes('radio') ? 'radio_anime' : 'check_anime'}"></span>`;
+		var imgAndField = input.flip ? _input + _img : _img + _input;
+		var template = `<div class="builder-container fields-container ${input.name}${classList ? ' ' + classList : ''}" data-prefix="${input.name}">
+			<div class="quiz-option-container" ${input.btSize ? 'style="width:' + input.btSize + ';"' : ''}>
+				<label class="quiz-option ${input.fieldType.includes('radio') ? 'radio_anime_container' : 'check_anime_container'} ${input.fieldType.includes('-bt') ? 'bt-label' : ''}">
+					${imgAndField}
+					${input.label ? label : ''}
+				</label>
+			</div>
+		</div>`;
+		if (input.breakAfter) {
+			template = template + '<div class="break"></div>';
+		}
+		return template;
+	}
+
+	addStepContainer(template, step) {
+		var formFieldsNode = this.formElement.getElementsByClassName('form_fields')[0];
+		var node = document.createElement('div');
+		if (this.options.tabs) {
+			formFieldsNode.classList.add('tabcontainer');
+			node.classList.add('panelcontainer');
+		}
+		node.classList.add('step-container');
+		node.classList.add('step-' + step);
+		if (step > 1) {
+			node.style.transition = 'opacity .5s';
+			node.style.opacity = 0;
+			node.style.overflow = 'hidden';
+			node.style.height = 0;
+			node.style.border = 0;
+		}
+		node.insertAdjacentHTML('beforeend', template);
+		return node;
+	}
+
+	addStepButtons(step, stepsTotal, multipage) {
+		var buttons = '';
+		if (step > 1) {
+			buttons = buttons + `<div class="grid-2-cols grid-gap-10 multipage"><button data-tid="${this._unique.nextTID('bt_back', true)}" class="bt-back column-1">Back</button>`;
+		}
+		if (step !== stepsTotal) {
+			buttons = buttons + (step === 1 ? `<div class="multipage">` : ' ') + `<button data-tid="${this._unique.nextTID('bt_next', true)}" class="bt-next ${step !== 1 ? 'column-2' : ''}">Next</button></div>`;
+		} else {
+			buttons = buttons + `<button data-tid="${this._unique.nextTID('bt_calculate')}" class="bt-calculate column-2">${this.options.btResultLabel ? this.options.btResultLabel : 'Calculate'}</button></div>`;
+		}
+		return buttons;
+	}
+
+	templating(field, input, group) {
+		var node = document.createElement('div');
+		node.insertAdjacentHTML('beforeend', field);
+		for (var child of node.children) {
+			if (input.fieldType !== 'yearsAndMonthsWithSlider') {
+				child.removeAttribute('style');
+				var styles = child.querySelectorAll('[style]');
+				for (var n of styles) {
+					if (n.classList.contains('fields-container')) {
+						n.removeAttribute('style');
+					}
+				}
+			}
+			var name = (input.fieldType === 'yearsAndMonthsWithSlider') ? 'yearsAndMonthsWithSlider' : child.dataset.prefix;
+			var selector = name ? this.htmlTmpl.getElementsByClassName(name) : null;
+			if (selector.length) {
+				var container = selector[0];
+				var fields = container.querySelectorAll('[data-field]');
+				if (fields.length) {
+					container.dataset.prefix = child.dataset.prefix || name;
+					for (var _css of child.classList) {
+						container.classList.add(_css);
+					}
+					// Only add fields on inner containers
+					var index = 0;
+					for (var item of child.children) {
+						if (!item.classList.contains('label') && fields[index]) {
+							fields[index].appendChild(item.cloneNode(true));
+							index = index + 1;
+						} else {
+							// The label
+							container.insertBefore(item.cloneNode(true), container.firstChild);
+						}
+					}
+				} else {
+					// Add full container
+					container.appendChild(child.cloneNode(true));
+				}
+				if (group) {
+					this.addGroupFieldButtons(input, group, container);
+				}
+				// Hide any templating of this hidden field
+				if (input.hide) {
+					container.style.display = 'none';
+				}
+			} else if (input.fieldType === 'yearsAndMonthsWithSlider') {
+				var container = this.htmlTmpl.getElementsByClassName(input.name)[0];
+				// Add full container
+				container.appendChild(child.cloneNode(true));
+				if (group) {
+					this.addGroupFieldButtons(input, group, container);
+				}
+			}
+		}
+	}
+
+	addCurrencyHtmlField(input, template) {
+		var slider = null;
+		var value = (input.value !== undefined) ? input.value : (input.fieldType === 'number') ? 0 : '';
+		if (input.slider) {
+			slider = {
+				classList: input.slider.classList || input.classList || null,
+				max: (input.slider.max !== undefined) ? input.slider.max : (input.max !== undefined) ? input.max : 50000,
+				min: (input.slider.min !== undefined) ? input.slider.min : (input.min !== undefined) ? input.min : 0,
+				step: input.slider.step || 100,
+				value: this.formatCurrency(input.slider.value || (value && !isNaN(value) ? value : 0), input.dataType),
+				name: input.slider.name,
+				defaultImg: input.slider.defaultImg || false,
+				imgsList: input.slider.imgsList || false,
+				width: input.slider.width || false,
+				height: input.slider.height || false,
+			};
+		}
+		var field = {
+			classList: input.classList || null,
+			append: input.label.append || null,
+			label: input.label.append ? input.label.append.label : input.label,
+			sublabel: input.sublabel || false,
+			name: input.name,
+			type: input.type || 'text',
+			size: (input.size || 10) * 8,
+			maxlength: input.maxlength || '255',
+			min: (input.min !== undefined) ? input.min : null,
+			max: (input.max !== undefined) ? input.max : null,
+			value: this.formatCurrency((slider && slider.value) ? slider.value : value || 0, input.dataType),
+			required: input.required || false,
+			helper: input.helper,
+			slider: slider,
+			placeholder: input.placeholder || '',
+		};
+		var template = this.getBasicTemplate(field);
+		return template;
+	}
+
+	addYearsAndMonthsWithSliderHtmlFields(input) {
+		if (!input.align) {
+			input.align = 'justify';
+		}
+		var classList = this.getClassList(input.classList);
+		var valuesFromYearsMonths = (input.years.value ? input.years.value * 12 : 0);
+		if (input.months.value) {
+			valuesFromYearsMonths = valuesFromYearsMonths + input.months.value;
+		}
+		var _value = (input.slider && input.slider.value) ? input.slider.value : valuesFromYearsMonths;
+		var values = this.getYearsMonthsValue(_value);
+		var helper = `<div ${input.helper ? 'data-tid="' + this._unique.nextTID('helper_y_and_m', true) + '"' : ''}>${input.helper || ''}</div>`;
+		var sublabel = `<small ${input.sublabel ? 'data-tid="' + this._unique.nextTID('sublabel_y_and_m', true) + '"' : ''}>${input.sublabel || ''}</small>`;
+		var template = `<div class="grid-3-cols grid-gap-2 grid-container ${classList ? ' ' + classList : ''} ${input.name ? input.name : ''}">
+			<div class="span-columns">
+				${input.label}${input.sublabel ? sublabel : ''}
+			</div>
+			<div class="grid-3-cols grid-gap-2 span-columns yearsmonths-container align-${input.align}">
+				<div class="builder-container fields-container column-1 yearsgrow ${input.years.name}${classList ? ' ' + classList : ''} align-${input.align}" data-prefix="${input.years.name}">
+					<label data-tid="${this._unique.nextTID('years_label_' + input.years.name)}" class="label ${classList ? ' ' + classList : ''}">Years</label>
+					<input class="input ${classList ? ' ' + classList : ''}" style="${input.years.size ? 'width:' + input.years.size + 'ch;' : 'width:3ch;'}" type="${input.years.type || 'number'}" name="${input.years.name}" max="${input.years.max || '99'}" min="${input.years.min || '0'}" value="${values.years}" required>
+				</div>
+				<div class="and clomn-2">
+					<div data-tid="${this._unique.nextTID('and_' + input.years.name)}" class="align-${input.align}">and</div>
+				</div>
+				<div class="builder-container fields-container clomn-3 monthsgrow ${input.months.name}${classList ? ' ' + classList : ''} align-${input.align}" data-prefix="${input.months.name}">
+					<label data-tid="${this._unique.nextTID('months_label_' + input.months.name)}" class="label ${classList ? ' ' + classList : ''}">Months</label>
+					<input class="input ${classList ? ' ' + classList : ''}" style="${input.months.size ? 'width:' + input.months.size + 'ch;' : 'width:3ch;'}" type="${input.months.type || 'number'}" name="${input.months.name}" max="${input.months.max || '999'}" min="${input.months.min || '0'}" value="${values.months || '0'}" required>
+				</div>
+			</div>
+			<div class="builder-container span-columns yearsmonths-fields-container ${input.slider.name}">
+				<input class="range ${classList ? ' ' + classList : ''}${input.slider.defaultImg ? ' image-slider' : ''}" ${input.slider.defaultImg ? (' data-img="' + input.slider.defaultImg + '"') : ''} type="range"${input.label ? ' aria-label="' + input.label + '"' : ''} name="${input.slider.name}" min="${input.slider.min ||'1'}" max="${input.slider.max ||'192'}" step="${input.slider.step ||'1'}" value="${values.slider || 1}"${input.slider.width ? ' data-thumb-width="' + input.slider.width + '"' : ''}${input.slider.height ? ' data-thumb-height="' + input.slider.height + '"' : ''} />
+			</div>${input.helper ? helper : ''}
+		</div>`;
+
+		return template;
+	}
+
+	getBasicInput(input, slider=null) {
+		var value = (input.value !== undefined) ? input.value : (input.fieldType === 'number') ? 0 : '';
+		var size = input.size || 25;
+		if (input.after) {
+			var afterSize = this.getAfterSize(input.after);
+			size = (size * 8) - afterSize;
+		} else {
+			size = size * 8;
+		}
+		var _input = {
+			showValues: input.showValues || null,
+			classList: input.classList || null,
+			append: input.label.append || null,
+			label: input.label.append ? input.label.append.label : input.label,
+			sublabel: input.sublabel || false,
+			name: input.name,
+			type: input.fieldType || 'text',
+			max: input.max || false,
+			min: (input.min !== undefined) ? input.min : false,
+			step: input.step || false,
+			size: size,
+			maxlength: input.maxlength || false,
+			value: value,
+			required: input.required || false,
+			helper: input.helper || false,
+			defaultImg: input.defaultImg || false,
+			imgsList: input.imgsList || false,
+			width: input.width || false,
+			height: input.height || false,
+			slider: slider,
+			after: input.after || false,
+			placeholder: input.placeholder || '',
+		};
+
+		if (_input.showValues && _input.showValues.length) {
+			_input.min = 0
+			_input.max = _input.showValues.length - 1;
+		}
+
+		return _input;
+	}
+
+	getSliderTemplate(_input) {
+		var input = this.getBasicInput(_input);
+		input.slider = Object.assign({}, input);
+		var slider = this.getSliderBasicInput(input);
+		input.slider = slider;
+		var classList = this.getClassList(input.classList);
+		var value = input.value || 0;
+		if (isNaN(value)) {
+			value = this.getDecimalValue(value);
+		}
+		var options = '';
+		var showValues = `<span class="show-input-value">${input.value}</span>`;
+		if (input.showValues && input.showValues.length) {
+			var index = 0;
+			for (var option of input.showValues) {
+				options = options + '\n' + `<option value="${index}" ${value === index ? 'selected="selected"' : ''} data-tid="${this._unique.nextTID('opt_' + input.name, true)}">${option}</option>`;
+				index = index + 1;
+			}
+			showValues = `<div class="builder-container select-container select-slider" data-prefix="${input.name}_select">
+				<select class="select" name="${input.name}_select">
+					${options}
+				</select>
+			</div>`;
+		}
+		var label = input.append ? this._addFieldToTemplate(input.append, '') : `<label ${input.label ? 'data-tid="' + this._unique.nextTID('label_' + input.name) + '"' : ''} class="label ${classList ? ' ' + classList : ''}">${input.label}</label>`;
+		var sublabel = `<small ${input.sublabel ? 'data-tid="' + this._unique.nextTID('sublabel_' + input.name) + '"' : ''}>${input.sublabel || ''}</small>`;
+		var helper = `<div ${input.helper ? 'data-tid="' + this._unique.nextTID('helper_' + input.name) + '"' : ''}>${input.helper || ''}</div>`;
+		var template = `<div class="builder-container fields-container ${input.name}${classList ? ' ' + classList : ''}" data-prefix="${input.name}">
+			${label}${input.sublabel ? sublabel : ''}${input.showValues ? showValues : ''}
+			<div class="input-container">
+				<input class="range ${classList ? ' ' + classList : ''}${input.defaultImg ? ' image-slider' : ''}" ${input.label ? ' aria-label="' + input.label + '"' : ''} name="${input.name}" ${input.defaultImg ? (' data-img="' + input.defaultImg + '"') : ''} type="range" min="${input.min || 0}" max="${input.max}" step="${input.step}" value="${value || 0}"${input.width ? ' data-thumb-width="' + input.width + '"' : ''}${input.height ? ' data-thumb-height="' + input.height + '"' : ''} />
+			</div>
+		</div>`;
+
+		return template;
+	}
+
+	getSliderBasicInput(input) {
+		var slider = {name: false};
+		if (input.slider) {
+			slider = {
+				classList: input.slider.classList || input.classList || null,
+				max: input.slider.max || input.max || 100,
+				min: input.slider.min || (input.min !== undefined) ? input.min : 0,
+				step: input.slider.step || 1,
+				value: input.slider.value || 0,
+				name: input.slider.name || false,
+				defaultImg: input.slider.defaultImg || false,
+				imgsList: input.slider.imgsList || false,
+				width: input.slider.width || false,
+				height: input.slider.height || false,
+			};
+		}
+		return slider;
+	}
+
+	getOtherInputsTemplate(input, template) {
+		var slider = this.getSliderBasicInput(input);
+		var _input = this.getBasicInput(input, slider);
+		var template = this.getBasicTemplate(_input);
+		return template;
+	}
+
+	getAfterSize(after) {
+		var tmpElement = document.createElement('span');
+		tmpElement.style.display = 'inline-block';
+		tmpElement.style.opacity = 0;
+		tmpElement.appendChild(document.createTextNode(after));
+		this.formElement.insertBefore(tmpElement, this.formElemen);
+		var size = tmpElement.offsetWidth;
+		tmpElement.remove();
+		return size;
+	}
+
+	getAfterStyle(kind, size) {
+		if (kind === 'span') {
+			return `margin-left: -${size}px;`;
+		} else {
+			return `padding-right: ${size}px;`;
+		}
+	}
+
+	getBasicTemplate(input) {
+		var classList = this.getClassList(input.classList);
+		var sliderClassList = this.getClassList(input.slider ? input.slider.classList : null);
+		var _sliderClassList = sliderClassList || classList || null;
+		var value = (input.slider && input.slider.value) ? input.slider.value : input.value;
+		var sliderValue = 0;
+		if (isNaN(value)) {
+			sliderValue = this.getDecimalValue(value);
+		} else {
+			sliderValue = value;
+		}
+		var label = input.append ? this._addFieldToTemplate(input.append, '') : `<label ${input.label ? 'data-tid="' + this._unique.nextTID('label_' + input.name) + '"' : ''} class="label ${classList ? ' ' + classList : ''}">${input.label}</label>`;
+		var sublabel = `<small ${input.sublabel ? 'data-tid="' + this._unique.nextTID('sublabel_' + input.name) + '"' : ''}>${input.sublabel || ''}</small>`;
+		var afterSize = input.after ? this.getAfterSize(input.after) : 0;
+		var rangeTemplate = input.slider ? `<input class="range ${_sliderClassList ? ' ' + _sliderClassList : ''}${input.slider.defaultImg ? ' image-slider' : ''}" ${input.label ? ' aria-label="' + input.label + '"' : ''} name="${input.slider.name}" ${input.slider.defaultImg ? (' data-img="' + input.slider.defaultImg + '"') : ''} type="range" min="${input.slider.min || 0}" max="${input.slider.max}" step="${input.slider.step}" value="${sliderValue || 0}"${input.slider.width ? ' data-thumb-width="' + input.slider.width + '"' : ''}${input.slider.height ? ' data-thumb-height="' + input.slider.height + '"' : ''} />` : null;
+		var helper = `<div ${input.helper ? 'data-tid="' + this._unique.nextTID('helper_' + input.name) + '"' : ''}>${input.helper || ''}</div>`;
+		var template = `<div class="builder-container fields-container ${input.name}${classList ? ' ' + classList : ''}" data-prefix="${input.name}">
+			${label}${input.sublabel ? sublabel : ''}
+			<${input.type === 'range' ? 'div' : 'span'} class="input-container"><input class="input ${classList ? ' ' + classList : ''}${input.defaultImg ? ' image-slider' : ''}" type="${input.type}" name="${input.name}" style="${input.after ? this.getAfterStyle('input', afterSize) : ''} ${input.size ? 'width:' + input.size + 'px;' : '10;'}" ${input.maxlength ? 'maxlength="' + input.maxlength + '"' : ''} ${input.max ? 'max="' + input.max + '"' : ''} ${(input.min !== undefined) ? 'min="' + input.min + '"' : ''} ${input.defaultImg ? (' data-img="' + input.defaultImg + '"') : ''} value="${value}" placeholder="${input.placeholder}" ${input.step ? 'step="' + input.step + '"' : ''} ${input.required ? 'required' : ''}${(input.defaultImg && input.width) ? ' data-thumb-width="' + input.width + '"' : ''}${(input.defaultImg && input.height) ? ' data-thumb-height="' + input.height + '"' : ''}>${input.after ? ('<span class="after" style="' + this.getAfterStyle('span', afterSize) + '">' + input.after + '</span>') : ''}</${input.type === 'range' ? 'div' : 'span'}>
+			${(input.slider && input.slider.name) ? rangeTemplate : ''}${input.helper ? helper : ''}
+		</div>`;
+
+		return template;
+	}
+
+	getSelectTemplate(input) {
+		var classList = this.getClassList(input.classList);
+		var options = '';
+		for (var option of input.options) {
+			options = options + '\n' + `<option value="${option.value}" ${option.selected ? 'selected="selected"' : ''} data-tid="${this._unique.nextTID('opt_' + input.name, true)}">${option.label}</option>`;
+		}
+		var sublabel = `<small ${input.sublabel ? 'data-tid="' + this._unique.nextTID('sublabel_' + input.name) + '"' : ''}>${input.sublabel || ''}</small>`;
+		var helper = `<div ${input.helper ? 'data-tid="' + this._unique.nextTID('helper_' + input.name) + '"' : ''}>${input.helper || ''}</div>`;
+		var template = `<div class="builder-container select-container ${input.name}${classList ? ' ' + classList : ''}" data-prefix="${input.name}">
+				<label ${input.label ? 'data-tid="' + this._unique.nextTID('label_' + input.name) + '"' : ''} class="label ${classList ? ' ' + classList : ''}">${input.label}</label>${input.sublabel ? sublabel : ''}
+				<select class="select ${classList ? ' ' + classList : ''}" name="${input.name}">
+					${options}
+				</select>${input.helper ? helper : ''}
+			</div>`;
+		return template;
+	}
+
+	getRadioTemplate(input) {
+		var classList = this.getClassList(input.classList);
+		var radios = '';
+		for (var radio of input.radios) {
+			var itemClassList = this.getClassList(radio.classList);
+			var _itemClassList = itemClassList || classList || null;
+			var r_sublabel = `<small ${radio.sublabel ? 'data-tid="' + this._unique.nextTID('radio_sublabel' + input.name, true) + '"' : ''}>${radio.sublabel || ''}</small>`;
+			radios = radios + '\n' + `<span class="radio-input-container"><input class="input ${_itemClassList ? ' ' + _itemClassList : ''}" type="radio" name="${input.name}" value="${radio.value}" ${radio.checked ? 'checked="checked"' : ''}>
+				<label ${radio.label ? 'data-tid="' + this._unique.nextTID('radio_label' + input.name, true) + '"' : ''} class="label ${_itemClassList ? ' ' + _itemClassList : ''}">${radio.label}</label>${radio.sublabel ? r_sublabel : ''}</span>`;
+		}
+		var helper = `<div ${input.helper ? 'data-tid="' + this._unique.nextTID('radio_helper' + input.name) + '"' : ''}>${input.helper || ''}</div>`;
+		var sublabel = `<small ${input.sublabel ? 'data-tid="' + this._unique.nextTID('radio_mainsublabel' + input.name) + '"' : ''}>${input.sublabel || ''}</small>`;
+		var template = `<div class="builder-container fields-container ${input.name}" data-prefix="${input.name}">
+				<span ${input.label ? 'data-tid="' + this._unique.nextTID('radio_mainlabel' + input.name) + '"' : ''} class="label ${classList ? ' ' + classList : ''}">${input.label}</span>${input.sublabel ? sublabel : ''}
+					${radios}
+				${input.helper ? helper : ''}
+			</div>`;
+		return template;
+	}
+
+	getCheckboxTemplate(input) {
+		var classList = this.getClassList(input.classList);
+		var list = '';
+		for (var item of input.list) {
+			var itemClassList = this.getClassList(item.classList);
+			var _itemClassList = itemClassList || classList || null;
+			var r_sublabel = `<small ${item.label ? 'data-tid="' + this._unique.nextTID('checkbox_sublabel' + input.name, true) + '"' : ''}>${item.sublabel || ''}</small>`;
+			list = list + '\n' + `<span class="checkbox-input-container"><input class="input ${_itemClassList ? ' ' + _itemClassList : ''}" type="checkbox" name="${input.name}" value="${item.value}" ${item.checked ? 'checked="checked"' : ''}>
+				<label ${item.sublabel ? 'data-tid="' + this._unique.nextTID('checkbox_label' + input.name, true) + '"' : ''} class="label ${_itemClassList ? ' ' + _itemClassList : ''}">${item.label}</label>${item.sublabel ? r_sublabel : ''}</span>`;
+		}
+		var helper = `<div ${input.helper ? 'data-tid="' + this._unique.nextTID('checkbox_helper' + input.name) + '"' : ''}>${input.helper || ''}</div>`;
+		var sublabel = `<small ${input.sublabel ? 'data-tid="' + this._unique.nextTID('checkbox_mainsublabel' + input.name) + '"' : ''}>${input.sublabel || ''}</small>`;
+		var template = `<div class="builder-container fields-container ${input.name}${classList ? ' ' + classList : ''}" data-prefix="${input.name}">
+				<span ${input.label ? 'data-tid="' + this._unique.nextTID('checkbox_mainlabel' + input.name) + '"' : ''} class="label ${classList ? ' ' + classList : ''}">${input.label}</span>${input.sublabel ? sublabel : ''}
+					 ${list}
+					${input.helper ? helper : ''}
+			</div>`;
+		return template;
+	}
+
+	getClassList(classList) {
+		if (classList) {
+			var asString = '';
+			var counter = 0;
+			for (var className of classList) {
+				asString = asString + className;
+				if (classList[counter + 1]) {
+					asString = asString + ' ';
+				}
+				counter = counter + 1;
+			}
+			return asString;
+		} else {
+			return null;
+		}
+	}
+
+	getNode(input) {
+		if (input.fieldType === 'select') {
+			return this.formElement.getElementsByClassName(input.name)[0].getElementsByTagName('select')[0];
+		} else {
+			return this.formElement.getElementsByClassName(input.name)[0].getElementsByTagName('input')[0];
+		}
+	}
+
+	getSliderNode(input) {
+		return this.formElement.getElementsByClassName(input.name)[0].getElementsByTagName('input')[1];
+	}
+
+	getYearsMonthsSliderNode(slider) {
+		return this.formElement.getElementsByClassName(slider.name)[0].getElementsByTagName('input')[0];
+	}
+
+	// Associate the sliders with methods to control inputs
+	associateSliderWithMethods(node, name, dataType, bindField) {
+		node.addEventListener('input', this.onSliderChange.bind(this, name, dataType, bindField));
+		this[`${bindField.slider.name}SliderNode`] = node;
+
+		// Sync input with slider
+		var inputNode = this.getNode(bindField);
+		inputNode.onchange = this.onChangeSyncRange.bind(this, bindField, inputNode, node);
+		inputNode.onkeyup = this.onChangeSyncRange.bind(this, bindField, inputNode, node);
+	}
+
+	associateCurrencyWithMethods(input) {
+		var node = this.getNode(input);
+		node.onchange = this.onCurrencyChangeNoSlider.bind(this, input);
+		node.oninput = this.onCurrencyInputNoSlider.bind(this, input);
+	}
+
+	onCurrencyChangeNoSlider(input) {
+		this.onCurrencyFieldChange(input.name, input);
+	}
+
+	onCurrencyInputNoSlider(input) {
+		this.maskCurrencyField(input.name);
+	}
+
+	associateYearsAndMonthsSliderWithMethod(node, sliderName, yearsName, monthsName, input) {
+		node.addEventListener('input', this.onYearsMonthsSlideChange.bind(this, sliderName, yearsName, monthsName));
+		this[`${sliderName}SliderNode`] = node;
+		this[`${yearsName}Node`].onchange = this.onChangeYearsAndMonthsSyncRange.bind(this, sliderName, yearsName, monthsName, input);
+		this[`${monthsName}Node`].onchange = this.onChangeYearsAndMonthsSyncRange.bind(this, sliderName, yearsName, monthsName, input);
+	}
+
+	maskCurrencyField(name, event=null) {
+		var neutralKeys = [8, 16, 17, 18, 20, 35, 36, 37, 38, 39, 40, 45, 46, 144, 225];
+		if (event && neutralKeys.includes(event.keyCode)) {
+			return;
+		} else if (event.keyCode === 108) {
+			var  _val = this[`${name}Node`].value;
+			_val = _val.slice(0, -1) + '.';
+			this[`${name}Node`].value = _val;
+		}
+		var lengthBefore = this[`${name}Node`].value.length;
+		var value = this[`${name}Node`].value.split('.');
+		var selectionStart = event !== null ? event.target.selectionStart : null;
+		var selectionEnd = event !== null ? event.target.selectionEnd : null;
+		this[`${name}Node`].value = '$' + this.formatNumber(value[0] || '0');
+		if (value[1] !== undefined) {
+			this[`${name}Node`].value = this[`${name}Node`].value + '.' + value[1] || '00';
+		}
+		var lengthAfter = this[`${name}Node`].value.length;
+		if (selectionStart) {
+			if (lengthAfter > lengthBefore) {
+				selectionStart = selectionStart + 1;
+				selectionEnd = selectionEnd + 1;
+			} else if (lengthAfter < lengthBefore) {
+				selectionStart = selectionStart - 1;
+				selectionEnd = selectionEnd - 1;
+			}
+			this[`${name}Node`].selectionStart = selectionStart;
+			this[`${name}Node`].selectionEnd = selectionEnd;
+		}
+	}
+
+	formatNumber(value) {
+		// format number 1000000 to 1,234,567
+		return value.replace(/\D/g, '').replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+	}
+
+	onChangeSyncRange(input, node, sliderNode, event) {
+		var value = node.value;
+		if (input.fieldType === 'currency') {
+			value = value.replace(/[\$,]/g, '');
+		}
+		value = this.parse(value, input.dataType);
+		sliderNode.value = value;
+
+		if (input.fieldType === 'currency' && event.type === 'keyup') {
+			this.maskCurrencyField(input.name, event);
+		} else if (input.fieldType === 'currency' && event.type === 'change') {
+			this.onCurrencyFieldChange(input.name, input);
+		}
+
+		// Update slider image
+		if (input.slider && input.slider.defaultImg) {
+			this.changeSliderImage(input.slider.name, input.slider.imgsList);
+		}
+	}
+
+	limitNodeMinValue(input, node) {
+		if (input.min) {
+			var value = this.getInputCurrentValue(input, node);
+			if (input.min && value < input.min) {
+				node.value = input.min;
+				var min = (input.fieldType === 'currency') ? this.formatCurrency(input.min, input.dataType) : input.min;
+				window.alert(`The minimum value is ${min}`);
+			}
+		}
+	}
+
+	limitNodeMaxValue(input, node) {
+		if (input.max) {
+			var value = this.getInputCurrentValue(input, node);
+			if (input.max && value > input.max) {
+				node.value = input.max;
+				var max = (input.fieldType === 'currency') ? this.formatCurrency(input.max, input.dataType) : input.max;
+				window.alert(`The maximum value is ${max}`);
+			}
+		}
+	}
+
+	getInputCurrentValue(input, node) {
+		var value = node.value;
+		var dataType =  input.dataType;
+		if (dataType.includes('float')) {
+			dataType = 'float';
+		}
+		if (input.fieldType === 'currency') {
+			this.setTextOrNumInputValues(input.name, dataType, input);
+			value = this.inputValues[input.name];
+		}
+		value = this.parse(value, dataType);
+		return value;
+	}
+
+	onChangeYearsAndMonthsSyncRange(sliderName, yearsName, monthsName, input) {
+		var yearsValue = parseInt(this[`${yearsName}Node`].value);
+		var monthsValue = parseInt(this[`${monthsName}Node`].value);
+		this[`${sliderName}SliderNode`].value = (yearsValue * 12) + monthsValue;
+
+		if (input.slider && input.slider.imgsList) {
+			// Update css on chrome
+			this.changeSliderImage(input.slider.name, input.slider.imgsList);
+		}
+	}
+
+	changeSliderImage(inputName, imgsList) {
+		for (var imgSlider of this.imgSliders) {
+			// Update slider image
+			imgSlider.setCSSProperty();
+			if (imgsList && imgSlider.slider.name === inputName) {
+				imgSlider.onSliderChange();
+				// Update css on chrome
+				imgSlider.setCSSProperty();
+			}
+		}
+	}
+
+	// Format currency fields on blur
+	onCurrencyFieldChange(name, input) {
+		this.getInputValues();
+		var inputValue = this.inputValues[name];
+		var isString = (typeof inputValue === 'string' || inputValue instanceof String) ? true : false;
+
+		var value = isString ? this.getDecimalValue(this.inputValues[name]) : this.inputValues[name];
+		this[`${name}Node`].value = this.formatCurrency(parseFloat(value) || 0, input.dataType);
+	}
+
+	getTextOrNumInput(name) {
+		return this.formElement.getElementsByClassName(name)[0].getElementsByTagName('input')[0];
+	}
+
+	getSelectedOption(name) {
+		var options =  this.formElement.getElementsByClassName(name)[0].getElementsByTagName('select')[0].getElementsByTagName('option');
+		for (var opt of options) {
+			if (opt.selected === true) {
+				return opt;
+			}
+		}
+	}
+
+	getDecimalValue(value) {
+		value = String(value).split('.');
+		value[0] = parseInt(value[0].replace(/\D+/g, '') || 0);
+		if (value[1] !== undefined) {
+			value[1] = '0.' + (value[1] || 0);
+			value[1] = parseFloat(value[1]);
+		} else {
+			value.push(0);
+		}
+		return value[0] + value[1];
+	}
+
+	setTextOrNumInputValues(name, parse, input) {
+		if (!name) {
+			return;
+		}
+		var value = this.getTextOrNumInput(name).value;
+		if (input.fieldType === 'currency') {
+			value = this.getDecimalValue(value);
+			if (!parse) {
+				parse = 'float-2';
+			}
+		}
+		if (parse) {
+			value = this.parse(value, parse);
+		}
+		this.inputValues[name] = value;
+	}
+
+	setRadioButtonCheckedValues(name, dataType) {
+		var fieldsContainers = this.formElement.getElementsByClassName(name);
+		for (var container of fieldsContainers) {
+			var element = container.querySelector('input:checked');
+			if (element) {
+				var value = this.parse(element.value, dataType);
+				this.inputValues[name] = value;
+			}
+		}
+	}
+
+	setCheckboxCheckedValues(name, dataType) {
+		var fieldsContainers = this.formElement.getElementsByClassName(name);
+		var values = [];
+		for (var container of fieldsContainers) {
+			var elements = container.querySelectorAll('input[type="checkbox"]:checked');
+			for (var element of elements) {
+				if (element) {
+					var value = this.parse(element.value, dataType);
+					values.push(value);
+				}
+			}
+		}
+		this.inputValues[name] = values;
+	}
+
+	setSelectInputValues(name, parse, isMasked) {
+		var value = this.getSelectedOption(name).value;
+		// Remove mask from value
+		if (isMasked) {
+			value = value.replace(/[\$,]/g, '');
+		}
+		if (parse) {
+			value = this.parse(value, parse);
+		}
+		this.inputValues[name] = value;
+	}
+
+	parse(value, parse=false) {
+		if (parse === 'float') {
+			return parseFloat(value);
+		} else if (parse === 'float-1') {
+			return parseFloat(value).toFixed(1);
+		} else if (parse === 'float-2') {
+			return parseFloat(value).toFixed(2);
+		} else if (parse === 'int') {
+			return parseInt(value);
+		} else if (parse === 'string') {
+			return String(value);
+		} else {
+			return value;
+		}
+	}
+
+	getInputValues() {
+		if (this.options.inputs) {
+			this._getInputValues(this.options.inputs);
+		} else if (this.options.pages) {
+			for (var page of this.options.pages) {
+				this._getInputValues(page.inputs);
+			}
+		}
+	}
+
+	// Get values on inputs and add the value to this.inputValues with currect data type
+	_getInputValues(inputs) {
+		for (var input of inputs) {
+			if (input.group) {
+				this._getInputValues(input.group.buildedInputs);
+			} else {
+				this.getInputValue(input);
+				if (input.label && input.label.append) {
+					this.getInputValue(input.label.append);
+				}
+			}
+		}
+	}
+
+	getInputValue(input) {
+		if (!input.hide) {
+			if (input.fieldType === 'select') {
+				this.setSelectInputValues(input.name, input.dataType);
+			} else if (input.fieldType === 'radio' || input.fieldType === 'radio-anime' || input.fieldType === 'radio-anime-bt') {
+				this.setRadioButtonCheckedValues(input.name, input.dataType);
+			} else if (input.fieldType === 'checkbox' || input.fieldType === 'check-anime' || input.fieldType === 'check-anime-bt') {
+				this.setCheckboxCheckedValues(input.name, input.dataType);
+			} else {
+				this.setTextOrNumInputValues(input.name, input.dataType, input);
+				if (input.fieldType === 'yearsAndMonthsWithSlider') {
+					this.setTextOrNumInputValues(input.years.name, input.years.dataType, input);
+					this.setTextOrNumInputValues(input.months.name, input.months.dataType, input);
+				}
+			}
+		}
+	}
+
+	getValuesByKey(key) {
+		this.getInputValues();
+		var values = [];
+		if (this.inputValues[key] !== undefined) {
+			values.push(this.inputValues[key]);
+		} else if (this.inputValues[key + 1] !== undefined) {
+			var count = 1;
+			while (this.inputValues[key + count] !== undefined) {
+				values.push(this.inputValues[key + count]);
+				count = count + 1;
+			}
+		}
+		return values;
+	}
+
+	formatCurrency(value, dataType) {
+		const formatter = new Intl.NumberFormat('en-US', {
+			style: 'currency',
+			currency: 'USD',
+		});
+
+		value = formatter.format(value);
+		if (value != '$NaN' && dataType === 'int') {
+			value = value.replace(/\.00/, '');
+		}
+		return value;
+	}
+
+	randomInt(min, max) {
+		return Math.floor(Math.random() * (+max - +min)) + +min; 
+	}
+
+	getAnimation(max) {
+		// The first animation is random, then goes in order
+		if (!this._currentAnime) {
+			this._currentAnime = this.randomInt(1, max);
+		} else if (this._currentAnime === max) {
+			this._currentAnime = 1;
+		} else {
+			this._currentAnime = this._currentAnime + 1;
+		}
+		return this._currentAnime;
+	}
+
+	loadOnFirstInteraction(event) {
+		if (event.target.tagName === 'BUTTON') {
+			if (this.hasAllRequireFields()) {
+				event.preventDefault();
+			} else {
+				this.spinner.style.display = 'none';
+				if (this.options.btCalculate !== false) {
+					this.button.disabled = false;
+				}
+				return;
+			}
+			if (this.options.btCalculate !== false) {
+				this.button.disabled = true;
+				this.spinner.style.display = 'flex';
+			}
+		}
+		Promise.all([
+			this.addAnimationIframe(),
+			this.loadChartFiles(),
+		]).then(responses => {
+			if (event.target.tagName === 'BUTTON') {
+				this.collapseForm(event);
+				this._action(event);
+			}
+		});
+
+		this._removeLoadOnFirstInteractionListeners();
+		// Add the _action method to button click event
+		if (this.options.btCalculate !== false) {
+			this.button.addEventListener('click', this._action.bind(this));
+		}
+	}
+
+	loadChartFiles() {
+		this.charLoading = true;
+		return new Promise(async (resolve, reject)=> {
+			var loaded = ()=> {
+				this.charLoaded = true;
+				this.charLoading = false;
+				this.spinner.style.display = 'none';
+				resolve();
+				if (this.pendingActionCallEvent) {
+					this._action(this.pendingActionCallEvent);
+					this.pendingActionCallEvent = false;
+				}
+			}
+			if (this.options.loadChart && !this.charLoaded) {
+				var filesToLoad = [
+					{path: 'static/amcharts4/core.js'},
+					{path: 'static/amcharts4/charts.js'},
+					{path: 'static/amcharts4/themes/animated.js'},
+				];
+				window._onLoadFiles.load(filesToLoad, loaded.bind(this));
+			} else {
+				if (!this.charLoading) {
+					this.spinner.style.display = 'none';
+				}
+				this.charLoading = false;
+				resolve();
+			}
+		});
+	}
+
+	async addAnimationIframe() {
+		return new Promise(async (resolve, reject)=> {
+			if (this.options.animation) {
+				var src = '';
+				var body = `identifier=${this.options.title.replace(/_/g, '-')}&href="${window.location.href}"`;
+				var response = await fetch(`KeepAlive.aspx?action=getLoadingAnimation`, {
+						headers: {"Content-Type": "application/x-www-form-urlencoded; charset=utf-8"},
+						method: "POST",
+						body: body,
+				}).catch(error=> {
+					var selectedAnime = this.getAnimation(5);
+					src = `counting${selectedAnime}.html`;
+				});
+
+				if (response && response.ok) {
+					var json = await response.json();
+					src = json.src;
+				}
+
+				var animation = document.createElement('div');
+				animation.classList.add('animation');
+				animation.innerHTML = `<div class="animation-container">
+					<iframe src="static/animation/${src}" scrolling="no"></iframe>
+				<div>`;
+				animation.style.opacity = 0;
+				animation.style.height = 0;
+				animation.style.display = 'none';
+				this.formElement.appendChild(animation);
+				resolve();
+			} else {
+				resolve();
+			}
+		});
+	}
+
+	_action(event) {
+		if (this.hasAllRequireFields()) {
+			event.preventDefault();
+		} else {
+			this.spinner.style.display = 'none';
+			if (this.options.btCalculate !== false) {
+				this.button.disabled = false;
+			}
+			return;
+		}
+		this.collapseForm(event);
+		this.spinner.style.display = 'flex';
+		if (this.charLoading) {
+			this.button.disabled = true;
+			this.pendingActionCallEvent = event;
+			return;
+		}
+		if (this.options.animation) {
+			this.showAnimation(event);
+		} else {
+			this.callActionAndShowResults(event);
+		}
+	}
+
+	showAnimation(event) {
+		this.spinner.style.display = 'none';
+		if (this.showingAnimation) {
+			clearTimeout(this.animeTimeout);
+		} else {
+			this.showingAnimation = true;
+			this.hideResults();
+			var animation = this.formElement.getElementsByClassName('animation')[0];
+			animation.style.display = 'block';
+			setTimeout(()=> {
+				animation.style.transition = 'opacity .5s';
+				animation.style.opacity = 1;
+				animation.style.height = null;
+			}, 50);
+		}
+		this.animeTimeout = setTimeout(this.hideAnimation.bind(this, event), 2000);
+	}
+
+	hideAnimation(event) {
+		var animation = this.formElement.getElementsByClassName('animation')[0];
+		animation.style.opacity = 0;
+		setTimeout(()=> {
+			animation.style.height = 0;
+			animation.style.display = 'none';
+		}, 500);
+		this.showingAnimation = false;
+		this.callActionAndShowResults(event);
+	}
+
+	hideResults() {
+		var sr = this.formElement.getElementsByClassName('show_result')[0];
+		if (this.options.btCalculate !== false) {
+			this.button.disabled = true;
+		}
+		sr.style.transition = null;
+		sr.style.opacity = 0;
+		sr.style.height = 0;
+	}
+
+	addFieldActive(formFields) {
+		var formCurrentSize = formFields.offsetHeight;
+		var counter = 0 ;
+		for (var size of this.formActiveSizes) {
+			if (this.formActiveSizes[counter] && formCurrentSize <= size && (!this.formActiveSizes[counter +1] || formCurrentSize < this.formActiveSizes[counter +1] )) {
+				formFields.classList.add('form-active-' + size);
+				return;
+			}
+			counter = counter + 1;
+		}
+	}
+
+	removeFieldActive(formFields) {
+		for (var size of this.formActiveSizes) {
+			formFields.classList.remove('form-active-' + size);
+		}
+	}
+
+	collapseForm(event) {
+		if (!this.options.collapse || !event.target.classList.contains('bt-calculate')) {
+			return;
+		}
+		var formFields = this.formElement.getElementsByClassName('form_fields')[0];
+		this.addFieldActive(formFields);
+		setTimeout(()=> {
+			formFields.classList.add('collapse');
+			if (this.options.collapse === 'slow') {
+				formFields.classList.add('collapse-slow');
+			}
+			if (this.options.btCalculate !== false) {
+				this.button.style.display = 'none';
+				this.uncollapseButton.classList.add('active');
+			}
+		}, 200);
+	}
+
+	uncollapseForm(event) {
+		event.preventDefault();
+		if (this.options.btCalculate !== false) {
+			this.button.style.display = null;
+		}
+		this.uncollapseButton.classList.remove('active');
+		var formFields = this.formElement.getElementsByClassName('form_fields')[0];
+		formFields.classList.remove('collapse');
+		formFields.classList.add('uncollapse');
+
+		this.removeFieldActive(formFields);
+		setTimeout(()=> {
+			formFields.classList.remove('uncollapse');
+		}, 500);
+	}
+
+	callActionAndShowResults(event) {
+		this.spinner.style.display = 'none';
+		// Get current user info and add values to this.inputValues
+		this.getInputValues();
+		// Call action function implemented by child class
+		this.action(event);
+		var sr = this.formElement.getElementsByClassName('show_result')[0];
+		sr.style.transition = 'opacity 1s';
+		sr.style.opacity = 1;
+		sr.style.height = null;
+		sr.style.display = null;
+		if (this.options.btCalculate !== false) {
+			this.button.disabled = false;
+		}
+		this.options.animation = false;
+		if (event.target.tagName === 'BUTTON') {
+			// No delay first click on button and 500ms other clicks
+			this._tipTime = (this._tipTime === undefined) ? 0 : 500;
+			this.callServerAndAddTip(this._tipTime);
+		} else {
+			this.callServerAndAddTip(500);
+		}
+	}
+
+	callServerAndAddTip(time) {
+		if (this.tipDoesntChangeAnymore) {
+			return;
+		}
+		if (this.tipTimeout) {
+			clearTimeout(this.tipTimeout);
+		}
+		this.tipTimeout = setTimeout(
+			()=> {
+				var base = window.location.href.includes('file://') ? 'https://cors-anywhere.herokuapp.com/https://www.creditdonkey.com/' : '';
+				var body = `mode=api&${this.body ? this.body : this.getBody()}`;
+
+				fetch(`${base}keepalive.aspx?action=getTip&type=${this._unique.selector}`, {
+					headers: {'Content-Type': 'application/x-www-form-urlencoded; charset=utf-8'},
+					method: 'POST',
+					body: body,
+				}).then((response) => {
+					this.clearTip();
+					response.json().then((data) => {
+						if (data.hasOwnProperty('tip')) {
+							this.tipElement.style.display = 'inline-block';
+							this.tipElement.insertAdjacentHTML('beforeend', data.tip);
+							this.tipDoesntChangeAnymore = false;
+						} else {
+							this.tipDoesntChangeAnymore = true;
+						}
+					}).catch(err => {
+						this.clearTip();
+						if (response.status == 200 && !response.hasOwnProperty('tip')) {
+							this.tipDoesntChangeAnymore = true;
+						} else {
+							console.log('error 1', err, 'response', response);
+						}
+					});
+				}).catch( err => {
+					this.clearTip();
+					console.log('error 2', err);
+				});
+			},
+			time,
+		);
+	}
+
+	getBody() {
+		var keys = Object.keys(this.inputValues || {});
+		var name = keys[0].startsWith('custom_') ? keys[0].replace('custom_', '') : keys[0];
+		var body = keys.length ? `${name}=${this.inputValues[keys[0]]}` : '';
+		keys.shift();
+		for (var key of keys) {
+			name = key;
+			if (name.startsWith('custom_')) {
+				name = name.replace('custom_', '');
+			}
+			body = `${body}&${name}=${this.inputValues[key]}`;
+		}
+		return body;
+	}
+
+	clearTip() {
+		this.tipElement.innerText = '';
+	}
+
+	hasAllRequireFields() {
+		var requiredFields = this.formElement.querySelectorAll('[required]');
+		for (var field of requiredFields) {
+			if (!field.value && field.value !== 0) {
+				return false;
+			}
+		}
+		return true;
+	}
+
+	// Sliders are range inputs binded to other inputs like text or number
+	onSliderChange(name, dataType, bindField, event) {
+		this[`${bindField.name}Node`].value = this.parse(this[`${bindField.slider.name}SliderNode`].value, dataType);
+		this.getInputValues();
+		if (bindField.fieldType === 'currency') {
+			this[`${bindField.name}Node`].value = this.formatCurrency(this.inputValues[name] || 0, bindField.dataType);
+		} else {
+			this[`${bindField.name}Node`].value = this.inputValues[name] || 0;
+		}
+		if (this.showInputValue !== undefined) {
+			this.changeShowInputValue();
+		}
+	}
+
+	getYearsMonthsValue(value) {
+		var values = {
+			years: 0,
+			months: 0,
+			slider: 0,
+		};
+
+		var rangeValue = String(value / 12).split('.');
+		values.years = parseInt(rangeValue[0]);
+		if (rangeValue[1]) {
+			values.months = parseInt(value) - (parseInt(rangeValue[0]) * 12);
+		} else {
+			values.months = 0;
+		}
+		values.slider = (values.years * 12) + values.months;
+		return values;
+	}
+
+	onYearsMonthsSlideChange(sliderName, yearsName, monthsName, event) {
+		var values = this.getYearsMonthsValue(this[`${sliderName}SliderNode`].value);
+		this[`${yearsName}Node`].value = values.years;
+		this[`${monthsName}Node`].value = values.months;
+	}
+
+	_bindLoadOnFirstInteractionAndOnChangeWithInputs() {
+		// Copy the function with bind this allow the remotion of the listener
+		this._loadOnFirstInteraction = this.loadOnFirstInteraction.bind(this);
+		var inputs = this.formElement.getElementsByTagName('input');
+		for (var input of inputs) {
+			input.changeInput = this._changeInput.bind(input, this);
+			input.changeLabel = this._changeLabel.bind(input, this);
+			input.changeImg = this._changeImg.bind(input, this);
+			input.addEventListener('input', this._loadOnFirstInteraction);
+		}
+
+		var selects = this.formElement.getElementsByTagName('select');
+		for (var select of selects) {
+			select.changeInput = this._changeInput.bind(select, this);
+			select.changeLabel = this._changeLabel.bind(select, this);
+			select.addEventListener('input', this._loadOnFirstInteraction);
+		}
+
+		if (this.options.btCalculate !== false) {
+			this.button.addEventListener('click', this._loadOnFirstInteraction);
+		}
+	}
+
+	_removeLoadOnFirstInteractionListeners() {
+		var inputs = this.formElement.getElementsByTagName('input');
+		for (var input of inputs) {
+			input.removeEventListener('input', this._loadOnFirstInteraction);
+		}
+
+		var selects = this.formElement.getElementsByTagName('select');
+		for (var select of selects) {
+			select.removeEventListener('input', this._loadOnFirstInteraction);
+		}
+
+		if (this.options.btCalculate !== false) {
+			this.button.removeEventListener('click', this._loadOnFirstInteraction);
+		}
+	}
+
+	_changeLabel(calc, value) {
+		var option = calc.allInputsOptions.find(i=>i.name === this.name);
+		if (this.type === 'checkbox' || this.type === 'radio') {
+			var label = this.parentNode.getElementsByClassName('label')[0];
+		} else {
+			var label = this.parentNode.parentNode.getElementsByClassName('label')[0];
+		}
+		option.label = value;
+		label.innerText = value;
+	}
+
+	getImgPath(currentImgPath, value) {
+		if (value.includes('/')) {
+			return value;
+		} else {
+			var newValue = 'images/twemoji/';
+			if (value.includes('.')) {
+				newValue = newValue + value;
+			} else {
+				newValue = newValue + value + '.svg';
+			}
+			return newValue;
+		}
+	}
+
+	_changeSliderThumbDefaultImg(calc, value) {
+		var name = this.name
+		if (this.type !== 'range') {
+			name = this.name + '-slider';
+		}
+		var slider = calc.imgSliders.find(s=>s._input.slider.name === name);
+		if (slider) {
+			slider._input.slider.defaultImg = calc.getImgPath(slider._input.slider.defaultImg, value);
+			// Update CSS
+			slider.slider.dataset.img = slider._input.slider.defaultImg;
+			slider.setImage();
+		}
+	}
+
+	_changeSliderThumbImgsList(calc, imgsList) {
+		var name = this.name
+		if (this.type !== 'range') {
+			name = this.name + '-slider';
+		}
+		calc._changeSliderThumbDefaultImg(calc, imgsList[0]);
+		var slider = calc.imgSliders.find(s=>s._input.slider.name === name);
+		slider._input.slider.imgsList = imgsList;
+		slider._input.imgList = imgsList;
+		slider.images = imgsList;
+		slider.setImagesList();
+		calc.preloadSliderImgs();
+	}
+
+	_changeRadioOrCheckboxImg(calc, value) {
+		var option = calc.allInputsOptions.find(i=>i.name === this.name);
+		var img = this.parentNode.getElementsByTagName('img')[0];
+		var newImgPath = calc.getImgPath(option.img, value);
+		img.src = newImgPath;
+		option.img = newImgPath;
+	}
+
+	_changeImg(calc, value) {
+		var hasSlider = this.parentNode.parentNode.getElementsByClassName('image-slider')[0];
+		if (hasSlider && !Array.isArray(value)) {
+			var changeSliderThumbDefaultImg = calc._changeSliderThumbDefaultImg.bind(this);
+			changeSliderThumbDefaultImg(calc, value);
+		} else if (hasSlider && Array.isArray(value)) {
+			var changeSliderThumbImgsList = calc._changeSliderThumbImgsList.bind(this);
+			changeSliderThumbImgsList(calc, value);
+		} else if (this.type === 'radio' || this.type === 'checkbox') {
+			var changeRadioOrCheckboxImg = calc._changeRadioOrCheckboxImg.bind(this);
+			changeRadioOrCheckboxImg(calc, value);
+		}
+	}
+
+	_changeInput(calc, value) {
+		var option = calc.allInputsOptions.find(i=>i.name === this.name);
+		if (this.type === 'checkbox' || this.type === 'radio') {
+			if (value) {
+				this.checked = 'checked';
+				option.checked = true;
+			} else {
+				this.checked = false;
+				option.checked = false;
+			}
+		} else {
+			this.value = value;
+			option.value = value;
+		}
+		if (this.type === 'range') {
+			var slider = calc.imgSliders.find(s=>s._input.slider.name === this.name);
+			// Update css on chrome
+			slider.setCSSProperty();
+
+		}
+		var evt = document.createEvent('HTMLEvents');
+		evt.initEvent('change', false, true);
+		this.dispatchEvent(evt);
+		var evt2 = document.createEvent('HTMLEvents');
+		evt2.initEvent('keyup', false, true);
+		this.dispatchEvent(evt2);
+	}
+
+	_setToCalculateOnChange() {
+		var inputs = this.formElement.getElementsByTagName('input');
+		for (var input of inputs) {
+			input.addEventListener('change', this._action.bind(this));
+		}
+
+		var selects = this.formElement.getElementsByTagName('select');
+		for (var select of selects) {
+			select.addEventListener('change', this._action.bind(this));
+		}
+
+		var addButtons = this.formElement.getElementsByClassName('fields-group-add-bt');
+		for (var button of addButtons) {
+			button.addEventListener('click', this._action.bind(this));
+		}
+
+		var removeButtons = this.formElement.getElementsByClassName('fields-group-remove-bt');
+		for (var button of removeButtons) {
+			button.addEventListener('click', this._action.bind(this));
+		}
+	}
+
+	setToCalculateOnChange() {
+		if (!this.alreadyCalculateOnce) {
+			this._setToCalculateOnChange();
+			this.alreadyCalculateOnce = true;
+		}
+	}
+}
+_FormBuilderBase.loadFormBuilder = function (node) {
+	var head = document.getElementsByTagName('head')[0] || document.documentElement;
+	var nodes = [];
+	for (var _child of node.children) {
+		if (_child.tagName && _child.tagName.toLowerCase() === 'script') {
+			nodes.push(_child);
+		}
+	}
+	for (var child of nodes) {
+		if (child.innerHTML.includes('_CalculatorBase') || child.innerHTML.includes('_FormBuilderBase')) {
+			var script = document.createElement('script');
+			script.text = (child.text || child.textContent || child.innerHTML || '');
+			head.appendChild(script);
+			child.remove();
+		}
+	}
+};
+
+class _CalculatorBase extends _FormBuilderBase {
+	// Compound Interest JS Formula
+	getCompoundInterest(rate, compound, years, investment, contribution) {
+		if (rate === 0) {
+			return investment + ((contribution * 12) * years);
+		} else {
+			rate = rate / compound;
+			var period = years * compound;
+			// CI = P * Math.pow(1 + R/n, nt);
+			var initial =  investment * Math.pow(1 + rate, period);
+			// PMT × d {[(1 + R/n)(nt) - 1] / (R/n)}
+			var monthly = contribution * (12 / compound) * ((Math.pow(1 + rate, period) - 1) / rate);
+			return initial + monthly;
+		}
+	}
+
+	// Excel formula: =PMT(rate/12;nper*12;-pv;fv;type)
+	PMT(rate, nper, pv, fv, type=0, compound=0) {
+		var result;
+		if (rate === 0) {
+			result = (pv + fv) / nper;
+		} else {
+			var term = Math.pow(1 + rate / compound, compound * nper);
+			if (type === 1) {
+				result = (fv * rate / (term - 1) + pv * rate / (1 - 1 / term)) / (1 + rate);
+			} else {
+				result = fv * rate / (term - 1) + pv * rate / (1 - 1 / term);
+			}
+		}
+		return -result;
+	}
+}
