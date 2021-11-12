@@ -69,12 +69,13 @@
 								"dayOfCycle": null,
 								"scoring": null
 							};
-							var response = await fetch(`https://app.getresponse.com/api/contacts`, {
+							var response = await fetch(`https://api.getresponse.com/v3/contacts`, {
 									headers: {
 										"Content-Type": "application/json",
 										"X-Auth-Token": "api-key 8dm28sn76d67e0ho3j1y6x7wonfqhcm5"
 									},
 									method: "POST",
+									dataType: "jsonp",
 									body: JSON.stringify(body),
 							}).catch(error=> {
 								console.log('ERROR!', error);
