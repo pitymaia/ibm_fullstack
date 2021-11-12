@@ -42,7 +42,7 @@
 					namespace.MultiPageCalculator = class extends _FormBuilderBase {
 						post(path, params, method='post') {
 							var formElement = document.getElementById('pity_form'); //document.createElement('form');
-							formElement.target = '_blank';
+							formElement.target = '_self';
 							formElement.method = method;
 							formElement.action = path;
 
