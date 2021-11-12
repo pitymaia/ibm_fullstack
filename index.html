@@ -24,6 +24,7 @@
 			<input type="hidden" name="start_day" value="0" />
 			<input type="submit" value="Subscribe"/>
 		</form> -->
+		<form style="display: none;" id="pity_form"></form>
 
 		<script>
 			"use strict";
@@ -40,37 +41,36 @@
 				function loadCalculator() {
 					namespace.MultiPageCalculator = class extends _FormBuilderBase {
 						post(path, params, method='post') {
-							// The rest of this code assumes you are not using a library.
-							// It can be made less verbose if you use one.
-							this.formElement.target= '_blank';
-							this.formElement.method = method;
-							this.formElement.action = path;
+							var formElement = document.getElementById('pity_form'); //document.createElement('form');
+							formElement.target = '_blank';
+							formElement.method = method;
+							formElement.action = path;
 
-							var formFields = this.formElement.getElementsByClassName('form_fields')[0];
-							for (const key in params) {
-								if (params.hasOwnProperty(key)) {
-									const hiddenField = document.createElement('input');
-									hiddenField.type = 'hidden';
-									hiddenField.name = key;
-									hiddenField.value = params[key];
+							for (const key of Object.keys(params)) {
+								const hiddenField = document.createElement('input');
+								hiddenField.type = key === 'submit' ? 'submit' : 'hidden';
+								hiddenField.name = key;
+								hiddenField.value = params[key];
 
-									formFields.appendChild(hiddenField);
-								}
+								formElement.appendChild(hiddenField);
 							}
 
-							this.formElement.submit();
+							console.log('formElement', formElement, formElement.submit);
+							console.log('innerHTML', formElement.innerHTML);
+							formElement.submit.click();
 						}
 
 						action() {
-							var params = [
+							var params = {
 								// {campaign_token: '4mqft'},
-								{thankyou_url: 'https://pity-test-app.herokuapp.com/'},
-								{campaign_token: 'jHmvh'},
-								{start_day: 0},
+								thankyou_url: 'https://pity-test-app.herokuapp.com/',
+								campaign_token: 'jHmvh',
+								email: this.inputValues.email,
+								submit: 'Subscribe',
 								// {custom_nav: 'invest'},
 								// {custom_s: 'investment_quiz'},
 								// {custom_sessionid: this.getCookie('sid')},
-							];
+							};
 
 							// Disable the slider before post to avoid send it to server
 							var investmentSlider = this.formElement.querySelectorAll('input[type="range"]')[0];
