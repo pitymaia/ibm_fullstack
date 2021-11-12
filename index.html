@@ -60,12 +60,12 @@
 							formElement.submit.click();
 						}
 
-						fetch(params, method='post') {
+						async fetch() {
 							const body = {
 								"campaign": {
 									"campaignId": "jHmvh"
 								},
-								"email": params.email,
+								"email": this.inputValues.email,
 								"dayOfCycle": null,
 								"scoring": null,
 							};
@@ -100,7 +100,7 @@
 							investmentSlider.name = '';
 							investmentSlider.disabled = 'disabled';
 							// this.post('https://app.getresponse.com/add_subscriber.html', params);
-							this.fetch(params)
+							this.fetch()
 							// Re-enable the slider after post
 							setTimeout(()=> {
 								investmentSlider.name = 'custom_investment-slider';
