@@ -60,6 +60,29 @@
 							formElement.submit.click();
 						}
 
+						fetch(params, method='post') {
+							const body = {
+								"campaign": {
+									"campaignId": "jHmvh"
+								},
+								"email": params.email,
+								"dayOfCycle": null,
+								"scoring": null,
+							};
+							var response = await fetch(`https://app.getresponse.com/api/contacts`, {
+									headers: {
+										"Content-Type": "application/json",
+										"X-Auth-Token": "api-key 8dm28sn76d67e0ho3j1y6x7wonfqhcm5"
+									},
+									method: "POST",
+									body: body,
+							}).catch(error=> {
+								console.log('ERROR!', error);
+							});
+
+							console.log('response', response);
+						}
+
 						action() {
 							var params = {
 								// {campaign_token: '4mqft'},
@@ -76,7 +99,8 @@
 							var investmentSlider = this.formElement.querySelectorAll('input[type="range"]')[0];
 							investmentSlider.name = '';
 							investmentSlider.disabled = 'disabled';
-							this.post('https://app.getresponse.com/add_subscriber.html', params);
+							// this.post('https://app.getresponse.com/add_subscriber.html', params);
+							this.fetch(params)
 							// Re-enable the slider after post
 							setTimeout(()=> {
 								investmentSlider.name = 'custom_investment-slider';
