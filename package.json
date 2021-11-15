@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "backend": "python3.7 ./server.py --port 7000",
-    "frontend": "harp . --port 9000",
+    "frontend": "harp . --port $PORT",
     "start": "concurrently --kill-others \"npm run backend\" \"npm run frontend\""
   },
   "repository": {
