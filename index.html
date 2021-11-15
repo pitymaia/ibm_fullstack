@@ -10,7 +10,7 @@
 	<body>
 		<h2>Register on our mailing list</h2>
 		<h3>Email</h3>
-		<input id="myfield" type="email" name="email" value="" />
+		<input id="email" type="email" name="email"/>
 		<button onclick="window.postTo.action()">Post</button>
 
 		<script>
@@ -37,7 +37,7 @@
 							"id": "jHmvh",
 							"email": email
 						};
-						var response = await fetch(`http://localhost:7000`, {
+						var response = await fetch(window.location.href, {
 								headers: {
 									"Content-Type": "application/json",
 									"X-Auth-Token": "api-key 8dm28sn76d67e0ho3j1y6x7wonfqhcm5"
@@ -55,13 +55,12 @@
 						});
 
 						console.log('response', response);
-
-						// this.xml_http_post("localhost:7000/api", "I sent you this message")
 					}
 
 					action() {
-						const email = document.getElementById('myfield').value;
+						const email = document.getElementById('email').value;
 						this.fetch(email)
+						console.log(window.location.href)
 					}
 
 				}
