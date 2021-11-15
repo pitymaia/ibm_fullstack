@@ -4,8 +4,9 @@
   "description": "IBM cloud computing fullstack develop course",
   "main": "index.js",
   "scripts": {
-    "test": "python3.7 ./server.py --port 7000",
-    "start": "python3.7 ./server.py --port 7000"
+    "backend": "python3.7 ./server.py --port 7000",
+    "frontend": "harp . --port 9000",
+    "start": "concurrently --kill-others \"npm run backend\" \"npm run frontend\""
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/pitymaia/ibm_fullstack#readme",
   "dependencies": {
+    "concurrently": "^6.4.0",
     "harp": "^0.41.0"
   }
 }
