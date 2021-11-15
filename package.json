@@ -4,9 +4,9 @@
   "description": "IBM cloud computing fullstack develop course",
   "main": "index.js",
   "scripts": {
-    "backend": "python ./server.py --port 7000",
-    "frontend": "harp . --port $PORT",
-    "start": "concurrently --kill-others \"npm run backend\" \"npm run frontend\""
+    "backend": "python3.7 ./server.py --port 7000",
+    "frontend": "harp . --port 7001",
+    "start": "python ./server.py --port $PORT"
   },
   "repository": {
     "type": "git",
