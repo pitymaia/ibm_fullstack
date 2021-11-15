@@ -6,224 +6,66 @@
 		<meta name="author" content="">
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<script src="static/other_files/on-load-files-es5-smaller.js"></script>
-		<link rel="stylesheet" href="static/calculator/builder.css">
 	</head>
 	<body>
-		<form class="investment_quiz" style='margin-bottom: 0px;'>
-			<h1 class="title">Investment quiz</h1>
-			<div class="form_fields">
-			</div>
-			<div class="show_result" style="display: none;"></div>
-		</form>
-
-<!-- 		<form action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post">
-			E-mail: <input type="text" name="email"/><br/>
-			<input type="hidden" name="campaign_token" value="jHmvh" />
-			<input type="hidden" name="thankyou_url" value="https://pity-test-app.herokuapp.com/"/>
-			<input type="hidden" name="start_day" value="0" />
-			<input type="submit" value="Subscribe"/>
-		</form> -->
-		<form style="display: none;" id="pity_form"></form>
+		<h2>Register on our mailing list</h2>
+		<h3>Email</h3>
+		<input id="myfield" type="email" name="email" value="" />
+		<button onclick="window.postTo.action()">Post</button>
 
 		<script>
 			"use strict";
 
 			(function() {
-				var filesToLoad = [
-					{path: 'static/calculator/builder.js', async: true},
-				];
+				class PostToGetResponse {
+					// CURL:
+					// curl -H "Content-Type: application/json" -H "X-Auth-Token: api-key 8dm28sn76d67e0ho3j1y6x7wonfqhcm5" -X POST https://api.getresponse.com/v3/contacts -d '{"campaign": {"campaignId": "jHmvh"}, "email": "pitynadaseirv@gmail.com"}'
 
-				window._onLoadFiles.load(filesToLoad, loadCalculator);
+					// Python:
+					// import requests
 
-				var namespace = {};
+					// headers = {
+					//     'Content-Type': 'application/json',
+					//     'X-Auth-Token': 'api-key 8dm28sn76d67e0ho3j1y6x7wonfqhcm5',
+					// }
 
-				function loadCalculator() {
-					namespace.MultiPageCalculator = class extends _FormBuilderBase {
-						post(path, params, method='post') {
-							var formElement = document.getElementById('pity_form'); //document.createElement('form');
-							formElement.target = '_self';
-							formElement.method = method;
-							formElement.action = path;
+					// data = '{"campaign": {"campaignId": "jHmvh"}, "email": "pitynadaseirv@gmail.com"}'
 
-							for (const key of Object.keys(params)) {
-								const hiddenField = document.createElement('input');
-								hiddenField.type = key === 'submit' ? 'submit' : 'hidden';
-								hiddenField.name = key;
-								hiddenField.value = params[key];
-
-								formElement.appendChild(hiddenField);
-							}
-
-							console.log('formElement', formElement, formElement.submit);
-							console.log('innerHTML', formElement.innerHTML);
-							formElement.submit.click();
-						}
-
-						async fetch() {
-							const body = {
-								"campaign": {
-									"campaignId": "jHmvh"
+					// response = requests.post('https://api.getresponse.com/v3/contacts', headers=headers, data=data)
+					async fetch(email) {
+						const body = {
+							"id": "jHmvh",
+							"email": email
+						};
+						var response = await fetch(`http://localhost:7000`, {
+								headers: {
+									"Content-Type": "application/json",
+									"X-Auth-Token": "api-key 8dm28sn76d67e0ho3j1y6x7wonfqhcm5"
 								},
-								"email": this.inputValues.email,
-								"dayOfCycle": null,
-								"scoring": null
-							};
-							var response = await fetch(`https://api2.getresponse.com/contacts`, {
-									headers: {
-										"Content-Type": "application/json",
-										"X-Auth-Token": "api-key 8dm28sn76d67e0ho3j1y6x7wonfqhcm5"
-									},
-									method: "POST",
-									dataType: "jsonp",
-									body: JSON.stringify(body),
-							}).catch(error=> {
-								console.log('ERROR!', error);
-							});
+								method: "POST",
+								body: JSON.stringify(body),
+						}).catch(error=> {
+							console.log('ERROR!', error);
+						});
 
-							console.log('response', response);
-						}
+						response.json().then((data) => {
+							console.log('json data', data);
+						}).catch(err => {
+							console.log('no json', response);
+						});
 
-						action() {
-							var params = {
-								// {campaign_token: '4mqft'},
-								thankyou_url: 'https://pity-test-app.herokuapp.com/',
-								campaign_token: 'jHmvh',
-								email: this.inputValues.email,
-								submit: 'Subscribe',
-								// {custom_nav: 'invest'},
-								// {custom_s: 'investment_quiz'},
-								// {custom_sessionid: this.getCookie('sid')},
-							};
+						console.log('response', response);
 
-							// Disable the slider before post to avoid send it to server
-							var investmentSlider = this.formElement.querySelectorAll('input[type="range"]')[0];
-							investmentSlider.name = '';
-							investmentSlider.disabled = 'disabled';
-							// this.post('https://app.getresponse.com/add_subscriber.html', params);
-							this.fetch()
-							// Re-enable the slider after post
-							setTimeout(()=> {
-								investmentSlider.name = 'custom_investment-slider';
-								investmentSlider.disabled = null;
-								delete investmentSlider.disabled;
-							}, 1000);
-						}
-
-						getCookie(cname) {
-							var name = cname + '=';
-							var decodedCookie = decodeURIComponent(document.cookie);
-							var ca = decodedCookie.split(';');
-
-							for(var i = 0; i < ca.length; i++) {
-								var c = ca[i];
-								while (c.charAt(0) == ' ') {
-									c = c.substring(1);
-								}
-								if (c.indexOf(name) == 0) {
-									return c.substring(name.length, c.length);
-								}
-							}
-							return '';
-						}
+						// this.xml_http_post("localhost:7000/api", "I sent you this message")
 					}
 
-					var options = {
-						css: `.investment_quiz .email .input-container {
-							display: block;
-							float: none;
-							margin-top: 10px;
-							padding-bottom: 16px;
-						}
-						.investment_quiz .email .input {
-							padding: 5px;
-							text-align: left !important;
-						}`,
-						title: 'investment_quiz',
-						animation: false,
-						kind: 'quiz',
-						btResultLabel: 'Show results',
-						pages: [
-							{
-								header: 'Risk Tolerance',
-								subHeader: "What's your ideal risk level?",
-								inputs: [
-									{
-										fieldType: 'radio-anime-bt',
-										label: 'Low',
-										value: 'low',
-										name: 'custom_risk',
-										checked: true,
-									},
-									{
-										fieldType: 'radio-anime-bt',
-										label: 'Moderate',
-										value: 'moderate',
-										name: 'custom_risk',
-									},
-									{
-										fieldType: 'radio-anime-bt',
-										label: 'High',
-										value: 'high',
-										name: 'custom_risk',
-									},
-								],
-							},
-							{
-								header: 'Investment range',
-								inputs: [
-									{
-										label: 'How much you plan to invest?',
-										fieldType: 'currency', name: 'custom_investment',
-										dataType: 'float',
-										min: 0,
-										size: 14,
-										slider: {
-											name: 'custom_investment-slider',
-											defaultImg: '1f4b5',
-											width: '35px',
-											height: '35px',
-										},
-										required: true,
-									},
-								],
-							},
-							{
-								header: 'Accreditation',
-								subHeader: 'Are you an accredited investor?',
-								inputs: [
-									{
-										fieldType: 'radio-anime-bt',
-										label: 'Yes',
-										value: 'yes',
-										name: 'custom_accredited',
-									},
-									{
-										fieldType: 'radio-anime-bt',
-										label: 'No',
-										value: 'no',
-										name: 'custom_accredited',
-										checked: true,
-									},
-								],
-							},
-							{
-								header: 'Contact info',
-								inputs: [
-									{
-										fieldType: 'email',
-										label: 'What is your e-mail?',
-										name: 'email',
-										placeholder: 'Your e-mail',
-										required: true,
-									},
-								],
-							},
-						]
-					};
+					action() {
+						const email = document.getElementById('myfield').value;
+						this.fetch(email)
+					}
 
-					var calculator = new namespace.MultiPageCalculator(options);
 				}
+				window.postTo = new PostToGetResponse();
 			}());
 		</script>
 	</body>

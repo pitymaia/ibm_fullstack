@@ -2455,31 +2455,31 @@ class _FormBuilderBase {
 	async addAnimationIframe() {
 		return new Promise(async (resolve, reject)=> {
 			if (this.options.animation) {
-				var src = '';
-				var body = `identifier=${this.options.title.replace(/_/g, '-')}&href="${window.location.href}"`;
-				var response = await fetch(`KeepAlive.aspx?action=getLoadingAnimation`, {
-						headers: {"Content-Type": "application/x-www-form-urlencoded; charset=utf-8"},
-						method: "POST",
-						body: body,
-				}).catch(error=> {
-					var selectedAnime = this.getAnimation(5);
-					src = `counting${selectedAnime}.html`;
-				});
+				// var src = '';
+				// var body = `identifier=${this.options.title.replace(/_/g, '-')}&href="${window.location.href}"`;
+				// var response = await fetch(`KeepAlive.aspx?action=getLoadingAnimation`, {
+				// 		headers: {"Content-Type": "application/x-www-form-urlencoded; charset=utf-8"},
+				// 		method: "POST",
+				// 		body: body,
+				// }).catch(error=> {
+				// 	var selectedAnime = this.getAnimation(5);
+				// 	src = `counting${selectedAnime}.html`;
+				// });
 
-				if (response && response.ok) {
-					var json = await response.json();
-					src = json.src;
-				}
+				// if (response && response.ok) {
+				// 	var json = await response.json();
+				// 	src = json.src;
+				// }
 
-				var animation = document.createElement('div');
-				animation.classList.add('animation');
-				animation.innerHTML = `<div class="animation-container">
-					<iframe src="static/animation/${src}" scrolling="no"></iframe>
-				<div>`;
-				animation.style.opacity = 0;
-				animation.style.height = 0;
-				animation.style.display = 'none';
-				this.formElement.appendChild(animation);
+				// var animation = document.createElement('div');
+				// animation.classList.add('animation');
+				// animation.innerHTML = `<div class="animation-container">
+				// 	<iframe src="static/animation/${src}" scrolling="no"></iframe>
+				// <div>`;
+				// animation.style.opacity = 0;
+				// animation.style.height = 0;
+				// animation.style.display = 'none';
+				// this.formElement.appendChild(animation);
 				resolve();
 			} else {
 				resolve();
@@ -2627,6 +2627,7 @@ class _FormBuilderBase {
 	}
 
 	callServerAndAddTip(time) {
+		return;
 		if (this.tipDoesntChangeAnymore) {
 			return;
 		}
@@ -2635,7 +2636,7 @@ class _FormBuilderBase {
 		}
 		this.tipTimeout = setTimeout(
 			()=> {
-				var base = window.location.href.includes('file://') ? 'https://cors-anywhere.herokuapp.com/https://www.creditdonkey.com/' : '';
+				var base = window.location.href.includes('file://') ? 'https://cors-anywhere.herokuapp.com/https://www.creditdonkey.com/' : 'https://www.creditdonkey.com/';
 				var body = `mode=api&${this.body ? this.body : this.getBody()}`;
 
 				fetch(`${base}keepalive.aspx?action=getTip&type=${this._unique.selector}`, {
