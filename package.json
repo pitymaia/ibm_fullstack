@@ -4,8 +4,9 @@
   "description": "IBM cloud computing fullstack develop course",
   "main": "index.js",
   "scripts": {
-    "test": "harp . --port 9000",
-    "start": "harp . --port $PORT"
+    "test": "python3.7 ./server.py --port 7000",
+    // "start": "harp . --port $PORT"
+    "start": "python3.7 ./server.py --port 7000"
   },
   "repository": {
     "type": "git",
