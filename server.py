@@ -8,7 +8,7 @@ app = Flask(__name__)
 CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
-@app.route("/")
+@app.route("/", methods=['GET', 'POST'])
 def mailing(environ, start_response):
     if environ['REQUEST_METHOD'] == 'POST':
         try:
@@ -27,7 +27,7 @@ def mailing(environ, start_response):
             request_body = "0"
 
         status = '200 OK'
-        headers = [('Content-type', 'text/plain')]
+        headers = [('Content-type', 'text/plain'), ("Access-Control-Allow-Origin", "*")]
         start_response(status, headers)
         return response
     else:
