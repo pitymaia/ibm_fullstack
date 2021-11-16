@@ -8,9 +8,11 @@ app = Flask(__name__)
 CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
-@app.route("/", methods=['GET', 'POST'])
+@app.route("/", methods=['GET', 'POST', 'OPTIONS'])
 def mailing(environ, start_response):
-    if environ['REQUEST_METHOD'] == 'POST':
+    if environ['REQUEST_METHOD'] == 'OPTIONS':
+        return _build_cors_preflight_response()
+    elif environ['REQUEST_METHOD'] == 'POST':
         try:
             request_body_size = int(environ['CONTENT_LENGTH'])
             request_body = environ['wsgi.input'].read(request_body_size)
@@ -27,7 +29,7 @@ def mailing(environ, start_response):
             request_body = "0"
 
         status = '200 OK'
-        headers = [('Content-type', 'text/plain'), ("Access-Control-Allow-Origin", "*")]
+        headers = [('Content-type', 'text/plain'), ('Access-Control-Allow-Origin', '*')]
         start_response(status, headers)
         return response
     else:
@@ -37,3 +39,10 @@ def mailing(environ, start_response):
                    ('Content-Length', str(len(response_body)))]
         start_response(status, headers)
         return [response_body.encode("utf-8")]
+
+def _build_cors_preflight_response():
+    response = make_response()
+    response.headers.add("Access-Control-Allow-Origin", "*")
+    response.headers.add("Access-Control-Allow-Headers", "*")
+    response.headers.add("Access-Control-Allow-Methods", "*")
+    return response
