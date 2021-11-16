@@ -6,7 +6,7 @@ import requests
 FILE = 'index.html'
 PORT = 7000
 
-def getresponse_app(environ, start_response):
+def app(environ, start_response):
     if environ['REQUEST_METHOD'] == 'POST':
         try:
             request_body_size = int(environ['CONTENT_LENGTH'])
@@ -35,11 +35,11 @@ def getresponse_app(environ, start_response):
         start_response(status, headers)
         return [response_body.encode("utf-8")]
 
-def start_server():
+# def start_server(environ, start_response):
     """Start the server."""
-    httpd = make_server("", PORT, getresponse_app)
-    httpd.serve_forever()
+    # httpd = make_server("", PORT, getresponse_app)
+    # httpd.serve_forever()
 
-if __name__ == "__main__":
-    print('Serving on port: ', PORT)
-    start_server()
+# if __name__ == "__main__":
+#     print('Serving on port: ', PORT)
+#     start_server()
