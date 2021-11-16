@@ -1,10 +1,6 @@
-from wsgiref.validate import validator
-from wsgiref.simple_server import make_server
 import json
 import requests
 
-FILE = 'index.html'
-PORT = 7000
 
 def app(environ, start_response):
     if environ['REQUEST_METHOD'] == 'POST':
@@ -24,22 +20,13 @@ def app(environ, start_response):
             request_body = "0"
 
         status = '200 OK'
-        headers = [('Content-type', 'text/plain')]
+        headers = [('Content-type', 'text/plain'), ('Access-Control-Allow-Origin', '*')]
         start_response(status, headers)
         return response
     else:
-        response_body = open(FILE).read()
+        response_body = open('index.html').read()
         status = '200 OK'
         headers = [('Content-type', 'text/html'),
                    ('Content-Length', str(len(response_body)))]
         start_response(status, headers)
         return [response_body.encode("utf-8")]
-
-# def start_server(environ, start_response):
-    """Start the server."""
-    # httpd = make_server("", PORT, getresponse_app)
-    # httpd.serve_forever()
-
-# if __name__ == "__main__":
-#     print('Serving on port: ', PORT)
-#     start_server()
