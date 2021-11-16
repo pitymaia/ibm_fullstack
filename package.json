@@ -4,8 +4,9 @@
   "description": "IBM cloud computing fullstack develop course",
   "main": "index.js",
   "scripts": {
-    "backend": "python3.7 ./server.py --port 7000",
+    "backend": "python ./server.py --port 7000",
     "frontend": "harp . --port 7001",
+    "test": "python ./server.py --port 7000",
     "start": "python ./server.py --port $PORT"
   },
   "repository": {
