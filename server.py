@@ -1,8 +1,15 @@
 import json
 import requests
 
+from flask import Flask
+from flask_cors import CORS
 
-def app(environ, start_response):
+app = Flask(__name__)
+CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
+
+@app.route("/")
+def mailing(environ, start_response):
     if environ['REQUEST_METHOD'] == 'POST':
         try:
             request_body_size = int(environ['CONTENT_LENGTH'])
@@ -20,7 +27,7 @@ def app(environ, start_response):
             request_body = "0"
 
         status = '200 OK'
-        headers = [('Content-type', 'text/plain'), ('Access-Control-Allow-Origin', '*')]
+        headers = [('Content-type', 'text/plain')]
         start_response(status, headers)
         return response
     else:
