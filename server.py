@@ -20,7 +20,11 @@ def mailing():
             'X-Auth-Token': 'api-key {0}'.format(api_key)
         }
 
-        getresponse_data = {"campaign": {"campaignId": json_data['id']}, "email": json_data['email']}
+        getresponse_data = {"campaign": {"campaignId": json_data['campaignId']}, "email": json_data['email']}
+
+        if hasattr(json_data, 'custom'):
+            for key, value in json_data['custom']:
+                getresponse_data.campaign[key] = value
 
         resp = requests.post(
             'https://api.getresponse.com/v3/contacts',
