@@ -34,8 +34,14 @@
 					// response = requests.post('https://api.getresponse.com/v3/contacts', headers=headers, data=data)
 					async fetch(email) {
 						const body = {
-							"id": "jHmvh",
-							"email": email
+							"campaignId": "jHmvh",
+							"email": email,
+							"custom": {
+								custom_risk: 'low',
+								custom_investment: 100,
+								custom_accredited: 'no',
+
+							}
 						};
 						var response = await fetch(window.location.href, {
 								headers: {

@@ -13,24 +13,27 @@ def mailing():
     if request.method == 'OPTIONS':
         return _build_cors_preflight_response()
     elif request.method == 'POST':
-        json_data = json.loads(request.data)
-        api_key = json_data['key'] if hasattr(json_data, 'key') else '8dm28sn76d67e0ho3j1y6x7wonfqhcm5'
-        getresponse_headers = {
-            'Content-Type': 'application/json',
-            'X-Auth-Token': 'api-key {0}'.format(api_key)
-        }
+        try:
+            json_data = json.loads(request.data)
+            getresponse_headers = {
+                'Content-Type': 'application/json',
+                'X-Auth-Token': 'api-key zfjbaazjmrr3rbhbs0v8hor0ey3apjag'
+            }
 
-        getresponse_data = {"campaign": {"campaignId": json_data['campaignId']}, "email": json_data['email']}
+            getresponse_data = {"campaign": {"campaignId": json_data['campaignId']}, "email": json_data['email']}
 
-        if hasattr(json_data, 'custom'):
-            for key, value in json_data['custom']:
-                getresponse_data.campaign[key] = value
+            if 'custom' in json_data:
+                for key, value in json_data['custom'].items():
+                    getresponse_data[key] = value
 
-        resp = requests.post(
-            'https://api.getresponse.com/v3/contacts',
-            headers=getresponse_headers, data=json.dumps(getresponse_data)
-        )
-        return (resp.text, resp.status_code, resp.headers.items())
+            resp = requests.post(
+                'https://api.getresponse.com/v3/contacts',
+                headers=getresponse_headers, data=json.dumps(getresponse_data)
+            )
+            return (resp.text, resp.status_code, resp.headers.items())
+        except:
+            response = _build_cors_preflight_response()
+            return ('Missing nedded fields "email" or "campaignId?"', 400, response.headers.items())
     else:
         response_body = open('index.html').read()
         return response_body
