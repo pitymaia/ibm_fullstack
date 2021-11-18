@@ -17,7 +17,7 @@ def mailing():
             json_data = json.loads(request.data)
             getresponse_headers = {
                 'Content-Type': 'application/json',
-                'X-Auth-Token': 'api-key zfjbaazjmrr3rbhbs0v8hor0ey3apjag'
+                'X-Auth-Token': 'api-key 8dm28sn76d67e0ho3j1y6x7wonfqhcm5'
             }
 
             getresponse_data = {"campaign": {"campaignId": json_data['campaignId']}, "email": json_data['email']}
